@@ -1,0 +1,3620 @@
+[
+    {
+        "E7": {
+            "value": "Ikhsan, this color means that the cell has a formula in it, but I'd like users to be able to edit\/enter values in the cell"
+        },
+        "D10": {
+            "value": "Vancomycin Calculator"
+        },
+        "D12": {
+            "value": "Patient Data"
+        },
+        "I12": {
+            "value": "Settings"
+        },
+        "S12": {
+            "value": "SCr IDMS"
+        },
+        "T12": {
+            "formula": "=IF(M17=\"Off\",E14,IF(M17=\"On\",(E14*J17+L17)))"
+        },
+        "V12": {
+            "value": "CrCl weight"
+        },
+        "W12": {
+            "formula": "=IF(AND(F16=\"kg\",T15<=110),(E16),IF(AND(F16=\"lbs\",T15<=110),(E16\/2.2046),IF(AND(F16=\"kg\",T15>110),(T14+0.4*(E16-T14)),IF(AND(F16=\"lbs\",T15>110),(T14+0.4*((E16\/2.2046)-T14))))))"
+        },
+        "D13": {
+            "value": "Age"
+        },
+        "E13": {
+            "value": 87
+        },
+        "F13": {
+            "value": "yrs"
+        },
+        "G13": {
+            "value": "\u00a4"
+        },
+        "I13": {
+            "value": "Infusion rate"
+        },
+        "J13": {
+            "value": 1000
+        },
+        "K13": {
+            "value": "mg\/hr"
+        },
+        "L13": {
+            "value": "\u00a4"
+        },
+        "S13": {
+            "value": "IBW"
+        },
+        "T13": {
+            "formula": "=IF(F15=\"inch\",IF(E17=\"Male\",50+(2.3*(E15-60)),IF(E17=\"Female\",45.5+(2.3*(E15-60)),\"Error\")),IF(E17=\"Male\",50+(2.3*((E15*0.393701)-60)),IF(E17=\"Female\",45.5+(2.3*((E15*0.393701)-60)),\"Error\")))"
+        },
+        "V13": {
+            "value": "CrCl gender"
+        },
+        "W13": {
+            "formula": "=IF(E17=\"Male\",1,0.85)"
+        },
+        "D14": {
+            "value": "SCr"
+        },
+        "E14": {
+            "value": 1.63
+        },
+        "F14": {
+            "value": "mg\/dL"
+        },
+        "G14": {
+            "value": "\u00a4"
+        },
+        "I14": {
+            "value": "Goal trough range"
+        },
+        "J14": {
+            "value": "15-20 mcg\/mL"
+        },
+        "L14": {
+            "value": "\u00a4"
+        },
+        "S14": {
+            "value": "IBW ampu"
+        },
+        "T14": {
+            "formula": "=IF(J16=\"none\",T13,IF(J16=\"Below knee (IBW -3.5%)\",0.965*T13,IF(J16=\"Entire arm (IBW -4%)\",0.96*T13,IF(J16=\"Above knee (IBW -11%)\",0.89*T13,IF(J16=\"Entire leg (IBW -16%)\",0.84*T13,IF(J16=\"multiple (IBW -20%)\",0.8*T13,IF(J16=\"multiple (IBW -25%)\",0.75*T13,IF(J16=\"multiple (IBW -30%)\",0.7*T13,IF(J16=\"multiple (IBW -35%)\",0.65*T13,IF(J16=\"Foot (IBW -1.5%)\",0.985*T13,IF(J16=\"forearm (IBW -1.5%)\",0.985*T13)))))))))))"
+        },
+        "V14": {
+            "value": "CrCl SCr"
+        },
+        "W14": {
+            "formula": "=IF(F14=\"\u00b5mol\/L\", T12\/88.4, T12)"
+        },
+        "D15": {
+            "value": "Height "
+        },
+        "E15": {
+            "value": 71
+        },
+        "F15": {
+            "value": "inch"
+        },
+        "G15": {
+            "value": "\u00a4"
+        },
+        "I15": {
+            "value": "S. aureus MIC"
+        },
+        "J15": {
+            "value": "Empiric or 1 mg\/L"
+        },
+        "L15": {
+            "value": "\u00a4"
+        },
+        "S15": {
+            "value": "Actual BW\/IBW"
+        },
+        "T15": {
+            "formula": "=IF(F16=\"kg\",(E16\/T14)*100,IF(F16=\"lbs\",100*(E16\/2.20462)\/T14))"
+        },
+        "D16": {
+            "value": "Body weight"
+        },
+        "E16": {
+            "value": 90
+        },
+        "F16": {
+            "value": "kg"
+        },
+        "G16": {
+            "value": "\u00a4"
+        },
+        "I16": {
+            "value": "Amputations"
+        },
+        "J16": {
+            "value": "None"
+        },
+        "L16": {
+            "value": "\u00a4"
+        },
+        "D17": {
+            "value": "Gender"
+        },
+        "E17": {
+            "value": "Male"
+        },
+        "G17": {
+            "value": "\u00a4"
+        },
+        "I17": {
+            "value": "Adjust SCr for IDMS.        Slope:"
+        },
+        "J17": {
+            "value": 1.065
+        },
+        "K17": {
+            "value": "Y-Intercept:"
+        },
+        "L17": {
+            "value": 0.067
+        },
+        "M17": {
+            "value": "On"
+        },
+        "N17": {
+            "value": "\u00a4"
+        },
+        "S18": {
+            "value": "Infusion rate"
+        },
+        "T18": {
+            "formula": "=J13"
+        },
+        "I19": {
+            "value": "Save settings"
+        },
+        "K19": {
+            "value": "Reset settings"
+        },
+        "V21": {
+            "formula": "=0"
+        },
+        "W21": {
+            "formula": "=0"
+        },
+        "X21": {
+            "formula": "=IF(O25=\"\",\"\",0)"
+        },
+        "Y21": {
+            "formula": "=0"
+        },
+        "D22": {
+            "value": "Initial Dosing"
+        },
+        "S22": {
+            "value": "Peak if no bolus"
+        },
+        "T22": {
+            "formula": "=N25*(1-EXP(-E28*(N25\/T18)))\/(N25\/T18*E28*E27)"
+        },
+        "U22": {
+            "formula": "=O25*(1-EXP(-E28*(O25\/T18)))\/(O25\/T18*E28*E27)"
+        },
+        "V22": {
+            "formula": "=IF(J25>0,J25\/T18,IF(J25=0,N25\/T18))"
+        },
+        "W22": {
+            "formula": "=IF(J25>0,H26,IF(J25=0,T22))"
+        },
+        "X22": {
+            "formula": "=IF(X21=\"\",\"\",IF(J25>0,J25\/T18,IF(J25=0,O25\/T18)))"
+        },
+        "Y22": {
+            "formula": "=IF(X21=\"\",\"\",IF(J25>0,H26,IF(J25=0,U22)))"
+        },
+        "V23": {
+            "formula": "=(V26-V22)\/4+V22"
+        },
+        "W23": {
+            "formula": "=W22*EXP(-E28*(V23-V22))"
+        },
+        "X23": {
+            "formula": "=(X26-X22)\/4+X22"
+        },
+        "Y23": {
+            "formula": "=Y22*EXP(-E28*(X23-X22))"
+        },
+        "D24": {
+            "value": "Estimated PK Parameters"
+        },
+        "H24": {
+            "value": "Loading Dose"
+        },
+        "M24": {
+            "value": "Estimated\/ Alternative Dose"
+        },
+        "S24": {
+            "value": "Dose"
+        },
+        "T24": {
+            "formula": "=MROUND(IF(AND(J14=\"15-20 mcg\/mL\",E27<=75),37*E27*(1-EXP(-E28*N26)),IF(AND(J14=\"14-19 mcg\/mL\",E27<=75),36*E27*(1-EXP(-E28*N26)),IF(AND(J14=\"13-18 mcg\/mL\",E27<=75),35*E27*(1-EXP(-E28*N26)),IF(AND(J14=\"12-17 mcg\/mL\",E27<=75),34*E27*(1-EXP(-E28*N26)),IF(AND(J14=\"11-16 mcg\/mL\",E27<=75),33*E27*(1-EXP(-E28*N26)),IF(AND(J14=\"10-15 mcg\/mL\",E27<=75),32*E27*(1-EXP(-E28*N26)),IF(AND(J14=\"15-20 mcg\/mL\",E27>75),30*E27*(1-EXP(-E28*N26)),IF(AND(J14=\"14-19 mcg\/mL\",E27>75),29*E27*(1-EXP(-E28*N26)),IF(AND(J14=\"13-18 mcg\/mL\",E27>75),28*E27*(1-EXP(-E28*N26)),IF(AND(J14=\"12-17 mcg\/mL\",E27>75),27*E27*(1-EXP(-E28*N26)),IF(AND(J14=\"11-16 mcg\/mL\",E27>75),26*E27*(1-EXP(-E28*N26)),IF(AND(J14=\"10-15 mcg\/mL\",E27>75),25*E27*(1-EXP(-E28*N26)))))))))))))),250)"
+        },
+        "V24": {
+            "formula": "=(V26-V22)\/4+V23"
+        },
+        "W24": {
+            "formula": "=W23*EXP(-E28*(V24-V23))"
+        },
+        "X24": {
+            "formula": "=(X26-X22)\/4+X23"
+        },
+        "Y24": {
+            "formula": "=Y23*EXP(-E28*(X24-X23))"
+        },
+        "D25": {
+            "value": "CrCl"
+        },
+        "E25": {
+            "formula": "=MIN(((140-E13)*W13*W12)\/(72*W14),IF(E13<40,200,IF(AND(E13>=40,E13<50),185,IF(AND(E13>=50,E13<60),170,IF(AND(E13>=60,E13<70),155,IF(AND(E13>=70,E13<80),140,IF(AND(E13>=80,E13<90),125,IF(E13>=90,110))))))))"
+        },
+        "F25": {
+            "value": "mL\/min"
+        },
+        "H25": {
+            "value": "Loading dose"
+        },
+        "J25": {
+            "value": 2500
+        },
+        "K25": {
+            "value": "mg"
+        },
+        "M25": {
+            "value": "Dose"
+        },
+        "N25": {
+            "formula": "=MIN(IF(AND(J14=\"15-20 mcg\/mL\",T26>=15,T26<=20),T24,IF(AND(J14=\"15-20 mcg\/mL\",T26<15),T24+250,IF(AND(J14=\"15-20 mcg\/mL\",T26>20),T24-250,\nIF(AND(J14=\"14-19 mcg\/mL\",T26>=14,T26<=19),T24,IF(AND(J14=\"14-19 mcg\/mL\",T26<14),T24+250,IF(AND(J14=\"14-19 mcg\/mL\",T26>19),T24-250,\nIF(AND(J14=\"13-18 mcg\/mL\",T26>=13,T26<=18),T24,IF(AND(J14=\"13-18 mcg\/mL\",T26<13),T24+250,IF(AND(J14=\"13-18 mcg\/mL\",T26>18),T24-250,\nIF(AND(J14=\"12-17 mcg\/mL\",T26>=12,T26<=17),T24,IF(AND(J14=\"12-17 mcg\/mL\",T26<12),T24+250,IF(AND(J14=\"12-17 mcg\/mL\",T26>17),T24-250,\nIF(AND(J14=\"11-16 mcg\/mL\",T26>=11,T26<=16),T24,IF(AND(J14=\"11-16 mcg\/mL\",T26<11),T24+250,IF(AND(J14=\"11-16 mcg\/mL\",T26>16),T24-250,\nIF(AND(J14=\"10-15 mcg\/mL\",T26>=10,T26<=15),T24,IF(AND(J14=\"10-15 mcg\/mL\",T26<10),T24+250,IF(AND(J14=\"10-15 mcg\/mL\",T26>15),T24-250)))))))))))))))))),2000)"
+        },
+        "O25": {
+            "formula": "=IF(AND(N25=1750,N26=8),\"1500\",IF(AND(N25=1500,N26=8,N28>16.5),\"1250\",IF(AND(N25=750,N26=18,N28<16,E27<37.5),\"500\",IF(AND(N25=750,N26=18,N28>19,E27<37.5),\"750\",IF(AND(N25=750,N26=18,N28>16.5,E27>=37.5),\"1000\",IF(AND(N25=750,N26=18,N28<12,E27>=43),\"1250\",IF(AND(N25=1000,N26=18,N28>17.5,E27<44),\"500\",IF(AND(N25=1000,N26=18,N28>17.5,E27>=44),\"1250\",IF(AND(N25=1000,N26=18,N28<12),\"750\",IF(AND(N25=1250,N26=18,N28<18.5),\"750\",IF(AND(N25=1250,N26=18,N28>=18.5),\"1000\",IF(AND(N25=1500,N26=18,N28<17),\"1000\",IF(AND(N25=1500,N26=18,N28<13),\"1000\",IF(AND(N25=1500,N26=18,N28>=17.5),\"1250\",IF(AND(N25=1750,N26=18,N28>=12),\"1000\",IF(AND(N25=1750,N26=18,N28<12),\"1250\",IF(AND(N25=2000,N26=18,N28<18,N28>=14),\"1250\",IF(AND(N25=2000,N26=18,N28<14),\"1500\",IF(AND(N25=2000,N26=18,N28>=18),\"1000\",IF(AND(N25=750,N26=36,N28<16),\"500\",IF(AND(N25=750,N26=36,N28<13),\"500\",IF(AND(N25=750,N26=36,N28>17,E27>38.5),\"1000\",IF(AND(N25=1000,N26=36,N28>18,E27<47),\"500\",IF(AND(N25=1000,N26=36,N28>18,E27>=47),\"1250\",IF(AND(N25=1000,N26=36,N28<11.5),\"750\",IF(AND(N25=1250,N26=36),\"750\",IF(AND(N25=1500,N26=36,N28<=16),\"1000\",IF(AND(N25=1500,N26=36,N28>17),\"750\",IF(AND(N25=1750,N26=36,N28>=12),\"1000\",IF(AND(N25=1750,N26=36,N28<12),\"1250\",IF(AND(N25=2000,N26=36,N28<18,N28>=14),\"1250\",IF(AND(N25=2000,N26=36,N28<14),\"1500\",IF(AND(N25=2000,N26=36,N28>=18),\"1000\",IF(AND(N25=750,N26=12,N28>19.5,E27>=38),\"1000\",IF(AND(N25=750,N26=12,N28<11.5,E27>=38),\"1000\",IF(AND(N25=1750,N26=12,N28>=16),\"1000\",IF(AND(N25=2000,N26=12,N28<19),\"1250\",IF(AND(N25=2000,N26=12,N28>=19),\"1000\",IF(AND(N25=750,N26=8,N28>=19.4,E27>38),\"1000\",IF(AND(N25=750,N26=8,N28<11.5,E27>38),\"1000\",IF(AND(N25=750,N26=8,N28>19,E27<35),\"500\",IF(AND(N25=1000,N26=8,N28>19,E27<52.5),\"750\",IF(AND(N25=1000,N26=8,N28>18,E27>=52.5),\"1500\",IF(AND(N25=1250,N26=8,N28>19),\"1000\",IF(AND(N25=1000,N26=12,N28>19),\"750\",IF(AND(N25=1250,N26=12,N28>18.5),\"1000\",IF(AND(N25=1250,N26=12,N28<=18.5),\"750\",IF(AND(N25=1500,N26=12,N28>18),\"1250\",IF(AND(N25=2000,N26=24,N28>16),\"1750\",IF(AND(N25=1750,N26=24,N28>16.5),\"1500\",IF(AND(N25=1500,N26=24,N28>17),\"1250\",IF(AND(N25=1250,N26=24,N28>18),\"1000\",IF(AND(N25=1000,N26=24,N28>19),\"750\",IF(AND(N25=2000,N26=48,N28>16),\"1750\",IF(AND(N25=1750,N26=48,N28>16.5),\"1500\",IF(AND(N25=1500,N26=48,N28>17),\"1250\",IF(AND(N25=1250,N26=48,N28>18),\"1000\",IF(AND(N25=1250,N26=48,N28<=18),\"500\",IF(AND(N25=1000,N26=48,N28>19),\"750\",IF(AND(N25=2000,N26=72,N28>16),\"1750\",IF(AND(N25=1750,N26=72,N28>16.5),\"1500\",IF(AND(N25=1500,N26=72,N28>17),\"1250\",IF(AND(N25=1250,N26=72,N28>18),\"1000\",IF(AND(N25=1000,N26=72,N28>19),\"750\",\"\"))))))))))))))))))))))))))))))))))))))))))))))))))))))))))))))))"
+        },
+        "P25": {
+            "value": "mg"
+        },
+        "S25": {
+            "value": "Peak"
+        },
+        "T25": {
+            "formula": "=(T24*(1-EXP(-E28*T24\/T18)))\/((E28*E27*T24\/T18)*(1-EXP(-E28*N26)))"
+        },
+        "V25": {
+            "formula": "=(V26-V22)\/4+V24"
+        },
+        "W25": {
+            "formula": "=W24*EXP(-E28*(V25-V24))"
+        },
+        "X25": {
+            "formula": "=(X26-X22)\/4+X24"
+        },
+        "Y25": {
+            "formula": "=Y24*EXP(-E28*(X25-X24))"
+        },
+        "D26": {
+            "value": "CLvanco"
+        },
+        "E26": {
+            "formula": "=IF(F16=\"kg\",(0.7*E25+0.055*E16)*0.06,IF(F16=\"lbs\",(0.7*E25+0.055*(E16\/2.20462))*0.06))"
+        },
+        "F26": {
+            "value": "L\/hr"
+        },
+        "H26": {
+            "formula": "=IF(J25>0,(J25*(1-EXP(-E28*(J25\/T18))))\/(J25\/T18*E28*E27),IF(J25=0,\"\"))"
+        },
+        "I26": {
+            "formula": "=IF(J25=0,\"\",\"mcg\/mL (Peak at end of infusion)\")"
+        },
+        "M26": {
+            "value": "Interval"
+        },
+        "N26": {
+            "formula": "=IF(E27<=75,IF((LN(35\/15)\/E28)<=8,8,IF(AND(8<(LN(35\/15)\/E28),(LN(35\/15)\/E28)<12),IF(ABS((LN(35\/15)\/E28)-8)<ABS((LN(35\/15)\/E28)-12),8,12),IF((LN(35\/15)\/E28)=12,12,IF(AND(12<(LN(35\/15)\/E28),(LN(35\/15)\/E28)<18),IF(ABS((LN(35\/15)\/E28)-12)<ABS((LN(35\/15)\/E28)-18),12,18),IF((LN(35\/15)\/E28)=18,18,IF(AND(18<(LN(35\/15)\/E28),(LN(35\/15)\/E28)<24),IF(ABS((LN(35\/15)\/E28)-18)<ABS((LN(35\/15)\/E28)-24),18,24),IF((LN(35\/15)\/E28)=24,24,IF(AND(24<(LN(35\/15)\/E28),(LN(35\/15)\/E28)<36),IF(ABS((LN(35\/15)\/E28)-24)<ABS((LN(35\/15)\/E28)-36),24,36),IF((LN(35\/15)\/E28)=36,36,IF(AND(36<(LN(35\/15)\/E28),(LN(35\/15)\/E28)<48),IF(ABS((LN(35\/15)\/E28)-36)<ABS((LN(35\/15)\/E28)-48),36,48),IF((LN(35\/15)\/E28)=48,48,IF(AND(48<(LN(35\/15)\/E28),(LN(35\/15)\/E28)<72),IF(ABS((LN(35\/15)\/E28)-48)<ABS((LN(35\/15)\/E28)-72),48,72),IF((LN(35\/15)\/E28)>=72,72,\"Error\"))))))))))))),IF(E27>75,IF((LN(30\/15)\/E28)<=8,8,IF(AND(8<(LN(30\/15)\/E28),(LN(30\/15)\/E28)<12),IF(ABS((LN(30\/15)\/E28)-8)<ABS((LN(30\/15)\/E28)-12),8,12),IF((LN(30\/15)\/E28)=12,12,IF(AND(12<(LN(30\/15)\/E28),(LN(30\/15)\/E28)<18),IF(ABS((LN(30\/15)\/E28)-12)<ABS((LN(30\/15)\/E28)-18),12,18),IF((LN(30\/15)\/E28)=18,18,IF(AND(18<(LN(30\/15)\/E28),(LN(30\/15)\/E28)<24),IF(ABS((LN(30\/15)\/E28)-18)<ABS((LN(30\/15)\/E28)-24),18,24),IF((LN(30\/15)\/E28)=24,24,IF(AND(24<(LN(30\/15)\/E28),(LN(30\/15)\/E28)<36),IF(ABS((LN(30\/15)\/E28)-24)<ABS((LN(30\/15)\/E28)-36),24,36),IF((LN(30\/15)\/E28)=36,36,IF(AND(36<(LN(30\/15)\/E28),(LN(30\/15)\/E28)<48),IF(ABS((LN(30\/15)\/E28)-36)<ABS((LN(30\/15)\/E28)-48),36,48),IF((LN(30\/15)\/E28)=48,48,IF(AND(48<(LN(30\/15)\/E28),(LN(30\/15)\/E28)<72),IF(ABS((LN(30\/15)\/E28)-48)<ABS((LN(30\/15)\/E28)-72),48,72),IF((LN(30\/15)\/E28)>=72,72,\"Error\")))))))))))))))"
+        },
+        "O26": {
+            "formula": "=IF(AND(N25=1750,N26=8),\"8\",IF(AND(N25=1500,N26=8,N28>16.5),\"8\",IF(AND(N25=750,N26=18,N28<16,E27<37.5),\"12\",IF(AND(N25=750,N26=18,N28>19,E27<37.5),\"24\",IF(AND(N25=750,N26=18,N28>16.5,E27>=37.5),\"24\",IF(AND(N25=750,N26=18,N28<12,E27>=43),\"24\",IF(AND(N25=1000,N26=18,N28>17.5,E27<44),\"12\",IF(AND(N25=1000,N26=18,N28>17.5,E27>=44),\"24\",IF(AND(N25=1000,N26=18,N28<12),\"12\",IF(AND(N25=1250,N26=18,N28<18.5),\"12\",IF(AND(N25=1250,N26=18,N28>=18.5),\"18\",IF(AND(N25=1500,N26=18,N28<17),\"12\",IF(AND(N25=1500,N26=18,N28<13),\"12\",IF(AND(N25=1500,N26=18,N28>=17.5),\"18\",IF(AND(N25=1750,N26=18),\"12\",IF(AND(N25=2000,N26=18),\"12\",IF(AND(N25=750,N26=36,N28<16),\"24\",IF(AND(N25=750,N26=36,N28<13),\"24\",IF(AND(N25=750,N26=36,N28>17,E27>38.5),\"48\",IF(AND(N25=1000,N26=36,N28>18,E27<47),\"24\",IF(AND(N25=1000,N26=36,N28>18,E27>=47),\"48\",IF(AND(N25=1000,N26=36,N28<11.5),\"24\",IF(AND(N25=1250,N26=36),\"24\",IF(AND(N25=1500,N26=36,N28<=16),\"24\",IF(AND(N25=1500,N26=36,N28>17),\"24\",IF(AND(N25=1750,N26=36),\"24\",IF(AND(N25=2000,N26=36),\"24\",IF(AND(N25=750,N26=12,N28>19.5,E27>=38),\"18\",IF(AND(N25=750,N26=12,N28<11.5,E27>=38),\"12\",IF(AND(N25=1750,N26=12,N28>=16),\"8\",IF(AND(N25=2000,N26=12),\"8\",IF(AND(N25=750,N26=8,N28>=19.4,E27>38),\"12\",IF(AND(N25=750,N26=8,N28<11.5,E27>38),\"8\",IF(AND(N25=750,N26=8,N28>19,E27<35),\"8\",IF(AND(N25=1250,N26=8,N28>19),\"8\",IF(AND(N25=1000,N26=8,N28>19,E27<52.5),\"8\",IF(AND(N25=1000,N26=8,N28>18,E27>=52.5),\"12\",IF(AND(N25=1000,N26=12,N28>19),\"12\",IF(AND(N25=1250,N26=12,N28>18.5),\"12\",IF(AND(N25=1250,N26=12,N28<=18.5),\"8\",IF(AND(N25=1500,N26=12,N28>18),\"12\",IF(AND(N25=2000,N26=24,N28>16),\"24\",IF(AND(N25=1750,N26=24,N28>16.5),\"24\",IF(AND(N25=1500,N26=24,N28>17),\"24\",IF(AND(N25=1250,N26=24,N28>18),\"24\",IF(AND(N25=1000,N26=24,N28>19),\"24\",IF(AND(N25=2000,N26=48,N28>16),\"48\",IF(AND(N25=1750,N26=48,N28>16.5),\"48\",IF(AND(N25=1500,N26=48,N28>17),\"48\",IF(AND(N25=1250,N26=48,N28>18),\"48\",IF(AND(N25=1250,N26=48,N28<=18),\"24\",IF(AND(N25=1000,N26=48,N28>19),\"48\",IF(AND(N25=2000,N26=72,N28>16),\"72\",IF(AND(N25=1750,N26=72,N28>16.5),\"72\",IF(AND(N25=1500,N26=72,N28>17),\"72\",IF(AND(N25=1250,N26=72,N28>18),\"72\",IF(AND(N25=1000,N26=72,N28>19),\"72\",\"\")))))))))))))))))))))))))))))))))))))))))))))))))))))))))"
+        },
+        "P26": {
+            "value": "hrs"
+        },
+        "S26": {
+            "value": "Trough"
+        },
+        "T26": {
+            "formula": "=ROUND(T25*EXP(-E28*(N26-T24\/T18)),4)"
+        },
+        "V26": {
+            "formula": "=IF(J25>0,J30+V22,IF(J25=0,N26))"
+        },
+        "W26": {
+            "formula": "=W25*EXP(-E28*(V26-V25))"
+        },
+        "X26": {
+            "formula": "=IF(J25>0,J30+X22,IF(J25=0,O26*1))"
+        },
+        "Y26": {
+            "formula": "=Y25*EXP(-E28*(X26-X25))"
+        },
+        "D27": {
+            "value": "V"
+        },
+        "E27": {
+            "formula": "=T35"
+        },
+        "F27": {
+            "value": "L "
+        },
+        "H27": {
+            "value": 20
+        },
+        "I27": {
+            "value": "mcg\/mL in"
+        },
+        "J27": {
+            "formula": "=IF(J25=0,\"\",IF(J25>0,IF(LN(H26\/20)\/E28>0,LN(H26\/20)\/E28,IF(LN(H26\/20)\/E28<=0,\"\"))))"
+        },
+        "K27": {
+            "value": "hrs"
+        },
+        "M27": {
+            "value": {}
+        },
+        "N27": {
+            "formula": "=(N25*(1-EXP(-E28*(N25\/T18))))\/((E28*E27*(N25\/T18)*(1-EXP(-E28*N26))))"
+        },
+        "O27": {
+            "formula": "=(O25*(1-EXP(-E28*(O25\/T18))))\/((E28*E27*(O25\/T18)*(1-EXP(-E28*O26))))"
+        },
+        "P27": {
+            "value": "mcg\/mL"
+        },
+        "V27": {
+            "formula": "=V26+N25\/T18"
+        },
+        "W27": {
+            "formula": "=W26*(EXP(-E28*(V27-V26)))+((N25*(1-EXP(-E28*N25\/T18)))\/((N25\/T18)*E28*E27))"
+        },
+        "X27": {
+            "formula": "=X26+(O25\/T18)"
+        },
+        "Y27": {
+            "formula": "=Y26*(EXP(-E28*(X27-X26)))+((O25*(1-EXP(-E28*O25\/T18)))\/((O25\/T18)*E28*E27))"
+        },
+        "D28": {
+            "value": "K "
+        },
+        "E28": {
+            "formula": "=MAX(MIN(E26\/E27,0.15),0.008)"
+        },
+        "F28": {
+            "value": {}
+        },
+        "H28": {
+            "value": 15
+        },
+        "I28": {
+            "value": "mcg\/mL in"
+        },
+        "J28": {
+            "formula": "=IF(J25=0,\"\",IF(J25>0,IF(LN(H26\/15)\/E28>0,LN(H26\/15)\/E28,IF(LN(H26\/15)\/E28<=0,\"\"))))"
+        },
+        "K28": {
+            "value": "hrs"
+        },
+        "M28": {
+            "value": {}
+        },
+        "N28": {
+            "formula": "=ROUND(N27*EXP(-E28*(N26-N25\/T18)),4)"
+        },
+        "O28": {
+            "formula": "=ROUND(O27*EXP(-E28*(O26-O25\/T18)),4)"
+        },
+        "P28": {
+            "value": "mcg\/mL"
+        },
+        "V28": {
+            "formula": "=(V31-V27)\/4+V27"
+        },
+        "W28": {
+            "formula": "=W27*EXP(-E28*(V28-V27))"
+        },
+        "X28": {
+            "formula": "=(X31-X27)\/4+X27"
+        },
+        "Y28": {
+            "formula": "=Y27*EXP(-E28*(X28-X27))"
+        },
+        "D29": {
+            "value": "Half-life"
+        },
+        "E29": {
+            "formula": "=0.693\/E28"
+        },
+        "F29": {
+            "value": "hrs"
+        },
+        "H29": {
+            "value": 10
+        },
+        "I29": {
+            "value": "mcg\/mL in"
+        },
+        "J29": {
+            "formula": "=IF(J25=0,\"\",IF(J25>0,IF(LN(H26\/10)\/E28>0,LN(H26\/10)\/E28,IF(LN(H26\/10)\/E28<=0,\"\"))))"
+        },
+        "K29": {
+            "value": "hrs"
+        },
+        "M29": {
+            "value": "AUCss 0-24\/MIC"
+        },
+        "N29": {
+            "formula": "=IF(AND(N26<=24,J15=\"Empiric or 1 mg\/L\"),((N25\/N26)*24\/E26)\/1,IF(AND(J15=\"0.5 mg\/L\",N26<=24),((N25\/N26)*24\/E26)\/0.5,IF(AND(J15=\"2.0 mg\/L\",N26<=24),((N25\/N26)*24\/E26)\/2,IF(AND(N26>24,J15=\"Empiric or 1 mg\/L\"),(N27+N28)\/2*(N25\/T18)+((N27-T30)*(24-N25\/T18))\/LN(N27\/T30),IF(AND(J15=\"0.5 mg\/L\",N26>24),(N27+N28)\/2*(N25\/T18)+((N27-T30)*(24-N25\/T18))\/LN(N27\/T30)\/0.5,IF(AND(J15=\"2.0 mg\/L\",N26>24),(N27+N28)\/2*(N25\/T18)+((N27-T30)*(24-N25\/T18))\/LN(N27\/T30)\/2))))))"
+        },
+        "O29": {
+            "formula": "=IF(AND(O26*1<=24,J15=\"Empiric or 1 mg\/L\"),((O25\/O26)*24\/E26)\/1,IF(AND(J15=\"0.5 mg\/L\",O26*1<=24),((O25\/O26)*24\/E26)\/0.5,IF(AND(J15=\"2.0 mg\/L\",O26*1<=24),((O25\/O26)*24\/E26)\/2,IF(AND(O26*1>24,J15=\"Empiric or 1 mg\/L\"),(O27+O28)\/2*(O25\/T18)+((O27-U30)*(24-O25\/T18))\/LN(O27\/U30),IF(AND(J15=\"0.5 mg\/L\",O26*1>24),(O27+O28)\/2*(O25\/T18)+((O27-U30)*(24-O25\/T18))\/LN(O27\/U30)\/0.5,IF(AND(J15=\"2.0 mg\/L\",O26*1>24),(O27+O28)\/2*(O25\/T18)+((O27-U30)*(24-O25\/T18))\/LN(O27\/U30)\/2))))))"
+        },
+        "S29": {
+            "value": "Level at 12 hr"
+        },
+        "T29": {
+            "formula": "=N27*EXP(-E28*(12-N25\/T18))"
+        },
+        "U29": {
+            "formula": "=O27*EXP(-E28*(12-O25\/T18))"
+        },
+        "V29": {
+            "formula": "=(V31-V27)\/4+V28"
+        },
+        "W29": {
+            "formula": "=W28*EXP(-E28*(V29-V28))"
+        },
+        "X29": {
+            "formula": "=(X31-X27)\/4+X28"
+        },
+        "Y29": {
+            "formula": "=Y28*EXP(-E28*(X29-X28))"
+        },
+        "H30": {
+            "value": "Time from the peak until start of the maintenance dose"
+        },
+        "J30": {
+            "value": 8
+        },
+        "K30": {
+            "value": "hrs"
+        },
+        "M30": {
+            "value": "AUCss min\/MIC"
+        },
+        "N30": {
+            "formula": "=IF(J15=\"Empiric or 1 mg\/L\",IF(N26=48,(T30-T32)*24\/LN(T30\/T32),IF(N26=36,(T29-T31)*24\/LN(T29\/T31),IF(N26=72,(T32-T33)*24\/LN(T32\/T33)))),IF(J15=\"0.5 mg\/L\",IF(N26=48,(T30-T32)*24\/LN(T30\/T32)\/0.5,IF(N26=36,(T29-T31)*24\/LN(T29\/T31)\/0.5,IF(N26=72,(T32-T33)*24\/LN(T32\/T33)\/0.5))),IF(J15=\"2.0 mg\/L\",IF(N26=48,(T30-T32)*24\/LN(T30\/T32)\/2,IF(N26=36,(T29-T31)*24\/LN(T29\/T31)\/2,IF(N26=72,((T32-T33)*24\/LN(T32\/T33))\/2))))))"
+        },
+        "O30": {
+            "formula": "=IF(J15=\"Empiric or 1 mg\/L\",IF(O26*1=48,(U30-U32)*24\/LN(U30\/U32),IF(O26*1=36,(U29-U31)*24\/LN(U29\/U31),IF(O26*1=72,(U32-U33)*24\/LN(U32\/U33)))),IF(J15=\"0.5 mg\/L\",IF(O26*1=48,(U30-U32)*24\/LN(U30\/U32)\/0.5,IF(O26*1=36,(U29-U31)*24\/LN(U29\/U31)\/0.5,IF(O26*1=72,(U32-U33)*24\/LN(U32\/U33)\/0.5))),IF(J15=\"2.0 mg\/L\",IF(O26*1=48,(U30-U32)*24\/LN(U30\/U32)\/2,IF(O26*1=36,(U29-U31)*24\/LN(U29\/U31)\/2,IF(O26*1=72,((U32-U33)*24\/LN(U32\/U33))\/2))))))"
+        },
+        "S30": {
+            "value": "Level at 24 hr"
+        },
+        "T30": {
+            "formula": "=N27*EXP(-E28*(24-N25\/T18))"
+        },
+        "U30": {
+            "formula": "=O27*EXP(-E28*(24-O25\/T18))"
+        },
+        "V30": {
+            "formula": "=(V31-V27)\/4+V29"
+        },
+        "W30": {
+            "formula": "=W29*EXP(-E28*(V30-V29))"
+        },
+        "X30": {
+            "formula": "=(X31-X27)\/4+X29"
+        },
+        "Y30": {
+            "formula": "=Y29*EXP(-E28*(X30-X29))"
+        },
+        "H31": {
+            "value": "   Level at start of maintenance dose"
+        },
+        "J31": {
+            "formula": "=IF(J25=0,\"\",IF(J25>0,H26*EXP(-E28*J30)))"
+        },
+        "K31": {
+            "value": "mcg\/mL"
+        },
+        "S31": {
+            "value": "Level at 36 hr"
+        },
+        "T31": {
+            "formula": "=N27*EXP(-E28*(36-N25\/T18))"
+        },
+        "U31": {
+            "formula": "=O27*EXP(-E28*(36-O25\/T18))"
+        },
+        "V31": {
+            "formula": "=V26+N26"
+        },
+        "W31": {
+            "formula": "=W30*EXP(-E28*(V31-V30))"
+        },
+        "X31": {
+            "formula": "=X26+O26"
+        },
+        "Y31": {
+            "formula": "=Y30*EXP(-E28*(X31-X30))"
+        },
+        "S32": {
+            "value": "Level at 48 hr"
+        },
+        "T32": {
+            "formula": "=N27*EXP(-E28*(48-N25\/T18))"
+        },
+        "U32": {
+            "formula": "=O27*EXP(-E28*(48-O25\/T18))"
+        },
+        "V32": {
+            "formula": "=V31+N25\/T18"
+        },
+        "W32": {
+            "formula": "=W31*EXP(-E28*(V32-V31))+((N25*(1-EXP(-E28*N25\/T18)))\/((N25\/T18)*E28*E27))"
+        },
+        "X32": {
+            "formula": "=X31+O25\/T18"
+        },
+        "Y32": {
+            "formula": "=Y31*EXP(-E28*(X32-X31))+((O25*(1-EXP(-E28*O25\/T18)))\/((O25\/T18)*E28*E27))"
+        },
+        "C33": {
+            "value": "Ikhsan, these buttons will be on each tab\/calculator:"
+        },
+        "I33": {
+            "value": "Calculate"
+        },
+        "K33": {
+            "value": "Reset (new patient)"
+        },
+        "S33": {
+            "value": "Level at 72 hr"
+        },
+        "T33": {
+            "formula": "=N27*EXP(-E28*(72-N25\/T18))"
+        },
+        "U33": {
+            "formula": "=O27*EXP(-E28*(72-O25\/T18))"
+        },
+        "V33": {
+            "formula": "=(V36-V32)\/4+V32"
+        },
+        "W33": {
+            "formula": "=W32*EXP(-E$28*(V33-V32))"
+        },
+        "X33": {
+            "formula": "=(X36-X32)\/4+X32"
+        },
+        "Y33": {
+            "formula": "=Y32*EXP(-E$28*(X33-X32))"
+        },
+        "V34": {
+            "formula": "=(V36-V32)\/4+V33"
+        },
+        "W34": {
+            "formula": "=W33*EXP(-E$28*(V34-V33))"
+        },
+        "X34": {
+            "formula": "=(X36-X32)\/4+X33"
+        },
+        "Y34": {
+            "formula": "=Y33*EXP(-E$28*(X34-X33))"
+        },
+        "D35": {
+            "formula": "=IF(N25=\"\",\"\",\"The graph can be used for comparison with a non-steady-sate level in order to evaluate the PK model and make an empiric dose adjustment.\")"
+        },
+        "S35": {
+            "value": "V"
+        },
+        "T35": {
+            "formula": "=IF(AND(F16=\"kg\",E16<=T14),0.7*E16,IF(AND(E16>T14,F16=\"kg\"),0.7*(T14+0.4*(E16-T14)),IF(AND(F16=\"lbs\",(E16\/2.20462)<=T14),0.7*(E16\/2.20462),IF(AND((E16\/2.20462)>T14,F16=\"lbs\"),0.7*(T14+0.4*((E16\/2.20462)-T14))))))"
+        },
+        "V35": {
+            "formula": "=(V36-V32)\/4+V34"
+        },
+        "W35": {
+            "formula": "=W34*EXP(-E$28*(V35-V34))"
+        },
+        "X35": {
+            "formula": "=(X36-X32)\/4+X34"
+        },
+        "Y35": {
+            "formula": "=Y34*EXP(-E$28*(X35-X34))"
+        },
+        "D36": {
+            "formula": "=IF(J15=\"2.0 mg\/L\",\"Note: Consider switching to a different antibiotic when S. aureus MIC \u2265 2.0 mg\/L.  Etest method may yield higher MICs than broth microdilution.\",IF(J15=\"Empiric or 1 mg\/L\",\"\",IF(J15=\"0.5 mg\/L\",\"\")))"
+        },
+        "V36": {
+            "formula": "=N26+V31"
+        },
+        "W36": {
+            "formula": "=W35*EXP(-E28*(V36-V35))"
+        },
+        "X36": {
+            "formula": "=O26+X31"
+        },
+        "Y36": {
+            "formula": "=Y35*EXP(-E28*(X36-X35))"
+        },
+        "D37": {
+            "formula": "=IF(AND(F14=\"mg\/dL\",E14<0.7),\"Consider rounding SCr up to 0.7 mg\/dL.\",IF(AND(F14=\"\u00b5mol\/L\",E14<61.88),\"Note: Consider rounding SCr up to 61.88 \u00b5mol\/L.\",IF(OR(F14=\"mg\/dL\",E14>=0.7),\"\",IF(OR(F14=\"\u00b5mol\/L\",E14>=61.88),\"\"))))"
+        },
+        "V37": {
+            "formula": "=V36+N25\/T18"
+        },
+        "W37": {
+            "formula": "=W36*(EXP(-E28*(V37-V36)))+((N25*(1-EXP(-E28*N25\/T18)))\/((N25\/T18)*E28*E27))"
+        },
+        "X37": {
+            "formula": "=X36+O25\/T18"
+        },
+        "Y37": {
+            "formula": "=Y36*(EXP(-E28*(X37-X36)))+((O25*(1-EXP(-E28*O25\/T18)))\/((O25\/T18)*E28*E27))"
+        },
+        "D38": {
+            "formula": "=IF(N26<36,\"\",IF(N26>=36,\"Note: When the dosing interval is >24 hours, the AUC is higher during the first 24 hours of the dosing interval compared to the last 24 hours of the interval.\"))"
+        },
+        "V38": {
+            "formula": "=(V41-V37)\/4+V37"
+        },
+        "W38": {
+            "formula": "=W37*EXP(-E28*(V38-V37))"
+        },
+        "X38": {
+            "formula": "=(X41-X37)\/4+X37"
+        },
+        "Y38": {
+            "formula": "=Y37*EXP(-E$28*(X38-X37))"
+        },
+        "D39": {
+            "formula": "=IF(AND(N26=8,(N25\/E16)>18,F16=\"kg\"),\"The calculator's dose is greater than 18 mg\/kg q8h; consider decreasing the maintenance dose.\",IF(AND(N26=8,(N25\/E16)<=18,F16=\"kg\"),\"\",IF(AND(N26=8,(N25\/(E16\/2.20462))>18,F16=\"lbs\"),\"The calculator's dose is greater than 18 mg\/kg q8h; consider decreasing the maintenance dose.\",IF(AND(N26=8,(N25\/(E16\/2.20462))<=18,F16=\"lbs\"),\"\",IF(N26>8,\"\")))))"
+        },
+        "V39": {
+            "formula": "=(V41-V37)\/4+V38"
+        },
+        "W39": {
+            "formula": "=W38*EXP(-E28*(V39-V38))"
+        },
+        "X39": {
+            "formula": "=(X41-X37)\/4+X38"
+        },
+        "Y39": {
+            "formula": "=Y38*EXP(-E$28*(X39-X38))"
+        },
+        "D40": {
+            "formula": "=IF(N25*(24\/N26)>4000,\"Consider reserving total daily doses >4 grams for patients such as <55 yrs old, >110 kg, and CrCl >150 mL\/min.\",IF(N25*(24\/N26)<=4000,\"\"))"
+        },
+        "V40": {
+            "formula": "=(V41-V37)\/4+V39"
+        },
+        "W40": {
+            "formula": "=W39*EXP(-E$28*(V40-V39))"
+        },
+        "X40": {
+            "formula": "=(X41-X37)\/4+X39"
+        },
+        "Y40": {
+            "formula": "=Y39*EXP(-E$28*(X40-X39))"
+        },
+        "D41": {
+            "formula": "=IF(J16=\"none\",\"\",IF(J16=\"Forearm (IBW -1.5%)\",\"\",IF(J16=\"Entire arm (IBW -4%)\",\"\",IF(J16=\"Foot (IBW -1.5%)\",\"Note: For lower limb amputations use the patient's height prior to amputation.\",IF(J16=\"Below knee (IBW -3.5%)\",\"Note: For lower limb amputations use the patient's height prior to amputation.\",IF(J16=\"Above knee (IBW -11%)\",\"Note: For lower limb amputations use the patient's height prior to amputation.\",IF(J16=\"Entire leg (IBW -16%)\",\"Note: For lower limb amputations use the patient's height prior to amputation.\",IF(J16=\"Multiple (IBW -20%)\",\"Note: For lower limb amputations use the patient's height prior to amputation.\",IF(J16=\"Multiple (IBW -25%)\",\"Note: For lower limb amputations use the patient's height prior to amputation.\",IF(J16=\"Multiple (IBW -30%)\",\"Note: For lower limb amputations use the patient's height prior to amputation.\",IF(J16=\"Multiple (IBW -35%)\",\"Note: For lower limb amputations use the patient's height prior to amputation.\")))))))))))"
+        },
+        "V41": {
+            "formula": "=V36+N26"
+        },
+        "W41": {
+            "formula": "=W40*EXP(-E$28*(V41-V40))"
+        },
+        "X41": {
+            "formula": "=X36+O26"
+        },
+        "Y41": {
+            "formula": "=Y40*EXP(-E$28*(X41-X40))"
+        },
+        "D42": {
+            "formula": "=IF(AND(H26>40,J25>0),\"The loading dose may cause a peak >40 mcg\/mL.  Consider decreasing the loading dose.\",IF(OR(H26<=40,J25=0),\"\"))"
+        },
+        "D43": {
+            "formula": "=IF(AND(J15=\"Empiric or 1 mg\/L\",N29>700),\"The AUC24 may be >700 mg*hr\/L.  Consider decreasing the total daily dose.\",IF(AND(J15=\"Empiric or 1 mg\/L\",N29<=700),\"\",IF(AND(J15=\"0.5 mg\/L\",N29>1400),\"The AUC24 may be >700 mg*hr\/L.  Consider decreasing the total daily dose.\",IF(AND(J15=\"0.5 mg\/L\",N29<=1400),\"\",IF(AND(J15=\"2.0 mg\/L\",N29>350),\"The AUC24 may be >700 mg*hr\/L.  Consider decreasing the total daily dose.\",IF(AND(J15=\"2.0 mg\/L\",N29<=350),\"\"))))))"
+        },
+        "D46": {
+            "value": "Peak after FIRST dose"
+        },
+        "D47": {
+            "value": "Patient data"
+        },
+        "I47": {
+            "value": "Estimated PK Parameters"
+        },
+        "M47": {
+            "value": "Estimated Dose"
+        },
+        "S47": {
+            "value": "Est. Peak"
+        },
+        "T47": {
+            "formula": "=E48*(1-EXP(-E28*(E48\/T18)))\/(E48\/T18*E28*E27)"
+        },
+        "D48": {
+            "value": "FIRST dose"
+        },
+        "E48": {
+            "value": 1750
+        },
+        "F48": {
+            "value": "mg "
+        },
+        "I48": {
+            "value": "K"
+        },
+        "J48": {
+            "formula": "=MAX(MIN(IF(T48>=E50,(((T48-E50)*0.02)+1)*E28,IF(T48<E50,(1-((E50-T48)*0.02))*E28)),0.14),0.004)"
+        },
+        "K48": {
+            "value": {}
+        },
+        "M48": {
+            "value": "Dose"
+        },
+        "N48": {
+            "formula": "=MIN(IF(AND(J14=\"15-20 mcg\/mL\",T51>=15,T51<=20),T49,IF(AND(J14=\"15-20 mcg\/mL\",T51<15),T49+250,IF(AND(J14=\"15-20 mcg\/mL\",T51>20),T49-250,\nIF(AND(J14=\"14-19 mcg\/mL\",T51>=14,T51<=19),T49,IF(AND(J14=\"14-19 mcg\/mL\",T51<14),T49+250,IF(AND(J14=\"14-19 mcg\/mL\",T51>19),T49-250,\nIF(AND(J14=\"13-18 mcg\/mL\",T51>=13,T51<=18),T49,IF(AND(J14=\"13-18 mcg\/mL\",T51<13),T49+250,IF(AND(J14=\"13-18 mcg\/mL\",T51>18),T49-250,\nIF(AND(J14=\"12-17 mcg\/mL\",T51>=12,T51<=17),T49,IF(AND(J14=\"12-17 mcg\/mL\",T51<12),T49+250,IF(AND(J14=\"12-17 mcg\/mL\",T51>17),T49-250,\nIF(AND(J14=\"11-16 mcg\/mL\",T51>=11,T51<=16),T49,IF(AND(J14=\"11-16 mcg\/mL\",T51<11),T49+250,IF(AND(J14=\"11-16 mcg\/mL\",T51>16),T49-250,\nIF(AND(J14=\"10-15 mcg\/mL\",T51>=10,T51<=15),T49,IF(AND(J14=\"10-15 mcg\/mL\",T51<10),T49+250,IF(AND(J14=\"10-15 mcg\/mL\",T51>15),T49-250)))))))))))))))))),3000)"
+        },
+        "O48": {
+            "formula": "=IF(AND(N48=1750,N49=8),\"1500\",IF(AND(N48=1500,N49=8),\"1250\",IF(AND(N48=750,N49=18,N51<16,J50<37.5),\"500\",IF(AND(N48=750,N49=18,N51>19,J50<37.5),\"750\",IF(AND(N48=750,N49=18,N51>16.5,J50>=37.5),\"1000\",IF(AND(N48=750,N49=18,N51<12,J50>=43),\"1250\",IF(AND(N48=1000,N49=18,N51>17.5,J50<44),\"500\",IF(AND(N48=1000,N49=18,N51>17.5,J50>=44),\"1250\",IF(AND(N48=1000,N49=18,N51<12),\"750\",IF(AND(N48=1250,N49=18,N51<18.5),\"750\",IF(AND(N48=1250,N49=18,N51>=18.5),\"1000\",IF(AND(N48=1500,N49=18,N51<17),\"1000\",IF(AND(N48=1500,N49=18,N51<13),\"1000\",IF(AND(N48=1500,N49=18,N51>=17.5),\"1250\",IF(AND(N48=1750,N49=18,N51>=12),\"1000\",IF(AND(N48=1750,N49=18,N51<12),\"1250\",IF(AND(N48=2000,N49=18,N51<18,N51>=14),\"1250\",IF(AND(N48=2000,N49=18,N51<14),\"1500\",IF(AND(N48=2000,N49=18,N51>=18),\"1000\",IF(AND(N48=750,N49=36,N51<16),\"500\",IF(AND(N48=750,N49=36,N51<13),\"500\",IF(AND(N48=750,N49=36,N51>17,J50>38.5),\"1000\",IF(AND(N48=1000,N49=36,N51>18,J50<47),\"500\",IF(AND(N48=1000,N49=36,N51>18,J50>=47),\"1250\",IF(AND(N48=1000,N49=36,N51<11.5),\"750\",IF(AND(N48=1250,N49=36),\"750\",IF(AND(N48=1500,N49=36,N51<=16),\"1000\",IF(AND(N48=1500,N49=36,N51>17),\"750\",IF(AND(N48=1750,N49=36,N51>=12),\"1000\",IF(AND(N48=1750,N49=36,N51<12),\"1250\",IF(AND(N48=2000,N49=36,N51<18,N51>=14),\"1250\",IF(AND(N48=2000,N49=36,N51<14),\"1500\",IF(AND(N48=2000,N49=36,N51>=18),\"1000\",IF(AND(N48=750,N49=12,N51>19.5,J50>=38),\"1000\",IF(AND(N48=750,N49=12,N51<11.5,J50>=38),\"1000\",IF(AND(N48=1750,N49=12,N51>=16),\"1000\",IF(AND(N48=2000,N49=12,N51<19),\"1250\",IF(AND(N48=2000,N49=12,N51>=19),\"1000\",IF(AND(N48=750,N49=8,N51>=19.4,J50>38),\"1000\",IF(AND(N48=750,N49=8,N51<11.5,J50>38),\"1000\",IF(AND(N48=750,N49=8,N51>19,J50<35),\"500\",IF(AND(N48=1000,N49=8,N51>19,J50<52.5),\"750\",IF(AND(N48=1000,N49=8,N51>18,J50>=52.5),\"1500\",IF(AND(N48=1250,N49=8,N51>19),\"1000\",IF(AND(N48=1000,N49=12,N51>19),\"750\",IF(AND(N48=1250,N49=12,N51>18.5),\"1000\",IF(AND(N48=1250,N49=12,N51<=18.5),\"750\",IF(AND(N48=1500,N49=12,N51>18),\"1250\",IF(AND(N48=2000,N49=24,N51>16),\"1750\",IF(AND(N48=1750,N49=24,N51>16.5),\"1500\",IF(AND(N48=1500,N49=24,N51>17),\"1250\",IF(AND(N48=1250,N49=24,N51>18),\"1000\",IF(AND(N48=1000,N49=24,N51>19),\"750\",IF(AND(N48=2000,N49=48,N51>16),\"1750\",IF(AND(N48=1750,N49=48,N51>16.5),\"1500\",IF(AND(N48=1500,N49=48,N51>17),\"1250\",IF(AND(N48=1250,N49=48,N51>18),\"1000\",IF(AND(N48=1250,N49=48,N51<=18),\"500\",IF(AND(N48=1000,N49=48,N51>19),\"750\",IF(AND(N48=2000,N49=72,N51>16),\"1750\",IF(AND(N48=1750,N49=72,N51>16.5),\"1500\",IF(AND(N48=1500,N49=72,N51>17),\"1250\",IF(AND(N48=1250,N49=72,N51>18),\"1000\",IF(AND(N48=1000,N49=72,N51>19),\"750\",\"\"))))))))))))))))))))))))))))))))))))))))))))))))))))))))))))))))"
+        },
+        "P48": {
+            "value": "mg"
+        },
+        "S48": {
+            "value": "Est. Trough"
+        },
+        "T48": {
+            "formula": "=T47*EXP(-E28*T52)"
+        },
+        "D49": {
+            "value": "Time at start of dose"
+        },
+        "E49": {
+            "value": 10
+        },
+        "F49": {
+            "value": "00"
+        },
+        "G49": {
+            "value": "\u00a4"
+        },
+        "I49": {
+            "value": "Cmax"
+        },
+        "J49": {
+            "formula": "=E50\/EXP(-J48*(T52))"
+        },
+        "K49": {
+            "value": "mcg\/mL"
+        },
+        "M49": {
+            "value": "Interval"
+        },
+        "N49": {
+            "formula": "=IF(J50<=75,IF((LN(35\/15)\/J48)<=8,8,IF(AND(8<(LN(35\/15)\/J48),(LN(35\/15)\/J48)<12),IF(ABS((LN(35\/15)\/J48)-8)<ABS((LN(35\/15)\/J48)-12),8,12),IF((LN(35\/15)\/J48)=12,12,IF(AND(12<(LN(35\/15)\/J48),(LN(35\/15)\/J48)<18),IF(ABS((LN(35\/15)\/J48)-12)<ABS((LN(35\/15)\/J48)-18),12,18),IF((LN(35\/15)\/J48)=18,18,IF(AND(18<(LN(35\/15)\/J48),(LN(35\/15)\/J48)<24),IF(ABS((LN(35\/15)\/J48)-18)<ABS((LN(35\/15)\/J48)-24),18,24),IF((LN(35\/15)\/J48)=24,24,IF(AND(24<(LN(35\/15)\/J48),(LN(35\/15)\/J48)<36),IF(ABS((LN(35\/15)\/J48)-24)<ABS((LN(35\/15)\/J48)-36),24,36),IF((LN(35\/15)\/J48)=36,36,IF(AND(36<(LN(35\/15)\/J48),(LN(35\/15)\/J48)<48),IF(ABS((LN(35\/15)\/J48)-36)<ABS((LN(35\/15)\/J48)-48),36,48),IF((LN(35\/15)\/J48)=48,48,IF(AND(48<(LN(35\/15)\/J48),(LN(35\/15)\/J48)<72),IF(ABS((LN(35\/15)\/J48)-48)<ABS((LN(35\/15)\/J48)-72),48,72),IF((LN(35\/15)\/J48)>=72,72,\"Error\"))))))))))))),IF(J50>75,IF((LN(30\/15)\/J48)<=8,8,IF(AND(8<(LN(30\/15)\/J48),(LN(30\/15)\/J48)<12),IF(ABS((LN(30\/15)\/J48)-8)<ABS((LN(30\/15)\/J48)-12),8,12),IF((LN(30\/15)\/J48)=12,12,IF(AND(12<(LN(30\/15)\/J48),(LN(30\/15)\/J48)<18),IF(ABS((LN(30\/15)\/J48)-12)<ABS((LN(30\/15)\/J48)-18),12,18),IF((LN(30\/15)\/J48)=18,18,IF(AND(18<(LN(30\/15)\/J48),(LN(30\/15)\/J48)<24),IF(ABS((LN(30\/15)\/J48)-18)<ABS((LN(30\/15)\/J48)-24),18,24),IF((LN(30\/15)\/J48)=24,24,IF(AND(24<(LN(30\/15)\/J48),(LN(30\/15)\/J48)<36),IF(ABS((LN(30\/15)\/J48)-24)<ABS((LN(30\/15)\/J48)-36),24,36),IF((LN(30\/15)\/J48)=36,36,IF(AND(36<(LN(30\/15)\/J48),(LN(30\/15)\/J48)<48),IF(ABS((LN(30\/15)\/J48)-36)<ABS((LN(30\/15)\/J48)-48),36,48),IF((LN(30\/15)\/J48)=48,48,IF(AND(48<(LN(30\/15)\/J48),(LN(30\/15)\/J48)<72),IF(ABS((LN(30\/15)\/J48)-48)<ABS((LN(30\/15)\/J48)-72),48,72),IF((LN(30\/15)\/J48)>=72,72,\"Error\")))))))))))))))"
+        },
+        "O49": {
+            "formula": "=IF(AND(N48=1750,N49=8),\"8\",IF(AND(N48=1500,N49=8),\"8\",IF(AND(N48=750,N49=18,N51<16,J50<37.5),\"12\",IF(AND(N48=750,N49=18,N51>19,J50<37.5),\"24\",IF(AND(N48=750,N49=18,N51>16.5,J50>=37.5),\"24\",IF(AND(N48=750,N49=18,N51<12,J50>=43),\"24\",IF(AND(N48=1000,N49=18,N51>17.5,J50<44),\"12\",IF(AND(N48=1000,N49=18,N51>17.5,J50>=44),\"24\",IF(AND(N48=1000,N49=18,N51<12),\"12\",IF(AND(N48=1250,N49=18,N51<18.5),\"12\",IF(AND(N48=1250,N49=18,N51>=18.5),\"18\",IF(AND(N48=1500,N49=18,N51<17),\"12\",IF(AND(N48=1500,N49=18,N51<13),\"12\",IF(AND(N48=1500,N49=18,N51>=17.5),\"18\",IF(AND(N48=1750,N49=18),\"12\",IF(AND(N48=2000,N49=18),\"12\",IF(AND(N48=750,N49=36,N51<16),\"24\",IF(AND(N48=750,N49=36,N51<13),\"24\",IF(AND(N48=750,N49=36,N51>17,J50>38.5),\"48\",IF(AND(N48=1000,N49=36,N51>18,J50<47),\"24\",IF(AND(N48=1000,N49=36,N51>18,J50>=47),\"48\",IF(AND(N48=1000,N49=36,N51<11.5),\"24\",IF(AND(N48=1250,N49=36),\"24\",IF(AND(N48=1500,N49=36,N51<=16),\"24\",IF(AND(N48=1500,N49=36,N51>17),\"24\",IF(AND(N48=1750,N49=36),\"24\",IF(AND(N48=2000,N49=36),\"24\",IF(AND(N48=750,N49=12,N51>19.5,J50>=38),\"18\",IF(AND(N48=750,N49=12,N51<11.5,J50>=38),\"12\",IF(AND(N48=1750,N49=12,N51>=16),\"8\",IF(AND(N48=2000,N49=12),\"8\",IF(AND(N48=750,N49=8,N51>=19.4,J50>38),\"12\",IF(AND(N48=750,N49=8,N51<11.5,J50>38),\"8\",IF(AND(N48=750,N49=8,N51>19,J50<35),\"8\",IF(AND(N48=1250,N49=8,N51>19),\"8\",IF(AND(N48=1000,N49=8,N51>19,J50<52.5),\"8\",IF(AND(N48=1000,N49=8,N51>18,J50>=52.5),\"12\",IF(AND(N48=1000,N49=12,N51>19),\"12\",IF(AND(N48=1250,N49=12,N51>18.5),\"12\",IF(AND(N48=1250,N49=12,N51<=18.5),\"8\",IF(AND(N48=1500,N49=12,N51>18),\"12\",IF(AND(N48=2000,N49=24,N51>16),\"24\",IF(AND(N48=1750,N49=24,N51>16.5),\"24\",IF(AND(N48=1500,N49=24,N51>17),\"24\",IF(AND(N48=1250,N49=24,N51>18),\"24\",IF(AND(N48=1000,N49=24,N51>19),\"24\",IF(AND(N48=2000,N49=48,N51>16),\"48\",IF(AND(N48=1750,N49=48,N51>16.5),\"48\",IF(AND(N48=1500,N49=48,N51>17),\"48\",IF(AND(N48=1250,N49=48,N51>18),\"48\",IF(AND(N48=1250,N49=48,N51<=18),\"24\",IF(AND(N48=1000,N49=48,N51>19),\"48\",IF(AND(N48=2000,N49=72,N51>16),\"72\",IF(AND(N48=1750,N49=72,N51>16.5),\"72\",IF(AND(N48=1500,N49=72,N51>17),\"72\",IF(AND(N48=1250,N49=72,N51>18),\"72\",IF(AND(N48=1000,N49=72,N51>19),\"72\",\"\")))))))))))))))))))))))))))))))))))))))))))))))))))))))))"
+        },
+        "P49": {
+            "value": "hrs"
+        },
+        "S49": {
+            "value": "Dose"
+        },
+        "T49": {
+            "formula": "=MROUND(IF(AND(J14=\"15-20 mcg\/mL\",J50<=75),37*J50*(1-EXP(-J48*N49)),IF(AND(J14=\"14-19 mcg\/mL\",J50<=75),36*J50*(1-EXP(-J48*N49)),IF(AND(J14=\"13-18 mcg\/mL\",J50<=75),35*J50*(1-EXP(-J48*N49)),IF(AND(J14=\"12-17 mcg\/mL\",J50<=75),34*J50*(1-EXP(-J48*N49)),IF(AND(J14=\"11-16 mcg\/mL\",J50<=75),33*J50*(1-EXP(-J48*N49)),IF(AND(J14=\"10-15 mcg\/mL\",J50<=75),32*J50*(1-EXP(-J48*N49)),IF(AND(J14=\"15-20 mcg\/mL\",J50>75),30*J50*(1-EXP(-J48*N49)),IF(AND(J14=\"14-19 mcg\/mL\",J50>75),29*J50*(1-EXP(-J48*N49)),IF(AND(J14=\"13-18 mcg\/mL\",J50>75),28*J50*(1-EXP(-J48*N49)),IF(AND(J14=\"12-17 mcg\/mL\",J50>75),27*J50*(1-EXP(-J48*N49)),IF(AND(J14=\"11-16 mcg\/mL\",J50>75),26*J50*(1-EXP(-J48*N49)),IF(AND(J14=\"10-15 mcg\/mL\",J50>75),25*J50*(1-EXP(-J48*N49)))))))))))))),250)"
+        },
+        "D50": {
+            "value": "Level"
+        },
+        "E50": {
+            "value": 23
+        },
+        "F50": {
+            "value": "mcg\/mL"
+        },
+        "I50": {
+            "value": "V "
+        },
+        "J50": {
+            "formula": "=E48*(1-EXP(-J48*E48\/T18))\/(J48*E48\/T18*J49)"
+        },
+        "K50": {
+            "value": "L "
+        },
+        "M50": {
+            "value": {}
+        },
+        "N50": {
+            "formula": "=(N48*(1-EXP(-J48*N48\/T18)))\/((J50*J48*N48\/T18)*(1-EXP(-J48*N49)))"
+        },
+        "O50": {
+            "formula": "=(O48*(1-EXP(-J48*(O48\/T18))))\/((J48*J50*(O48\/T18))*(1-EXP(-J48*O49)))"
+        },
+        "P50": {
+            "value": "mcg\/mL"
+        },
+        "S50": {
+            "value": "Peak"
+        },
+        "T50": {
+            "formula": "=(T49*(1-EXP(-J48*T49\/T18)))\/((J50*J48*T49\/T18)*(1-EXP(-J48*N49)))"
+        },
+        "C51": {
+            "value": "\u00a4"
+        },
+        "D51": {
+            "value": "Time of level (same day as dose)"
+        },
+        "E51": {
+            "value": 13
+        },
+        "F51": {
+            "value": "00"
+        },
+        "M51": {
+            "value": {}
+        },
+        "N51": {
+            "formula": "=ROUND(N50*EXP(-J48*(N49-N48\/T18)),4)"
+        },
+        "O51": {
+            "formula": "=ROUND(O50*EXP(-J48*(O49-(O48\/T18))),4)"
+        },
+        "P51": {
+            "value": "mcg\/mL"
+        },
+        "S51": {
+            "value": "Trough"
+        },
+        "T51": {
+            "formula": "=ROUND(T50*EXP(-J48*(N49-T49\/T18)),4)"
+        },
+        "D52": {
+            "value": "Time from start of dose to level"
+        },
+        "E52": {
+            "formula": "=IF(D51=\"Time of level (same day as dose)\",((E51+F51\/60)-(E49+F49\/60)),IF(D51=\"Time of level (1 day after dose)\",(24-(E49+F49\/60)+E51+F51\/60),IF(D51=\"Time of level (2 days after dose)\",(24-(E49+F49\/60)+E51+(F51\/60)+24),IF(D51=\"Time of level (3 days after dose)\",(24-(E49+F49\/60)+E51+(F51\/60)+48)))))"
+        },
+        "F52": {
+            "value": "hrs"
+        },
+        "M52": {
+            "value": "AUCss 0-24\/MIC"
+        },
+        "N52": {
+            "formula": "=IF(AND(N49<=24,J15=\"Empiric or 1 mg\/L\"),((N48\/N49)*24\/(J48*J50))\/1,IF(AND(J15=\"0.5 mg\/L\",N49<=24),((N48\/N49)*24\/(J48*J50))\/0.5,IF(AND(J15=\"2.0 mg\/L\",N49<=24),((N48\/N49)*24\/(J48*J50))\/2,IF(AND(N49>24,J15=\"Empiric or 1 mg\/L\"),(N50+N51)\/2*(N48\/T18)+((N50-T54)*(24-N48\/T18))\/LN(N50\/T54),IF(AND(J15=\"0.5 mg\/L\",N49>24),(N50+N51)\/2*(N48\/T18)+((N50-T54)*(24-N48\/T18))\/LN(N50\/T54)\/0.5,IF(AND(J15=\"2.0 mg\/L\",N49>24),(N50+N51)\/2*(N48\/T18)+((N50-T54)*(24-N48\/T18))\/LN(N50\/T54)\/2))))))"
+        },
+        "O52": {
+            "formula": "=IF(AND(O49*1<=24,J15=\"Empiric or 1 mg\/L\"),((O48\/O49)*24\/(J48*J50))\/1,IF(AND(J15=\"0.5 mg\/L\",O49*1<=24),((O48\/O49)*24\/(J48*J50))\/0.5,IF(AND(J15=\"2.0 mg\/L\",O49*1<=24),((O48\/O49)*24\/(J48*J50))\/2,IF(AND(O49*1>24,J15=\"Empiric or 1 mg\/L\"),(O50+O51)\/2*(O48\/T18)+((O50-U54)*(24-O48\/T18))\/LN(O50\/U54),IF(AND(J15=\"0.5 mg\/L\",O49*1>24),(O50+O51)\/2*(O48\/T18)+((O50-U54)*(24-O48\/T18))\/LN(O50\/U54)\/0.5,IF(AND(J15=\"2.0 mg\/L\",O49*1>24),(O50+O51)\/2*(O48\/T18)+((O50-U54)*(24-O48\/T18))\/LN(O50\/U54)\/2))))))"
+        },
+        "S52": {
+            "value": "Time: EOI to level"
+        },
+        "T52": {
+            "formula": "=IF(D51=\"Time of level (same day as dose)\",((E51+F51\/60)-(E49+F49\/60))-E48\/T18,IF(D51=\"Time of level (1 day after dose)\",(24-(E49+F49\/60)+E51+F51\/60)-E48\/T18,IF(D51=\"Time of level (2 days after dose)\",(24-(E49+F49\/60)+E51+(F51\/60)+24)-E48\/T18,IF(D51=\"Time of level (3 days after dose)\",(24-(E49+F49\/60)+E51+(F51\/60)+48)-E48\/T18))))"
+        },
+        "U52": {
+            "value": "hrs"
+        },
+        "M53": {
+            "value": "AUCss min\/MIC"
+        },
+        "N53": {
+            "formula": "=IF(J15=\"Empiric or 1 mg\/L\",IF(N49=48,(T54-T56)*24\/LN(T54\/T56),IF(N49=36,(T53-T55)*24\/LN(T53\/T55),IF(N49=72,(T56-T57)*24\/LN(T56\/T57)))),IF(J15=\"0.5 mg\/L\",IF(N49=48,(T54-T56)*24\/LN(T54\/T56)\/0.5,IF(N49=36,(T53-T55)*24\/LN(T53\/T55)\/0.5,IF(N49=72,(T56-T57)*24\/LN(T56\/T57)\/0.5))),IF(J15=\"2.0 mg\/L\",IF(N49=48,(T54-T56)*24\/LN(T54\/T56)\/2,IF(N49=36,(T53-T55)*24\/LN(T53\/T55)\/2,IF(N49=72,((T56-T57)*24\/LN(T56\/T57))\/2))))))"
+        },
+        "O53": {
+            "formula": "=IF(J15=\"Empiric or 1 mg\/L\",IF(O49*1=48,(U54-U56)*24\/LN(U54\/U56),IF(O49*1=36,(U53-U55)*24\/LN(U53\/U55),IF(O49*1=72,(U56-U57)*24\/LN(U56\/U57)))),IF(J15=\"0.5 mg\/L\",IF(O49*1=48,(U54-U56)*24\/LN(U54\/U56)\/0.5,IF(O49*1=36,(U53-U55)*24\/LN(U53\/U55)\/0.5,IF(O49*1=72,(U56-U57)*24\/LN(U56\/U57)\/0.5))),IF(J15=\"2.0 mg\/L\",IF(O49*1=48,(U54-U56)*24\/LN(U54\/U56)\/2,IF(O49*1=36,(U53-U55)*24\/LN(U53\/U55)\/2,IF(O49*1=72,((U56-U57)*24\/LN(U56\/U57))\/2))))))"
+        },
+        "S53": {
+            "value": "Level at 12 hr"
+        },
+        "T53": {
+            "formula": "=N50*EXP(-J48*(12-N48\/T18))"
+        },
+        "U53": {
+            "formula": "=O50*EXP(-J48*(12-O48\/T18))"
+        },
+        "D54": {
+            "value": "Ikhsan, the level must be at least 30 minutes after the end of infusion.  Infusion time = dose\/cell S18"
+        },
+        "S54": {
+            "value": "Level at 24 hr"
+        },
+        "T54": {
+            "formula": "=N50*EXP(-J48*(24-N48\/T18))"
+        },
+        "U54": {
+            "formula": "=O50*EXP(-J48*(24-O48\/T18))"
+        },
+        "S55": {
+            "value": "Level at 36 hr"
+        },
+        "T55": {
+            "formula": "=N50*EXP(-J48*(36-N48\/T18))"
+        },
+        "U55": {
+            "formula": "=O50*EXP(-J48*(36-O48\/T18))"
+        },
+        "D56": {
+            "value": {}
+        },
+        "S56": {
+            "value": "Level at 48 hr"
+        },
+        "T56": {
+            "formula": "=N50*EXP(-J48*(48-N48\/T18))"
+        },
+        "U56": {
+            "formula": "=O50*EXP(-J48*(48-O48\/T18))"
+        },
+        "D57": {
+            "formula": "=IF(J15=\"2.0 mg\/L\",\"Note: Consider switching to a different antibiotic when S. aureus MIC \u2265 2.0 mg\/L.  Etest method may yield higher MICs than broth microdilution.\",IF(J15=\"Empiric or 1 mg\/L\",\"\",IF(J15=\"0.5 mg\/L\",\"\")))"
+        },
+        "S57": {
+            "value": "Level at 72 hr"
+        },
+        "T57": {
+            "formula": "=N50*EXP(-J48*(72-N48\/T18))"
+        },
+        "U57": {
+            "formula": "=O50*EXP(-J48*(72-O48\/T18))"
+        },
+        "D58": {
+            "formula": "=IF(AND(F14=\"mg\/dL\",E14<0.7),\"Consider rounding SCr up to 0.7 mg\/dL.\",IF(AND(F14=\"\u00b5mol\/L\",E14<61.88),\"Consider rounding SCr up to 61.88 \u00b5mol\/L.\",IF(OR(F14=\"mg\/dL\",E14>=0.7),\"\",IF(OR(F14=\"\u00b5mol\/L\",E14>=61.88),\"\"))))"
+        },
+        "D59": {
+            "formula": "=IF(N49<36,\"\",IF(N49>=36,\"Note: When the dosing interval is >24 hours, the AUC is higher during the first 24 hours of the dosing interval compared to the last 24 hours of the interval.\"))"
+        },
+        "D60": {
+            "formula": "=IF(T52<0,\"Warning: The level may be artificially elevated because it was drawn less than 60 minutes after the end of infusion.\",IF(T52>=0,\"\"))"
+        },
+        "D61": {
+            "formula": "=IF(E52<(1+E48\/T18),\"Note: The level was drawn less than 1 hour after the END of infusion, so it may be artificially high (still in distribution phase).\",IF(E52>=(1+E48\/T18),\"\"))"
+        },
+        "D62": {
+            "formula": "=IF(AND(N49=8,(N48\/E16)>18,F16=\"kg\"),\"Caution: The calculator's dose is greater than 18 mg\/kg q8h; consider decreasing the maintenance dose.\",IF(AND(N49=8,(N48\/E16)<=18,F16=\"kg\"),\"\",IF(AND(N49=8,(N48\/(E16\/2.20462))>18,F16=\"lbs\"),\"Caution: The calculator's dose is greater than 18 mg\/kg q8h; consider decreasing the maintenance dose.\",IF(AND(N49=8,(N48\/(E16\/2.20462))<=18,F16=\"lbs\"),\"\",IF(N49>8,\"\")))))"
+        },
+        "D63": {
+            "formula": "=IF(ABS(E50-T48)>10,\"Caution: The level is significantly different than predicted by using population kinetics.  This patient may require a higher degree of clinical judgment.\",\"\")"
+        },
+        "D65": {
+            "value": "Steady-State 'Trough'"
+        },
+        "S65": {
+            "value": "Estimated K "
+        },
+        "T65": {
+            "formula": "=LN(((E70\/J69)+E72)\/E72)\/((E75+E71)\/2)"
+        },
+        "V65": {
+            "value": "Dose"
+        },
+        "W65": {
+            "formula": "=MROUND(IF(AND(J14=\"15-20 mcg\/mL\",J69<=75),37*J69*(1-EXP(-J72*N70)),IF(AND(J14=\"14-19 mcg\/mL\",J69<=75),36*J69*(1-EXP(-J72*N70)),IF(AND(J14=\"13-18 mcg\/mL\",J69<=75),35*J69*(1-EXP(-J72*N70)),IF(AND(J14=\"12-17 mcg\/mL\",J69<=75),34*J69*(1-EXP(-J72*N70)),IF(AND(J14=\"11-16 mcg\/mL\",J69<=75),33*J69*(1-EXP(-J72*N70)),IF(AND(J14=\"10-15 mcg\/mL\",J69<=75),32*J69*(1-EXP(-J72*N70)),IF(AND(J14=\"15-20 mcg\/mL\",J69>75),30*J69*(1-EXP(-J72*N70)),IF(AND(J14=\"14-19 mcg\/mL\",J69>75),29*J69*(1-EXP(-J72*N70)),IF(AND(J14=\"13-18 mcg\/mL\",J69>75),28*J69*(1-EXP(-J72*N70)),IF(AND(J14=\"12-17 mcg\/mL\",J69>75),27*J69*(1-EXP(-J72*N70)),IF(AND(J14=\"11-16 mcg\/mL\",J69>75),26*J69*(1-EXP(-J72*N70)),IF(AND(J14=\"10-15 mcg\/mL\",J69>75),25*J69*(1-EXP(-J72*N70)))))))))))))),250)"
+        },
+        "S66": {
+            "value": "Trough from K"
+        },
+        "T66": {
+            "formula": "=(E70\/(E70\/T18*T65*J69)*(1-EXP(-T65*E70\/T18)))*EXP(-T65*(E75-E70\/T18))\/(1-EXP(-T65*(E71)))"
+        },
+        "V66": {
+            "value": "Peak"
+        },
+        "W66": {
+            "formula": "=(W65*(1-EXP(-J72*W65\/T18)))\/((J72*J69*W65\/T18)*(1-EXP(-J72*N70)))"
+        },
+        "S67": {
+            "value": "K1"
+        },
+        "T67": {
+            "formula": "=ROUND((T66\/E72)*T65,8)"
+        },
+        "V67": {
+            "value": "Trough"
+        },
+        "W67": {
+            "formula": "=ROUND(W66*EXP(-J72*(N70-W65\/T18)),4)"
+        },
+        "D68": {
+            "value": "Patient data"
+        },
+        "I68": {
+            "value": "Estimated PK Parameters"
+        },
+        "M68": {
+            "value": "Estimated Dose"
+        },
+        "S68": {
+            "value": "Trough K1"
+        },
+        "T68": {
+            "formula": "=(E70\/((E70\/T18)*T67*J69)*(1-EXP(-T67*(E70\/T18))))*EXP(-T67*(E75-(E70\/T18)))\/(1-EXP(-T67*(E71)))"
+        },
+        "C69": {
+            "value": "\u00a4"
+        },
+        "D69": {
+            "value": "Ke is known"
+        },
+        "I69": {
+            "value": "V"
+        },
+        "J69": {
+            "formula": "=IF(D69=\"Use estimated Ke and Vd\",IF(W76>=E72,(((W76-E72)*0.02)+1)*E27,IF(W76<E72,(1-((E72-W76)*0.02))*E27)),IF(D69=\"Vd is known\",\"\",IF(D69=\"Ke is known\",(E70*(EXP(-J72*(E75-E70\/T18)))*(1-EXP(-J72*(E70\/T18))))\/(E72*(E70\/T18)*J72*(1-EXP(-J72*E71))))))"
+        },
+        "K69": {
+            "value": "L"
+        },
+        "M69": {
+            "value": "Dose"
+        },
+        "N69": {
+            "formula": "=MIN(IF(AND(J14=\"15-20 mcg\/mL\",W67>=15,W67<=20),W65,IF(AND(J14=\"15-20 mcg\/mL\",W67<15),W65+250,IF(AND(J14=\"15-20 mcg\/mL\",W67>20),W65-250,\nIF(AND(J14=\"14-19 mcg\/mL\",W67>=14,W67<=19),W65,IF(AND(J14=\"14-19 mcg\/mL\",W67<14),W65+250,IF(AND(J14=\"14-19 mcg\/mL\",W67>19),W65-250,\nIF(AND(J14=\"13-18 mcg\/mL\",W67>=13,W67<=18),W65,IF(AND(J14=\"13-18 mcg\/mL\",W67<13),W65+250,IF(AND(J14=\"13-18 mcg\/mL\",W67>18),W65-250,\nIF(AND(J14=\"12-17 mcg\/mL\",W67>=12,W67<=17),W65,IF(AND(J14=\"12-17 mcg\/mL\",W67<12),W65+250,IF(AND(J14=\"12-17 mcg\/mL\",W67>17),W65-250,\nIF(AND(J14=\"11-16 mcg\/mL\",W67>=11,W67<=16),W65,IF(AND(J14=\"11-16 mcg\/mL\",W67<11),W65+250,IF(AND(J14=\"11-16 mcg\/mL\",W67>16),W65-250,\nIF(AND(J14=\"10-15 mcg\/mL\",W67>=10,W67<=15),W65,IF(AND(J14=\"10-15 mcg\/mL\",W67<10),W65+250,IF(AND(J14=\"10-15 mcg\/mL\",W67>15),W65-250)))))))))))))))))),3000)"
+        },
+        "O69": {
+            "formula": "=IF(AND(N69=1750,N70=8),\"1500\",IF(AND(N69=1500,N70=8),\"1250\",IF(AND(N69=750,N70=18,N72<16,J69<37.5),\"500\",IF(AND(N69=750,N70=18,N72>19,J69<37.5),\"750\",IF(AND(N69=750,N70=18,N72>16.5,J69>=37.5),\"1000\",IF(AND(N69=750,N70=18,N72<12,J69>=43),\"1250\",IF(AND(N69=1000,N70=18,N72>17.5,J69<44),\"500\",IF(AND(N69=1000,N70=18,N72>17.5,J69>=44),\"1250\",IF(AND(N69=1000,N70=18,N72<12),\"750\",IF(AND(N69=1250,N70=18,N72<18.5),\"750\",IF(AND(N69=1250,N70=18,N72>=18.5),\"1000\",IF(AND(N69=1500,N70=18,N72<17),\"1000\",IF(AND(N69=1500,N70=18,N72<13),\"1000\",IF(AND(N69=1500,N70=18,N72>=17.5),\"1250\",IF(AND(N69=1750,N70=18,N72>=12),\"1000\",IF(AND(N69=1750,N70=18,N72<12),\"1250\",IF(AND(N69=2000,N70=18,N72<18,N72>=14),\"1250\",IF(AND(N69=2000,N70=18,N72<14),\"1500\",IF(AND(N69=2000,N70=18,N72>=18),\"1000\",IF(AND(N69=750,N70=36,N72<16),\"500\",IF(AND(N69=750,N70=36,N72<13),\"500\",IF(AND(N69=750,N70=36,N72>17,J69>38.5),\"1000\",IF(AND(N69=1000,N70=36,N72>18,J69<47),\"500\",IF(AND(N69=1000,N70=36,N72>18,J69>=47),\"1250\",IF(AND(N69=1000,N70=36,N72<11.5),\"750\",IF(AND(N69=1250,N70=36),\"750\",IF(AND(N69=1500,N70=36,N72<=16),\"1000\",IF(AND(N69=1500,N70=36,N72>17),\"750\",IF(AND(N69=1750,N70=36,N72>=12),\"1000\",IF(AND(N69=1750,N70=36,N72<12),\"1250\",IF(AND(N69=2000,N70=36,N72<18,N72>=14),\"1250\",IF(AND(N69=2000,N70=36,N72<14),\"1500\",IF(AND(N69=2000,N70=36,N72>=18),\"1000\",IF(AND(N69=750,N70=12,N72>19.5,J69>=38),\"1000\",IF(AND(N69=750,N70=12,N72<11.5,J69>=38),\"1000\",IF(AND(N69=1750,N70=12,N72>=16),\"1000\",IF(AND(N69=2000,N70=12,N72<19),\"1250\",IF(AND(N69=2000,N70=12,N72>=19),\"1000\",IF(AND(N69=750,N70=8,N72>=19.4,J69>38),\"1000\",IF(AND(N69=750,N70=8,N72<11.5,J69>38),\"1000\",IF(AND(N69=750,N70=8,N72>19,J69<35),\"500\",IF(AND(N69=1000,N70=8,N72>19,J69<52.5),\"750\",IF(AND(N69=1000,N70=8,N72>18,J69>=52.5),\"1500\",IF(AND(N69=1250,N70=8,N72>19),\"1000\",IF(AND(N69=1000,N70=12,N72>19),\"750\",IF(AND(N69=1250,N70=12,N72>18.5),\"1000\",IF(AND(N69=1250,N70=12,N72<=18.5),\"750\",IF(AND(N69=1500,N70=12,N72>18),\"1250\",IF(AND(N69=2000,N70=24,N72>16),\"1750\",IF(AND(N69=1750,N70=24,N72>16.5),\"1500\",IF(AND(N69=1500,N70=24,N72>17),\"1250\",IF(AND(N69=1250,N70=24,N72>18),\"1000\",IF(AND(N69=1000,N70=24,N72>19),\"750\",IF(AND(N69=2000,N70=48,N72>16),\"1750\",IF(AND(N69=1750,N70=48,N72>16.5),\"1500\",IF(AND(N69=1500,N70=48,N72>17),\"1250\",IF(AND(N69=1250,N70=48,N72>18),\"1000\",IF(AND(N69=1250,N70=48,N72<=18),\"500\",IF(AND(N69=1000,N70=48,N72>19),\"750\",IF(AND(N69=2000,N70=72,N72>16),\"1750\",IF(AND(N69=1750,N70=72,N72>16.5),\"1500\",IF(AND(N69=1500,N70=72,N72>17),\"1250\",IF(AND(N69=1250,N70=72,N72>18),\"1000\",IF(AND(N69=1000,N70=72,N72>19),\"750\",\"\"))))))))))))))))))))))))))))))))))))))))))))))))))))))))))))))))"
+        },
+        "P69": {
+            "value": "mg"
+        },
+        "S69": {
+            "value": "K2"
+        },
+        "T69": {
+            "formula": "=ROUND((T68\/E72)*T67,8)"
+        },
+        "V69": {
+            "value": "Level at 12 hr"
+        },
+        "W69": {
+            "formula": "=N71*EXP(-J72*(12-N69\/T18))"
+        },
+        "X69": {
+            "formula": "=O71*EXP(-J72*(12-O69\/T18))"
+        },
+        "D70": {
+            "value": "Dose"
+        },
+        "E70": {
+            "value": 750
+        },
+        "F70": {
+            "value": "mg"
+        },
+        "I70": {
+            "value": {}
+        },
+        "J70": {
+            "formula": "=ROUND(IF(J15=\"Empiric or 1 mg\/L\",(((E70\/E71)*24)\/(J72*J69))\/1,IF(J15=\"0.5 mg\/L\",(((E70\/E71)*24)\/(J72*J69))\/0.5,IF(J15=\"2.0 mg\/L\",(((E70\/E71)*24)\/(J72*J69))\/2,\"Error\"))),4)"
+        },
+        "M70": {
+            "value": "Interval"
+        },
+        "N70": {
+            "formula": "=IF(J69<=75,IF((LN(35\/15)\/J72)<=8,8,IF(AND(8<(LN(35\/15)\/J72),(LN(35\/15)\/J72)<12),IF(ABS((LN(35\/15)\/J72)-8)<ABS((LN(35\/15)\/J72)-12),8,12),IF((LN(35\/15)\/J72)=12,12,IF(AND(12<(LN(35\/15)\/J72),(LN(35\/15)\/J72)<18),IF(ABS((LN(35\/15)\/J72)-12)<ABS((LN(35\/15)\/J72)-18),12,18),IF((LN(35\/15)\/J72)=18,18,IF(AND(18<(LN(35\/15)\/J72),(LN(35\/15)\/J72)<24),IF(ABS((LN(35\/15)\/J72)-18)<ABS((LN(35\/15)\/J72)-24),18,24),IF((LN(35\/15)\/J72)=24,24,IF(AND(24<(LN(35\/15)\/J72),(LN(35\/15)\/J72)<36),IF(ABS((LN(35\/15)\/J72)-24)<ABS((LN(35\/15)\/J72)-36),24,36),IF((LN(35\/15)\/J72)=36,36,IF(AND(36<(LN(35\/15)\/J72),(LN(35\/15)\/J72)<48),IF(ABS((LN(35\/15)\/J72)-36)<ABS((LN(35\/15)\/J72)-48),36,48),IF((LN(35\/15)\/J72)=48,48,IF(AND(48<(LN(35\/15)\/J72),(LN(35\/15)\/J72)<72),IF(ABS((LN(35\/15)\/J72)-48)<ABS((LN(35\/15)\/J72)-72),48,72),IF((LN(35\/15)\/J72)>=72,72,\"Error\"))))))))))))),IF(J69>75,IF((LN(30\/15)\/J72)<=8,8,IF(AND(8<(LN(30\/15)\/J72),(LN(30\/15)\/J72)<12),IF(ABS((LN(30\/15)\/J72)-8)<ABS((LN(30\/15)\/J72)-12),8,12),IF((LN(30\/15)\/J72)=12,12,IF(AND(12<(LN(30\/15)\/J72),(LN(30\/15)\/J72)<18),IF(ABS((LN(30\/15)\/J72)-12)<ABS((LN(30\/15)\/J72)-18),12,18),IF((LN(30\/15)\/J72)=18,18,IF(AND(18<(LN(30\/15)\/J72),(LN(30\/15)\/J72)<24),IF(ABS((LN(30\/15)\/J72)-18)<ABS((LN(30\/15)\/J72)-24),18,24),IF((LN(30\/15)\/J72)=24,24,IF(AND(24<(LN(30\/15)\/J72),(LN(30\/15)\/J72)<36),IF(ABS((LN(30\/15)\/J72)-24)<ABS((LN(30\/15)\/J72)-36),24,36),IF((LN(30\/15)\/J72)=36,36,IF(AND(36<(LN(30\/15)\/J72),(LN(30\/15)\/J72)<48),IF(ABS((LN(30\/15)\/J72)-36)<ABS((LN(30\/15)\/J72)-48),36,48),IF((LN(30\/15)\/J72)=48,48,IF(AND(48<(LN(30\/15)\/J72),(LN(30\/15)\/J72)<72),IF(ABS((LN(30\/15)\/J72)-48)<ABS((LN(30\/15)\/J72)-72),48,72),IF((LN(30\/15)\/J72)>=72,72,\"Error\")))))))))))))))"
+        },
+        "O70": {
+            "formula": "=IF(AND(N69=1750,N70=8),\"8\",IF(AND(N69=1500,N70=8),\"8\",IF(AND(N69=750,N70=18,N72<16,J69<37.5),\"12\",IF(AND(N69=750,N70=18,N72>19,J69<37.5),\"24\",IF(AND(N69=750,N70=18,N72>16.5,J69>=37.5),\"24\",IF(AND(N69=750,N70=18,N72<12,J69>=43),\"24\",IF(AND(N69=1000,N70=18,N72>17.5,J69<44),\"12\",IF(AND(N69=1000,N70=18,N72>17.5,J69>=44),\"24\",IF(AND(N69=1000,N70=18,N72<12),\"12\",IF(AND(N69=1250,N70=18,N72<18.5),\"12\",IF(AND(N69=1250,N70=18,N72>=18.5),\"18\",IF(AND(N69=1500,N70=18,N72<17),\"12\",IF(AND(N69=1500,N70=18,N72<13),\"12\",IF(AND(N69=1500,N70=18,N72>=17.5),\"18\",IF(AND(N69=1750,N70=18),\"12\",IF(AND(N69=2000,N70=18),\"12\",IF(AND(N69=750,N70=36,N72<16),\"24\",IF(AND(N69=750,N70=36,N72<13),\"24\",IF(AND(N69=750,N70=36,N72>17,J69>38.5),\"48\",IF(AND(N69=1000,N70=36,N72>18,J69<47),\"24\",IF(AND(N69=1000,N70=36,N72>18,J69>=47),\"48\",IF(AND(N69=1000,N70=36,N72<11.5),\"24\",IF(AND(N69=1250,N70=36),\"24\",IF(AND(N69=1500,N70=36,N72<=16),\"24\",IF(AND(N69=1500,N70=36,N72>17),\"24\",IF(AND(N69=1750,N70=36),\"24\",IF(AND(N69=2000,N70=36),\"24\",IF(AND(N69=750,N70=12,N72>19.5,J69>=38),\"18\",IF(AND(N69=750,N70=12,N72<11.5,J69>=38),\"12\",IF(AND(N69=1750,N70=12,N72>=16),\"8\",IF(AND(N69=2000,N70=12),\"8\",IF(AND(N69=750,N70=8,N72>=19.4,J69>38),\"12\",IF(AND(N69=750,N70=8,N72<11.5,J69>38),\"8\",IF(AND(N69=750,N70=8,N72>19,J69<35),\"8\",IF(AND(N69=1250,N70=8,N72>19),\"8\",IF(AND(N69=1000,N70=8,N72>19,J69<52.5),\"8\",IF(AND(N69=1000,N70=8,N72>18,J69>=52.5),\"12\",IF(AND(N69=1000,N70=12,N72>19),\"12\",IF(AND(N69=1250,N70=12,N72>18.5),\"12\",IF(AND(N69=1250,N70=12,N72<=18.5),\"8\",IF(AND(N69=1500,N70=12,N72>18),\"12\",IF(AND(N69=2000,N70=24,N72>16),\"24\",IF(AND(N69=1750,N70=24,N72>16.5),\"24\",IF(AND(N69=1500,N70=24,N72>17),\"24\",IF(AND(N69=1250,N70=24,N72>18),\"24\",IF(AND(N69=1000,N70=24,N72>19),\"24\",IF(AND(N69=2000,N70=48,N72>16),\"48\",IF(AND(N69=1750,N70=48,N72>16.5),\"48\",IF(AND(N69=1500,N70=48,N72>17),\"48\",IF(AND(N69=1250,N70=48,N72>18),\"48\",IF(AND(N69=1250,N70=48,N72<=18),\"24\",IF(AND(N69=1000,N70=48,N72>19),\"48\",IF(AND(N69=2000,N70=72,N72>16),\"72\",IF(AND(N69=1750,N70=72,N72>16.5),\"72\",IF(AND(N69=1500,N70=72,N72>17),\"72\",IF(AND(N69=1250,N70=72,N72>18),\"72\",IF(AND(N69=1000,N70=72,N72>19),\"72\",\"\")))))))))))))))))))))))))))))))))))))))))))))))))))))))))"
+        },
+        "P70": {
+            "value": "hrs"
+        },
+        "S70": {
+            "value": "Trough K2"
+        },
+        "T70": {
+            "formula": "=(E70\/(E70\/T18*T69*J69)*(1-EXP(-T69*E70\/T18)))*EXP(-T69*(E75-E70\/T18))\/(1-EXP(-T69*(E71)))"
+        },
+        "V70": {
+            "value": "Level at 24 hr"
+        },
+        "W70": {
+            "formula": "=N71*EXP(-J72*(24-N69\/T18))"
+        },
+        "X70": {
+            "formula": "=O71*EXP(-J72*(24-O69\/T18))"
+        },
+        "C71": {
+            "value": "\u00a4"
+        },
+        "D71": {
+            "value": "Dosing interval"
+        },
+        "E71": {
+            "value": 8
+        },
+        "F71": {
+            "value": "hrs"
+        },
+        "I71": {
+            "value": "Extrapolated trough"
+        },
+        "J71": {
+            "formula": "=IF(E75<=E71,(E72*EXP(-J72*(E71-E75))),IF(E75>E71,(E72\/EXP(-J72*(E75-E71)))))"
+        },
+        "K71": {
+            "value": "mcg\/mL"
+        },
+        "M71": {
+            "value": {}
+        },
+        "N71": {
+            "formula": "=(N69*(1-EXP(-J72*(N69\/T18))))\/((J72*J69*(N69\/T18))*(1-EXP(-J72*N70)))"
+        },
+        "O71": {
+            "formula": "=(O69*(1-EXP(-J72*(O69\/T18))))\/((J72*J69*(O69\/T18))*(1-EXP(-J72*O70)))"
+        },
+        "P71": {
+            "value": "mcg\/mL"
+        },
+        "S71": {
+            "value": "K3"
+        },
+        "T71": {
+            "formula": "=ROUND((T67+T69)\/2,8)"
+        },
+        "V71": {
+            "value": "Level at 36 hr"
+        },
+        "W71": {
+            "formula": "=N71*EXP(-J72*(36-N69\/T18))"
+        },
+        "X71": {
+            "formula": "=O71*EXP(-J72*(36-O69\/T18))"
+        },
+        "D72": {
+            "value": "Measured level"
+        },
+        "E72": {
+            "value": 25
+        },
+        "F72": {
+            "value": "mcg\/mL"
+        },
+        "G72": {
+            "value": "\u00a4"
+        },
+        "I72": {
+            "value": "K"
+        },
+        "J72": {
+            "formula": "=IF(D69=\"Use estimated Ke and Vd\",T85,IF(D69=\"Vd is known\",T85,IF(D69=\"Ke is known\",\"\")))"
+        },
+        "K72": {
+            "value": {}
+        },
+        "M72": {
+            "value": {}
+        },
+        "N72": {
+            "formula": "=ROUND(N71*EXP(-J72*(N70-N69\/T18)),4)"
+        },
+        "O72": {
+            "formula": "=ROUND(O71*EXP(-J72*(O70-(O69\/T18))),4)"
+        },
+        "P72": {
+            "value": "mcg\/mL"
+        },
+        "S72": {
+            "value": "Trough K3"
+        },
+        "T72": {
+            "formula": "=(E70\/(E70\/T18*T71*J69)*(1-EXP(-T71*E70\/T18)))*EXP(-T71*(E75-E70\/T18))\/(1-EXP(-T71*(E71)))"
+        },
+        "V72": {
+            "value": "Level at 48 hr"
+        },
+        "W72": {
+            "formula": "=N71*EXP(-J72*(48-N69\/T18))"
+        },
+        "X72": {
+            "formula": "=O71*EXP(-J72*(48-O69\/T18))"
+        },
+        "C73": {
+            "value": "\u00a4"
+        },
+        "D73": {
+            "value": "Time at start of dose"
+        },
+        "E73": {
+            "value": 22
+        },
+        "F73": {
+            "value": 10
+        },
+        "G73": {
+            "value": "\u00a4"
+        },
+        "I73": {
+            "value": "Half-life"
+        },
+        "J73": {
+            "formula": "=0.693\/J72"
+        },
+        "K73": {
+            "value": "hrs"
+        },
+        "M73": {
+            "value": "AUCss 0-24\/MIC"
+        },
+        "N73": {
+            "formula": "=IF(AND(N70<=24,J15=\"Empiric or 1 mg\/L\"),((N69\/N70)*24\/(J72*J69))\/1,IF(AND(J15=\"0.5 mg\/L\",N70<=24),((N69\/N70)*24\/(J72*J69))\/0.5,IF(AND(J15=\"2.0 mg\/L\",N70<=24),((N69\/N70)*24\/(J72*J69))\/2,IF(AND(N70>24,J15=\"Empiric or 1 mg\/L\"),(N71+N72)\/2*(N69\/T18)+((N71-W70)*(24-N69\/T18))\/LN(N71\/W70),IF(AND(J15=\"0.5 mg\/L\",N70>24),(N71+N72)\/2*(N69\/T18)+((N71-W70)*(24-N69\/T18))\/LN(N71\/W70)\/0.5,IF(AND(J15=\"2.0 mg\/L\",N70>24),(N71+N72)\/2*(N69\/T18)+((N71-W70)*(24-N69\/T18))\/LN(N71\/W70)\/2))))))"
+        },
+        "O73": {
+            "formula": "=IF(AND(O70*1<=24,J15=\"Empiric or 1 mg\/L\"),((O69\/O70)*24\/(J72*J69))\/1,IF(AND(J15=\"0.5 mg\/L\",O70*1<=24),((O69\/O70)*24\/(J72*J69))\/0.5,IF(AND(J15=\"2.0 mg\/L\",O70*1<=24),((O69\/O70)*24\/(J72*J69))\/2,IF(AND(O70*1>24,J15=\"Empiric or 1 mg\/L\"),(O71+O72)\/2*(O69\/T18)+((O71-X70)*(24-O69\/T18))\/LN(O71\/X70),IF(AND(J15=\"0.5 mg\/L\",O70*1>24),(O71+O72)\/2*(O69\/T18)+((O71-X70)*(24-O69\/T18))\/LN(O71\/X70)\/0.5,IF(AND(J15=\"2.0 mg\/L\",O70*1>24),(O71+O72)\/2*(O69\/T18)+((O71-X70)*(24-O69\/T18))\/LN(O71\/X70)\/2))))))"
+        },
+        "S73": {
+            "value": "K4"
+        },
+        "T73": {
+            "formula": "=ROUND((T72\/E72)*T71,8)"
+        },
+        "V73": {
+            "value": "Level at 72 hr"
+        },
+        "W73": {
+            "formula": "=N71*EXP(-J72*(72-N69\/T18))"
+        },
+        "X73": {
+            "formula": "=O71*EXP(-J72*(72-O69\/T18))"
+        },
+        "C74": {
+            "value": "\u00a4"
+        },
+        "D74": {
+            "value": "Time of level (1 day after dose)"
+        },
+        "E74": {
+            "value": 6
+        },
+        "F74": {
+            "value": "00"
+        },
+        "M74": {
+            "value": "AUCss min\/MIC"
+        },
+        "N74": {
+            "formula": "=IF(J15=\"Empiric or 1 mg\/L\",IF(N70=48,(W70-W72)*24\/LN(W70\/W72),IF(N70=36,(W69-W71)*24\/LN(W69\/W71),IF(N70=72,(W72-W73)*24\/LN(W72\/W73)))),IF(J15=\"0.5 mg\/L\",IF(N70=48,(W70-W72)*24\/LN(W70\/W72)\/0.5,IF(N70=36,(W69-W71)*24\/LN(W69\/W71)\/0.5,IF(N70=72,(W72-W73)*24\/LN(W72\/W73)\/0.5))),IF(J15=\"2.0 mg\/L\",IF(N70=48,(W70-W72)*24\/LN(W70\/W72)\/2,IF(N70=36,(W69-W71)*24\/LN(W69\/W71)\/2,IF(N70=72,((W72-W73)*24\/LN(W72\/W73))\/2))))))"
+        },
+        "O74": {
+            "formula": "=IF(J15=\"Empiric or 1 mg\/L\",IF(O70*1=48,(X70-X72)*24\/LN(X70\/X72),IF(O70*1=36,(X69-X71)*24\/LN(X69\/X71),IF(O70*1=72,(X72-X73)*24\/LN(X72\/X73)))),IF(J15=\"0.5 mg\/L\",IF(O70*1=48,(X70-X72)*24\/LN(X70\/X72)\/0.5,IF(O70*1=36,(X69-X71)*24\/LN(X69\/X71)\/0.5,IF(O70*1=72,(X72-X73)*24\/LN(X72\/X73)\/0.5))),IF(J15=\"2.0 mg\/L\",IF(O70*1=48,(X70-X72)*24\/LN(X70\/X72)\/2,IF(O70*1=36,(X69-X71)*24\/LN(X69\/X71)\/2,IF(O70*1=72,((X72-X73)*24\/LN(X72\/X73))\/2))))))"
+        },
+        "S74": {
+            "value": "Trough K4"
+        },
+        "T74": {
+            "formula": "=(E70\/(E70\/T18*T73*J69)*(1-EXP(-T73*E70\/T18)))*EXP(-T73*(E75-E70\/T18))\/(1-EXP(-T73*(E71)))"
+        },
+        "D75": {
+            "value": "Time: Start of dose to level"
+        },
+        "E75": {
+            "formula": "=IF(D74=\"Time of level (same day as dose)\",(E74+F74\/60)-(E73+F73\/60),IF(D74=\"Time of level (1 day after dose)\",(24-(E73+F73\/60)+E74+F74\/60),IF(D74=\"Time of level (2 days after dose)\",(24-(E73+F73\/60)+E74+(F74\/60)+24),IF(D74=\"Time of level (3 days after dose)\",(24-(E73+F73\/60)+E74+(F74\/60)+48)))))"
+        },
+        "F75": {
+            "value": "hrs"
+        },
+        "S75": {
+            "value": "K5"
+        },
+        "T75": {
+            "formula": "=ROUND((T71+T73)\/2,8)"
+        },
+        "V75": {
+            "value": "Est Peak"
+        },
+        "W75": {
+            "formula": "=(E70*(1-EXP(-E28*(E70\/T18))))\/((E28*E27*(E70\/T18)*(1-EXP(-E28*E71))))"
+        },
+        "D76": {
+            "value": "Ikhsan, the level needs to be drawn at least 30 minutes after the end of infusion.  Infusion time = dose\/s18"
+        },
+        "S76": {
+            "value": "Trough K5"
+        },
+        "T76": {
+            "formula": "=(E70\/(E70\/T18*T75*J69)*(1-EXP(-T75*E70\/T18)))*EXP(-T75*(E75-E70\/T18))\/(1-EXP(-T75*(E71)))"
+        },
+        "V76": {
+            "value": "Est Tr"
+        },
+        "W76": {
+            "formula": "=W75*EXP(-E28*(E75-E70\/T18))"
+        },
+        "D77": {
+            "value": "Can you also place limits for V = 20-200; and Limit for K = 0.003-0.16 when users enter values"
+        },
+        "S77": {
+            "value": "K6"
+        },
+        "T77": {
+            "formula": "=ROUND((T76\/E72)*T75,8)"
+        },
+        "S78": {
+            "value": "Trough K6"
+        },
+        "T78": {
+            "formula": "=(E70\/(E70\/T18*T77*J69)*(1-EXP(-T77*E70\/T18)))*EXP(-T77*(E75-E70\/T18))\/(1-EXP(-T77*(E71)))"
+        },
+        "D79": {
+            "formula": "=IF(D69=\"Use estimated Ke and Vd\",\"When using an estimated Ke and Vd the AUC24 is only an estimate.  To calculate an AUC24 based on a steady-state level either Vd or Ke must be known.\",IF(D69=\"Ke is known\",\"\",IF(D69=\"Vd is known\",\"\")))"
+        },
+        "S79": {
+            "value": "K7"
+        },
+        "T79": {
+            "formula": "=ROUND((T75+T77)\/2,8)"
+        },
+        "D80": {
+            "formula": "=IF(AND(J15=\"Empiric or 1 mg\/L\",J70>700),\"Warning: The AUC24 may be >700 mg*hr\/L for the current dose.  Consider decreasing the total daily dose.\",IF(AND(J15=\"0.5 mg\/L\",J70>1400),\"Warning: The AUC24 may be >700 mg*hr\/L for the current dose. Consider decreasing the total daily dose.\",IF(AND(J15=\"2.0 mg\/L\",J70>350),\"Warning: The AUC24 may be >700 mg*hr\/L for the current dose. Consider decreasing the total daily dose.\",IF(AND(J15=\"Empiric or 1 mg\/L\",J70<=700),\"\",IF(AND(J15=\"0.5 mg\/L\",J70<=1400),\"\",IF(AND(J15=\"2.0 mg\/L\",J70<=350),\"\",\"ERROR\"))))))"
+        },
+        "S80": {
+            "value": "Trough K7"
+        },
+        "T80": {
+            "formula": "=(E70\/(E70\/T18*T79*J69)*(1-EXP(-T79*E70\/T18)))*EXP(-T79*(E75-E70\/T18))\/(1-EXP(-T79*(E71)))"
+        },
+        "D81": {
+            "formula": "=IF(J15=\"2.0 mg\/L\",\"Note: Consider switching to a different antibiotic when S. aureus MIC \u2265 2.0 mg\/L.  Etest method may yield higher MICs than broth microdilution.\",IF(J15=\"Empiric or 1 mg\/L\",\"\",IF(J15=\"0.5 mg\/L\",\"\")))"
+        },
+        "S81": {
+            "value": "K8"
+        },
+        "T81": {
+            "formula": "=ROUND((T80\/E72)*T79,8)"
+        },
+        "D82": {
+            "formula": "=IF(AND(F14=\"mg\/dL\",E14<0.7),\"Consider rounding SCr up to 0.7 mg\/dL.\",IF(AND(F14=\"\u00b5mol\/L\",E14<61.88),\"Consider rounding SCr up to 61.88 \u00b5mol\/L.\",IF(OR(F14=\"mg\/dL\",E14>=0.7),\"\",IF(OR(F14=\"\u00b5mol\/L\",E14>=61.88),\"\"))))"
+        },
+        "S82": {
+            "value": "Trough K8"
+        },
+        "T82": {
+            "formula": "=(E70\/(E70\/T18*T81*J69)*(1-EXP(-T81*E70\/T18)))*EXP(-T81*(E75-E70\/T18))\/(1-EXP(-T81*(E71)))"
+        },
+        "D83": {
+            "formula": "=IF(N70<36,\"\",IF(N70>=36,\"Note: When the dosing interval is >24 hours, the AUC is higher during the first 24 hours of the dosing interval compared to the last 24 hours of the interval.\"))"
+        },
+        "S83": {
+            "value": "K9"
+        },
+        "T83": {
+            "formula": "=ROUND((T79+T81)\/2,8)"
+        },
+        "D84": {
+            "value": "The steady-state 'trough' can be drawn anytime \u2265 60 minutes after the end of infusion, it does not need to be a trough."
+        },
+        "S84": {
+            "value": "Trough K9"
+        },
+        "T84": {
+            "formula": "=(E70\/(E70\/T18*T83*J69)*(1-EXP(-T83*E70\/T18)))*EXP(-T83*(E75-E70\/T18))\/(1-EXP(-T83*(E71)))"
+        },
+        "D85": {
+            "formula": "=IF(ABS(E72-W76)>10,\"The trough is >10 mcg\/mL different than predicted with population kinetics. Verify accuracy of the patient data.\",\"\")"
+        },
+        "S85": {
+            "value": "K10"
+        },
+        "T85": {
+            "formula": "=ROUND((T83+T81)\/2,8)"
+        },
+        "S86": {
+            "value": "Meas Tr"
+        },
+        "T86": {
+            "formula": "=(E70\/(E70\/T18*T85*J69)*(1-EXP(-T85*E70\/T18)))*EXP(-T85*(E75-E70\/T18))\/(1-EXP(-T85*(E71)))"
+        },
+        "D87": {
+            "value": "Two levels after the FIRST dose"
+        },
+        "D88": {
+            "value": "Patient data"
+        },
+        "I88": {
+            "value": "PK Parameters"
+        },
+        "M88": {
+            "value": "Estimated\/ Alternative dose"
+        },
+        "D89": {
+            "value": "First dose"
+        },
+        "E89": {
+            "value": 2500
+        },
+        "F89": {
+            "value": "mg"
+        },
+        "I89": {
+            "value": "K"
+        },
+        "J89": {
+            "formula": "=LN(E90\/E92)\/T93"
+        },
+        "K89": {
+            "value": {}
+        },
+        "M89": {
+            "value": "Dose"
+        },
+        "N89": {
+            "formula": "=MIN(IF(AND(J14=\"15-20 mcg\/mL\",T91>=15,T91<=20),T89,IF(AND(J14=\"15-20 mcg\/mL\",T91<15),T89+250,IF(AND(J14=\"15-20 mcg\/mL\",T91>20),T89-250,\nIF(AND(J14=\"14-19 mcg\/mL\",T91>=14,T91<=19),T89,IF(AND(J14=\"14-19 mcg\/mL\",T91<14),T89+250,IF(AND(J14=\"14-19 mcg\/mL\",T91>19),T89-250,\nIF(AND(J14=\"13-18 mcg\/mL\",T91>=13,T91<=18),T89,IF(AND(J14=\"13-18 mcg\/mL\",T91<13),T89+250,IF(AND(J14=\"13-18 mcg\/mL\",T91>18),T89-250,\nIF(AND(J14=\"12-17 mcg\/mL\",T91>=12,T91<=17),T89,IF(AND(J14=\"12-17 mcg\/mL\",T91<12),T89+250,IF(AND(J14=\"12-17 mcg\/mL\",T91>17),T89-250,\nIF(AND(J14=\"11-16 mcg\/mL\",T91>=11,T91<=16),T89,IF(AND(J14=\"11-16 mcg\/mL\",T91<11),T89+250,IF(AND(J14=\"11-16 mcg\/mL\",T91>16),T89-250,\nIF(AND(J14=\"10-15 mcg\/mL\",T91>=10,T91<=15),T89,IF(AND(J14=\"10-15 mcg\/mL\",T91<10),T89+250,IF(AND(J14=\"10-15 mcg\/mL\",T91>15),T89-250)))))))))))))))))),3000)"
+        },
+        "O89": {
+            "formula": "=IF(AND(N89=1750,N90=8),\"1500\",IF(AND(N89=1500,N90=8),\"1250\",IF(AND(N89=750,N90=18,N92<16,J92<37.5),\"500\",IF(AND(N89=750,N90=18,N92>19,J92<37.5),\"750\",IF(AND(N89=750,N90=18,N92>16.5,J92>=37.5),\"1000\",IF(AND(N89=750,N90=18,N92<12,J92>=43),\"1250\",IF(AND(N89=1000,N90=18,N92>17.5,J92<44),\"500\",IF(AND(N89=1000,N90=18,N92>17.5,J92>=44),\"1250\",IF(AND(N89=1000,N90=18,N92<12),\"750\",IF(AND(N89=1250,N90=18,N92<18.5),\"750\",IF(AND(N89=1250,N90=18,N92>=18.5),\"1000\",IF(AND(N89=1500,N90=18,N92<17),\"1000\",IF(AND(N89=1500,N90=18,N92<13),\"1000\",IF(AND(N89=1500,N90=18,N92>=17.5),\"1250\",IF(AND(N89=1750,N90=18,N92>=12),\"1000\",IF(AND(N89=1750,N90=18,N92<12),\"1250\",IF(AND(N89=2000,N90=18,N92<18,N92>=14),\"1250\",IF(AND(N89=2000,N90=18,N92<14),\"1500\",IF(AND(N89=2000,N90=18,N92>=18),\"1000\",IF(AND(N89=750,N90=36,N92<16),\"500\",IF(AND(N89=750,N90=36,N92<13),\"500\",IF(AND(N89=750,N90=36,N92>17,J92>38.5),\"1000\",IF(AND(N89=1000,N90=36,N92>18,J92<47),\"500\",IF(AND(N89=1000,N90=36,N92>18,J92>=47),\"1250\",IF(AND(N89=1000,N90=36,N92<11.5),\"750\",IF(AND(N89=1250,N90=36),\"750\",IF(AND(N89=1500,N90=36,N92<=16),\"1000\",IF(AND(N89=1500,N90=36,N92>17),\"750\",IF(AND(N89=1750,N90=36,N92>=12),\"1000\",IF(AND(N89=1750,N90=36,N92<12),\"1250\",IF(AND(N89=2000,N90=36,N92<18,N92>=14),\"1250\",IF(AND(N89=2000,N90=36,N92<14),\"1500\",IF(AND(N89=2000,N90=36,N92>=18),\"1000\",IF(AND(N89=750,N90=12,N92>19.5,J92>=38),\"1000\",IF(AND(N89=750,N90=12,N92<11.5,J92>=38),\"1000\",IF(AND(N89=1750,N90=12,N92>=16),\"1000\",IF(AND(N89=2000,N90=12,N92<19),\"1250\",IF(AND(N89=2000,N90=12,N92>=19),\"1000\",IF(AND(N89=750,N90=8,N92>=19.4,J92>38),\"1000\",IF(AND(N89=750,N90=8,N92<11.5,J92>38),\"1000\",IF(AND(N89=750,N90=8,N92>19,J92<35),\"500\",IF(AND(N89=1000,N90=8,N92>19,J92<52.5),\"750\",IF(AND(N89=1000,N90=8,N92>18,J92>=52.5),\"1500\",IF(AND(N89=1250,N90=8,N92>19),\"1000\",IF(AND(N89=1000,N90=12,N92>19),\"750\",IF(AND(N89=1250,N90=12,N92>18.5),\"1000\",IF(AND(N89=1250,N90=12,N92<=18.5),\"750\",IF(AND(N89=1500,N90=12,N92>18),\"1250\",IF(AND(N89=2000,N90=24,N92>16),\"1750\",IF(AND(N89=1750,N90=24,N92>16.5),\"1500\",IF(AND(N89=1500,N90=24,N92>17),\"1250\",IF(AND(N89=1250,N90=24,N92>18),\"1000\",IF(AND(N89=1000,N90=24,N92>19),\"750\",IF(AND(N89=2000,N90=48,N92>16),\"1750\",IF(AND(N89=1750,N90=48,N92>16.5),\"1500\",IF(AND(N89=1500,N90=48,N92>17),\"1250\",IF(AND(N89=1250,N90=48,N92>18),\"1000\",IF(AND(N89=1250,N90=48,N92<=18),\"500\",IF(AND(N89=1000,N90=48,N92>19),\"750\",IF(AND(N89=2000,N90=72,N92>16),\"1750\",IF(AND(N89=1750,N90=72,N92>16.5),\"1500\",IF(AND(N89=1500,N90=72,N92>17),\"1250\",IF(AND(N89=1250,N90=72,N92>18),\"1000\",IF(AND(N89=1000,N90=72,N92>19),\"750\",\"\"))))))))))))))))))))))))))))))))))))))))))))))))))))))))))))))))"
+        },
+        "P89": {
+            "value": "mg"
+        },
+        "S89": {
+            "value": "Dose"
+        },
+        "T89": {
+            "formula": "=MROUND(IF(AND(J14=\"15-20 mcg\/mL\",J92<=75),37*J92*(1-EXP(-J89*N90)),IF(AND(J14=\"14-19 mcg\/mL\",J92<=75),36*J92*(1-EXP(-J89*N90)),IF(AND(J14=\"13-18 mcg\/mL\",J92<=75),35*J92*(1-EXP(-J89*N90)),IF(AND(J14=\"12-17 mcg\/mL\",J92<=75),34*J92*(1-EXP(-J89*N90)),IF(AND(J14=\"11-16 mcg\/mL\",J92<=75),33*J92*(1-EXP(-J89*N90)),IF(AND(J14=\"10-15 mcg\/mL\",J92<=75),32*J92*(1-EXP(-J89*N90)),IF(AND(J14=\"15-20 mcg\/mL\",J92>75),30*J92*(1-EXP(-J89*N90)),IF(AND(J14=\"14-19 mcg\/mL\",J92>75),29*J92*(1-EXP(-J89*N90)),IF(AND(J14=\"13-18 mcg\/mL\",J92>75),28*J92*(1-EXP(-J89*N90)),IF(AND(J14=\"12-17 mcg\/mL\",J92>75),27*J92*(1-EXP(-J89*N90)),IF(AND(J14=\"11-16 mcg\/mL\",J92>75),26*J92*(1-EXP(-J89*N90)),IF(AND(J14=\"10-15 mcg\/mL\",J92>75),25*J92*(1-EXP(-J89*N90)))))))))))))),250)"
+        },
+        "D90": {
+            "value": "First level"
+        },
+        "E90": {
+            "value": 33
+        },
+        "F90": {
+            "value": "mcg\/mL"
+        },
+        "I90": {
+            "value": "Half-life"
+        },
+        "J90": {
+            "formula": "=0.693\/J89"
+        },
+        "K90": {
+            "value": "hrs"
+        },
+        "M90": {
+            "value": "Interval"
+        },
+        "N90": {
+            "formula": "=IF(J92<=75,IF((LN(35\/15)\/J89)<=8,8,IF(AND(8<(LN(35\/15)\/J89),(LN(35\/15)\/J89)<12),IF(ABS((LN(35\/15)\/J89)-8)<ABS((LN(35\/15)\/J89)-12),8,12),IF((LN(35\/15)\/J89)=12,12,IF(AND(12<(LN(35\/15)\/J89),(LN(35\/15)\/J89)<18),IF(ABS((LN(35\/15)\/J89)-12)<ABS((LN(35\/15)\/J89)-18),12,18),IF((LN(35\/15)\/J89)=18,18,IF(AND(18<(LN(35\/15)\/J89),(LN(35\/15)\/J89)<24),IF(ABS((LN(35\/15)\/J89)-18)<ABS((LN(35\/15)\/J89)-24),18,24),IF((LN(35\/15)\/J89)=24,24,IF(AND(24<(LN(35\/15)\/J89),(LN(35\/15)\/J89)<36),IF(ABS((LN(35\/15)\/J89)-24)<ABS((LN(35\/15)\/J89)-36),24,36),IF((LN(35\/15)\/J89)=36,36,IF(AND(36<(LN(35\/15)\/J89),(LN(35\/15)\/J89)<48),IF(ABS((LN(35\/15)\/J89)-36)<ABS((LN(35\/15)\/J89)-48),36,48),IF((LN(35\/15)\/J89)=48,48,IF(AND(48<(LN(35\/15)\/J89),(LN(35\/15)\/J89)<72),IF(ABS((LN(35\/15)\/J89)-48)<ABS((LN(35\/15)\/J89)-72),48,72),IF((LN(35\/15)\/J89)>=72,72,\"Error\"))))))))))))),IF(J92>75,IF((LN(30\/15)\/J89)<=8,8,IF(AND(8<(LN(30\/15)\/J89),(LN(30\/15)\/J89)<12),IF(ABS((LN(30\/15)\/J89)-8)<ABS((LN(30\/15)\/J89)-12),8,12),IF((LN(30\/15)\/J89)=12,12,IF(AND(12<(LN(30\/15)\/J89),(LN(30\/15)\/J89)<18),IF(ABS((LN(30\/15)\/J89)-12)<ABS((LN(30\/15)\/J89)-18),12,18),IF((LN(30\/15)\/J89)=18,18,IF(AND(18<(LN(30\/15)\/J89),(LN(30\/15)\/J89)<24),IF(ABS((LN(30\/15)\/J89)-18)<ABS((LN(30\/15)\/J89)-24),18,24),IF((LN(30\/15)\/J89)=24,24,IF(AND(24<(LN(30\/15)\/J89),(LN(30\/15)\/J89)<36),IF(ABS((LN(30\/15)\/J89)-24)<ABS((LN(30\/15)\/J89)-36),24,36),IF((LN(30\/15)\/J89)=36,36,IF(AND(36<(LN(30\/15)\/J89),(LN(30\/15)\/J89)<48),IF(ABS((LN(30\/15)\/J89)-36)<ABS((LN(30\/15)\/J89)-48),36,48),IF((LN(30\/15)\/J89)=48,48,IF(AND(48<(LN(30\/15)\/J89),(LN(30\/15)\/J89)<72),IF(ABS((LN(30\/15)\/J89)-48)<ABS((LN(30\/15)\/J89)-72),48,72),IF((LN(30\/15)\/J89)>=72,72,\"Error\")))))))))))))))"
+        },
+        "O90": {
+            "formula": "=IF(AND(N89=1750,N90=8),\"8\",IF(AND(N89=1500,N90=8),\"8\",IF(AND(N89=750,N90=18,N92<16,J92<37.5),\"12\",IF(AND(N89=750,N90=18,N92>19,J92<37.5),\"24\",IF(AND(N89=750,N90=18,N92>16.5,J92>=37.5),\"24\",IF(AND(N89=750,N90=18,N92<12,J92>=43),\"24\",IF(AND(N89=1000,N90=18,N92>17.5,J92<44),\"12\",IF(AND(N89=1000,N90=18,N92>17.5,J92>=44),\"24\",IF(AND(N89=1000,N90=18,N92<12),\"12\",IF(AND(N89=1250,N90=18,N92<18.5),\"12\",IF(AND(N89=1250,N90=18,N92>=18.5),\"18\",IF(AND(N89=1500,N90=18,N92<17),\"12\",IF(AND(N89=1500,N90=18,N92<13),\"12\",IF(AND(N89=1500,N90=18,N92>=17.5),\"18\",IF(AND(N89=1750,N90=18),\"12\",IF(AND(N89=2000,N90=18),\"12\",IF(AND(N89=750,N90=36,N92<16),\"24\",IF(AND(N89=750,N90=36,N92<13),\"24\",IF(AND(N89=750,N90=36,N92>17,J92>38.5),\"48\",IF(AND(N89=1000,N90=36,N92>18,J92<47),\"24\",IF(AND(N89=1000,N90=36,N92>18,J92>=47),\"48\",IF(AND(N89=1000,N90=36,N92<11.5),\"24\",IF(AND(N89=1250,N90=36),\"24\",IF(AND(N89=1500,N90=36,N92<=16),\"24\",IF(AND(N89=1500,N90=36,N92>17),\"24\",IF(AND(N89=1750,N90=36),\"24\",IF(AND(N89=2000,N90=36),\"24\",IF(AND(N89=750,N90=12,N92>19.5,J92>=38),\"18\",IF(AND(N89=750,N90=12,N92<11.5,J92>=38),\"12\",IF(AND(N89=1750,N90=12,N92>=16),\"8\",IF(AND(N89=2000,N90=12),\"8\",IF(AND(N89=750,N90=8,N92>=19.4,J92>38),\"12\",IF(AND(N89=750,N90=8,N92<11.5,J92>38),\"8\",IF(AND(N89=750,N90=8,N92>19,J92<35),\"8\",IF(AND(N89=1250,N90=8,N92>19),\"8\",IF(AND(N89=1000,N90=8,N92>19,J92<52.5),\"8\",IF(AND(N89=1000,N90=8,N92>18,J92>=52.5),\"12\",IF(AND(N89=1000,N90=12,N92>19),\"12\",IF(AND(N89=1250,N90=12,N92>18.5),\"12\",IF(AND(N89=1250,N90=12,N92<=18.5),\"8\",IF(AND(N89=1500,N90=12,N92>18),\"12\",IF(AND(N89=2000,N90=24,N92>16),\"24\",IF(AND(N89=1750,N90=24,N92>16.5),\"24\",IF(AND(N89=1500,N90=24,N92>17),\"24\",IF(AND(N89=1250,N90=24,N92>18),\"24\",IF(AND(N89=1000,N90=24,N92>19),\"24\",IF(AND(N89=2000,N90=48,N92>16),\"48\",IF(AND(N89=1750,N90=48,N92>16.5),\"48\",IF(AND(N89=1500,N90=48,N92>17),\"48\",IF(AND(N89=1250,N90=48,N92>18),\"48\",IF(AND(N89=1250,N90=48,N92<=18),\"24\",IF(AND(N89=1000,N90=48,N92>19),\"48\",IF(AND(N89=2000,N90=72,N92>16),\"72\",IF(AND(N89=1750,N90=72,N92>16.5),\"72\",IF(AND(N89=1500,N90=72,N92>17),\"72\",IF(AND(N89=1250,N90=72,N92>18),\"72\",IF(AND(N89=1000,N90=72,N92>19),\"72\",\"\")))))))))))))))))))))))))))))))))))))))))))))))))))))))))"
+        },
+        "P90": {
+            "value": "hrs"
+        },
+        "S90": {
+            "value": "Peak"
+        },
+        "T90": {
+            "formula": "=T89*(1-EXP(-J89*T89\/T18))\/(J89*J92*T89\/T18*(1-EXP(-J89*N90)))"
+        },
+        "D91": {
+            "value": "Time from start of dose to first level"
+        },
+        "E91": {
+            "value": 3
+        },
+        "F91": {
+            "value": "hrs"
+        },
+        "I91": {
+            "value": "Extrapolated peak"
+        },
+        "J91": {
+            "formula": "=E90\/EXP(-J89*T92)"
+        },
+        "K91": {
+            "value": "mcg\/mL"
+        },
+        "M91": {
+            "value": {}
+        },
+        "N91": {
+            "formula": "=N89*(1-EXP(-J89*E89\/T18))\/(E89\/T18*J89*J92*(1-EXP(-J89*N90)))"
+        },
+        "O91": {
+            "formula": "=O89*(1-EXP(-J89*O89\/T18))\/(O89\/T18*J89*J92*(1-EXP(-J89*O90)))"
+        },
+        "P91": {
+            "value": "mcg\/mL"
+        },
+        "S91": {
+            "value": "Trough"
+        },
+        "T91": {
+            "formula": "=ROUND(T90*EXP(-J89*(N90-T89\/T18)),4)"
+        },
+        "D92": {
+            "value": "Second level"
+        },
+        "E92": {
+            "value": 19
+        },
+        "F92": {
+            "value": "mcg\/mL"
+        },
+        "I92": {
+            "value": "V"
+        },
+        "J92": {
+            "formula": "=(E89*(1-EXP(-J89*E89\/T18))\/(J89*E89\/T18*J91))"
+        },
+        "K92": {
+            "value": "L"
+        },
+        "M92": {
+            "value": {}
+        },
+        "N92": {
+            "formula": "=ROUND(N91*EXP(-J89*(N90-N89\/T18)),4)"
+        },
+        "O92": {
+            "formula": "=ROUND(O91*EXP(-J89*(O90-O89\/T18)),4)"
+        },
+        "P92": {
+            "value": "mcg\/mL"
+        },
+        "S92": {
+            "value": "Time: hours peak drawn late"
+        },
+        "T92": {
+            "formula": "=E91-E89\/T18"
+        },
+        "D93": {
+            "value": "Time from start of dose to second level"
+        },
+        "E93": {
+            "value": 13
+        },
+        "F93": {
+            "value": "hrs"
+        },
+        "M93": {
+            "value": "AUCss 0-24\/MIC"
+        },
+        "N93": {
+            "formula": "=IF(AND(N90<=24,J15=\"Empiric or 1 mg\/L\"),((N89\/N90)*24\/(J89*J92))\/1,IF(AND(J15=\"0.5 mg\/L\",N90<=24),((N89\/N90)*24\/(J89*J92))\/0.5,IF(AND(J15=\"2.0 mg\/L\",N90<=24),((N89\/N90)*24\/(J89*J92))\/2,IF(AND(N90>24,J15=\"Empiric or 1 mg\/L\"),(N91+N92)\/2*(N89\/T18)+((N91-T97)*(24-N89\/T18))\/LN(N91\/T97),IF(AND(J15=\"0.5 mg\/L\",N90>24),(N91+N92)\/2*(N89\/T18)+((N91-T97)*(24-N89\/T18))\/LN(N91\/T97)\/0.5,IF(AND(J15=\"2.0 mg\/L\",N90>24),(N91+N92)\/2*(N89\/T18)+((N91-T97)*(24-N89\/T18))\/LN(N91\/T97)\/2))))))"
+        },
+        "O93": {
+            "formula": "=IF(AND(O90*1<=24,J15=\"Empiric or 1 mg\/L\"),((O89\/O90)*24\/(J89*J92))\/1,IF(AND(J15=\"0.5 mg\/L\",O90*1<=24),((O89\/O90)*24\/(J89*J92))\/0.5,IF(AND(J15=\"2.0 mg\/L\",O90*1<=24),((O89\/O90)*24\/(J89*J92))\/2,IF(AND(O90*1>24,J15=\"Empiric or 1 mg\/L\"),(O91+O92)\/2*(O89\/T18)+((O91-U97)*(24-O89\/T18))\/LN(O91\/U97),IF(AND(J15=\"0.5 mg\/L\",O90*1>24),(O91+O92)\/2*(O89\/T18)+((O91-U97)*(24-O89\/T18))\/LN(O91\/U97)\/0.5,IF(AND(J15=\"2.0 mg\/L\",O90*1>24),(O91+O92)\/2*(O89\/T18)+((O91-U97)*(24-O89\/T18))\/LN(O91\/U97)\/2))))))"
+        },
+        "S93": {
+            "value": "Time between levels"
+        },
+        "T93": {
+            "formula": "=E93-E91"
+        },
+        "M94": {
+            "value": "AUCss min\/MIC"
+        },
+        "N94": {
+            "formula": "=IF(J15=\"Empiric or 1 mg\/L\",IF(N90=48,(T97-T99)*24\/LN(T97\/T99),IF(N90=36,(T96-T98)*24\/LN(T96\/T98),IF(N90=72,(T99-T100)*24\/LN(T99\/T100)))),IF(J15=\"0.5 mg\/L\",IF(N90=48,(T97-T99)*24\/LN(T97\/T99)\/0.5,IF(N90=36,(T96-T98)*24\/LN(T96\/T98)\/0.5,IF(N90=72,(T99-T100)*24\/LN(T99\/T100)\/0.5))),IF(J15=\"2.0 mg\/L\",IF(N90=48,(T97-T99)*24\/LN(T97\/T99)\/2,IF(N90=36,(T96-T98)*24\/LN(T96\/T98)\/2,IF(N90=72,((T99-T100)*24\/LN(T99\/T100))\/2))))))"
+        },
+        "O94": {
+            "formula": "=IF(J15=\"Empiric or 1 mg\/L\",IF(O90=48,(U97-U99)*24\/LN(U97\/U99),IF(O90=36,(U96-U98)*24\/LN(U96\/U98),IF(O90=72,(U99-U100)*24\/LN(U99\/U100)))),IF(J15=\"0.5 mg\/L\",IF(O90=48,(U97-U99)*24\/LN(U97\/U99)\/0.5,IF(O90=36,(U96-U98)*24\/LN(U96\/U98)\/0.5,IF(O90=72,(U99-U100)*24\/LN(U99\/U100)\/0.5))),IF(J15=\"2.0 mg\/L\",IF(O90=48,(U97-U99)*24\/LN(U97\/U99)\/2,IF(O90=36,(U96-U98)*24\/LN(U96\/U98)\/2,IF(O90=72,((U99-U100)*24\/LN(U99\/U100))\/2))))))"
+        },
+        "D95": {
+            "value": "Ikhsan, the first level needs to be drawn at least 30 minutes after the end of infusion.  Infusion time = dose\/s18"
+        },
+        "S96": {
+            "value": "Level at 12 hr"
+        },
+        "T96": {
+            "formula": "=N91*EXP(-J89*(12-N89\/T18))"
+        },
+        "U96": {
+            "formula": "=O91*EXP(-J89*(12-O89\/T18))"
+        },
+        "D97": {
+            "value": {}
+        },
+        "S97": {
+            "value": "Level at 24 hr"
+        },
+        "T97": {
+            "formula": "=N91*EXP(-J89*(24-N89\/T18))"
+        },
+        "U97": {
+            "formula": "=O91*EXP(-J89*(24-O89\/T18))"
+        },
+        "D98": {
+            "value": "The half-life is about"
+        },
+        "E98": {
+            "formula": "=0.693\/E28"
+        },
+        "F98": {
+            "value": "hours for this patient. "
+        },
+        "S98": {
+            "value": "Level at 36 hr"
+        },
+        "T98": {
+            "formula": "=N91*EXP(-J89*(36-N89\/T18))"
+        },
+        "U98": {
+            "formula": "=O91*EXP(-J89*(36-O89\/T18))"
+        },
+        "D99": {
+            "formula": "=IF(T93<(0.8*E29),\"Warning: The levels may have been drawn too close together, Ke may not be accurate.\",IF(T93>=(0.8*E29),\"\"))"
+        },
+        "S99": {
+            "value": "Level at 48 hr"
+        },
+        "T99": {
+            "formula": "=N91*EXP(-J89*(48-N89\/T18))"
+        },
+        "U99": {
+            "formula": "=O91*EXP(-J89*(48-O89\/T18))"
+        },
+        "D100": {
+            "formula": "=IF(J15=\"2.0 mg\/L\",\"Note: Consider switching to a different antibiotic when S. aureus MIC \u2265 2.0 mg\/L.  Etest method may yield higher MICs than broth microdilution.\",IF(J15=\"Empiric or 1 mg\/L\",\"\",IF(J15=\"0.5 mg\/L\",\"\")))"
+        },
+        "S100": {
+            "value": "Level at 72 hr"
+        },
+        "T100": {
+            "formula": "=N91*EXP(-J89*(72-N89\/T18))"
+        },
+        "U100": {
+            "formula": "=O91*EXP(-J89*(72-O89\/T18))"
+        },
+        "D101": {
+            "formula": "=IF(N90<36,\"\",IF(N90>=36,\"Note: When the dosing interval is >24 hours, the AUC is higher during the first 24 hours of the dosing interval compared to the last 24 hours of the interval.\"))"
+        },
+        "D102": {
+            "formula": "=IF(E91<(1+E89\/T18),\"The first level was drawn less than 1 hour after the end of infusion, so it may be artificially high (still in distribution phase).\",IF(E91>=(1+E89\/T18),\"\"))"
+        },
+        "D104": {
+            "value": "Steady-State Peak and Trough"
+        },
+        "D105": {
+            "value": "Patient data"
+        },
+        "I105": {
+            "value": "PK Parameters"
+        },
+        "M105": {
+            "value": "Estimated\/ Alternative dose"
+        },
+        "D106": {
+            "value": "Dose"
+        },
+        "E106": {
+            "value": 750
+        },
+        "F106": {
+            "value": "mg"
+        },
+        "I106": {
+            "value": "K"
+        },
+        "J106": {
+            "formula": "=LN(E108\/E110)\/T111"
+        },
+        "K106": {
+            "value": {}
+        },
+        "M106": {
+            "value": "Dose"
+        },
+        "N106": {
+            "formula": "=MIN(IF(AND(J14=\"15-20 mcg\/mL\",T108>=15,T108<=20),T106,IF(AND(J14=\"15-20 mcg\/mL\",T108<15),T106+250,IF(AND(J14=\"15-20 mcg\/mL\",T108>20),T106-250,\nIF(AND(J14=\"14-19 mcg\/mL\",T108>=14,T108<=19),T106,IF(AND(J14=\"14-19 mcg\/mL\",T108<14),T106+250,IF(AND(J14=\"14-19 mcg\/mL\",T108>19),T106-250,\nIF(AND(J14=\"13-18 mcg\/mL\",T108>=13,T108<=18),T106,IF(AND(J14=\"13-18 mcg\/mL\",T108<13),T106+250,IF(AND(J14=\"13-18 mcg\/mL\",T108>18),T106-250,\nIF(AND(J14=\"12-17 mcg\/mL\",T108>=12,T108<=17),T106,IF(AND(J14=\"12-17 mcg\/mL\",T108<12),T106+250,IF(AND(J14=\"12-17 mcg\/mL\",T108>17),T106-250,\nIF(AND(J14=\"11-16 mcg\/mL\",T108>=11,T108<=16),T106,IF(AND(J14=\"11-16 mcg\/mL\",T108<11),T106+250,IF(AND(J14=\"11-16 mcg\/mL\",T108>16),T106-250,\nIF(AND(J14=\"10-15 mcg\/mL\",T108>=10,T108<=15),T106,IF(AND(J14=\"10-15 mcg\/mL\",T108<10),T106+250,IF(AND(J14=\"10-15 mcg\/mL\",T108>15),T106-250)))))))))))))))))),3000)"
+        },
+        "O106": {
+            "formula": "=IF(AND(N106=1750,N107=8),\"1500\",IF(AND(N106=1500,N107=8),\"1250\",IF(AND(N106=750,N107=18,N109<16,J109<37.5),\"500\",IF(AND(N106=750,N107=18,N109>19,J109<37.5),\"750\",IF(AND(N106=750,N107=18,N109>16.5,J109>=37.5),\"1000\",IF(AND(N106=750,N107=18,N109<12,J109>=43),\"1250\",IF(AND(N106=1000,N107=18,N109>17.5,J109<44),\"500\",IF(AND(N106=1000,N107=18,N109>17.5,J109>=44),\"1250\",IF(AND(N106=1000,N107=18,N109<12),\"750\",IF(AND(N106=1250,N107=18,N109<18.5),\"750\",IF(AND(N106=1250,N107=18,N109>=18.5),\"1000\",IF(AND(N106=1500,N107=18,N109<17),\"1000\",IF(AND(N106=1500,N107=18,N109<13),\"1000\",IF(AND(N106=1500,N107=18,N109>=17.5),\"1250\",IF(AND(N106=1750,N107=18,N109>=12),\"1000\",IF(AND(N106=1750,N107=18,N109<12),\"1250\",IF(AND(N106=2000,N107=18,N109<18,N109>=14),\"1250\",IF(AND(N106=2000,N107=18,N109<14),\"1500\",IF(AND(N106=2000,N107=18,N109>=18),\"1000\",IF(AND(N106=750,N107=36,N109<16),\"500\",IF(AND(N106=750,N107=36,N109<13),\"500\",IF(AND(N106=750,N107=36,N109>17,J109>38.5),\"1000\",IF(AND(N106=1000,N107=36,N109>18,J109<47),\"500\",IF(AND(N106=1000,N107=36,N109>18,J109>=47),\"1250\",IF(AND(N106=1000,N107=36,N109<11.5),\"750\",IF(AND(N106=1250,N107=36),\"750\",IF(AND(N106=1500,N107=36,N109<=16),\"1000\",IF(AND(N106=1500,N107=36,N109>17),\"750\",IF(AND(N106=1750,N107=36,N109>=12),\"1000\",IF(AND(N106=1750,N107=36,N109<12),\"1250\",IF(AND(N106=2000,N107=36,N109<18,N109>=14),\"1250\",IF(AND(N106=2000,N107=36,N109<14),\"1500\",IF(AND(N106=2000,N107=36,N109>=18),\"1000\",IF(AND(N106=750,N107=12,N109>19.5,J109>=38),\"1000\",IF(AND(N106=750,N107=12,N109<11.5,J109>=38),\"1000\",IF(AND(N106=1750,N107=12,N109>=16),\"1000\",IF(AND(N106=2000,N107=12,N109<19),\"1250\",IF(AND(N106=2000,N107=12,N109>=19),\"1000\",IF(AND(N106=750,N107=8,N109>=19.4,J109>38),\"1000\",IF(AND(N106=750,N107=8,N109<11.5,J109>38),\"1000\",IF(AND(N106=750,N107=8,N109>19,J109<35),\"500\",IF(AND(N106=1000,N107=8,N109>19,J109<52.5),\"750\",IF(AND(N106=1000,N107=8,N109>18,J109>=52.5),\"1500\",IF(AND(N106=1250,N107=8,N109>19),\"1000\",IF(AND(N106=1000,N107=12,N109>19),\"750\",IF(AND(N106=1250,N107=12,N109>18.5),\"1000\",IF(AND(N106=1250,N107=12,N109<=18.5),\"750\",IF(AND(N106=1500,N107=12,N109>18),\"1250\",IF(AND(N106=2000,N107=24,N109>16),\"1750\",IF(AND(N106=1750,N107=24,N109>16.5),\"1500\",IF(AND(N106=1500,N107=24,N109>17),\"1250\",IF(AND(N106=1250,N107=24,N109>18),\"1000\",IF(AND(N106=1000,N107=24,N109>19),\"750\",IF(AND(N106=2000,N107=48,N109>16),\"1750\",IF(AND(N106=1750,N107=48,N109>16.5),\"1500\",IF(AND(N106=1500,N107=48,N109>17),\"1250\",IF(AND(N106=1250,N107=48,N109>18),\"1000\",IF(AND(N106=1250,N107=48,N109<=18),\"500\",IF(AND(N106=1000,N107=48,N109>19),\"750\",IF(AND(N106=2000,N107=72,N109>16),\"1750\",IF(AND(N106=1750,N107=72,N109>16.5),\"1500\",IF(AND(N106=1500,N107=72,N109>17),\"1250\",IF(AND(N106=1250,N107=72,N109>18),\"1000\",IF(AND(N106=1000,N107=72,N109>19),\"750\",\"\"))))))))))))))))))))))))))))))))))))))))))))))))))))))))))))))))"
+        },
+        "P106": {
+            "value": "mg"
+        },
+        "S106": {
+            "value": "Dose"
+        },
+        "T106": {
+            "formula": "=MROUND(IF(AND(J14=\"15-20 mcg\/mL\",J109<=75),37*J109*(1-EXP(-J106*N107)),IF(AND(J14=\"14-19 mcg\/mL\",J109<=75),36*J109*(1-EXP(-J106*N107)),IF(AND(J14=\"13-18 mcg\/mL\",J109<=75),35*J109*(1-EXP(-J106*N107)),IF(AND(J14=\"12-17 mcg\/mL\",J109<=75),34*J109*(1-EXP(-J106*N107)),IF(AND(J14=\"11-16 mcg\/mL\",J109<=75),33*J109*(1-EXP(-J106*N107)),IF(AND(J14=\"10-15 mcg\/mL\",J109<=75),32*J109*(1-EXP(-J106*N107)),IF(AND(J14=\"15-20 mcg\/mL\",J109>75),30*J109*(1-EXP(-J106*N107)),IF(AND(J14=\"14-19 mcg\/mL\",J109>75),29*J109*(1-EXP(-J106*N107)),IF(AND(J14=\"13-18 mcg\/mL\",J109>75),28*J109*(1-EXP(-J106*N107)),IF(AND(J14=\"12-17 mcg\/mL\",J109>75),27*J109*(1-EXP(-J106*N107)),IF(AND(J14=\"11-16 mcg\/mL\",J109>75),26*J109*(1-EXP(-J106*N107)),IF(AND(J14=\"10-15 mcg\/mL\",J109>75),25*J109*(1-EXP(-J106*N107)))))))))))))),250)"
+        },
+        "V106": {
+            "value": "Level at 12 hr"
+        },
+        "W106": {
+            "formula": "=N108*EXP(-J106*(12-N106\/T18))"
+        },
+        "X106": {
+            "formula": "=O108*EXP(-J106*(12-O106\/T18))"
+        },
+        "D107": {
+            "value": "Interval"
+        },
+        "E107": {
+            "value": 8
+        },
+        "F107": {
+            "value": "hrs"
+        },
+        "I107": {
+            "value": "Cmax"
+        },
+        "J107": {
+            "formula": "=E108\/EXP(-J106*(E109-E106\/T18))"
+        },
+        "K107": {
+            "value": "mcg\/mL"
+        },
+        "M107": {
+            "value": "Interval"
+        },
+        "N107": {
+            "formula": "=IF(J109<=75,IF((LN(35\/15)\/J106)<=8,8,IF(AND(8<(LN(35\/15)\/J106),(LN(35\/15)\/J106)<12),IF(ABS((LN(35\/15)\/J106)-8)<ABS((LN(35\/15)\/J106)-12),8,12),IF((LN(35\/15)\/J106)=12,12,IF(AND(12<(LN(35\/15)\/J106),(LN(35\/15)\/J106)<18),IF(ABS((LN(35\/15)\/J106)-12)<ABS((LN(35\/15)\/J106)-18),12,18),IF((LN(35\/15)\/J106)=18,18,IF(AND(18<(LN(35\/15)\/J106),(LN(35\/15)\/J106)<24),IF(ABS((LN(35\/15)\/J106)-18)<ABS((LN(35\/15)\/J106)-24),18,24),IF((LN(35\/15)\/J106)=24,24,IF(AND(24<(LN(35\/15)\/J106),(LN(35\/15)\/J106)<36),IF(ABS((LN(35\/15)\/J106)-24)<ABS((LN(35\/15)\/J106)-36),24,36),IF((LN(35\/15)\/J106)=36,36,IF(AND(36<(LN(35\/15)\/J106),(LN(35\/15)\/J106)<48),IF(ABS((LN(35\/15)\/J106)-36)<ABS((LN(35\/15)\/J106)-48),36,48),IF((LN(35\/15)\/J106)=48,48,IF(AND(48<(LN(35\/15)\/J106),(LN(35\/15)\/J106)<72),IF(ABS((LN(35\/15)\/J106)-48)<ABS((LN(35\/15)\/J106)-72),48,72),IF((LN(35\/15)\/J106)>=72,72,\"Error\"))))))))))))),IF(J109>75,IF((LN(30\/15)\/J106)<=8,8,IF(AND(8<(LN(30\/15)\/J106),(LN(30\/15)\/J106)<12),IF(ABS((LN(30\/15)\/J106)-8)<ABS((LN(30\/15)\/J106)-12),8,12),IF((LN(30\/15)\/J106)=12,12,IF(AND(12<(LN(30\/15)\/J106),(LN(30\/15)\/J106)<18),IF(ABS((LN(30\/15)\/J106)-12)<ABS((LN(30\/15)\/J106)-18),12,18),IF((LN(30\/15)\/J106)=18,18,IF(AND(18<(LN(30\/15)\/J106),(LN(30\/15)\/J106)<24),IF(ABS((LN(30\/15)\/J106)-18)<ABS((LN(30\/15)\/J106)-24),18,24),IF((LN(30\/15)\/J106)=24,24,IF(AND(24<(LN(30\/15)\/J106),(LN(30\/15)\/J106)<36),IF(ABS((LN(30\/15)\/J106)-24)<ABS((LN(30\/15)\/J106)-36),24,36),IF((LN(30\/15)\/J106)=36,36,IF(AND(36<(LN(30\/15)\/J106),(LN(30\/15)\/J106)<48),IF(ABS((LN(30\/15)\/J106)-36)<ABS((LN(30\/15)\/J106)-48),36,48),IF((LN(30\/15)\/J106)=48,48,IF(AND(48<(LN(30\/15)\/J106),(LN(30\/15)\/J106)<72),IF(ABS((LN(30\/15)\/J106)-48)<ABS((LN(30\/15)\/J106)-72),48,72),IF((LN(30\/15)\/J106)>=72,72,\"Error\")))))))))))))))"
+        },
+        "O107": {
+            "formula": "=IF(AND(N106=1750,N107=8),\"8\",IF(AND(N106=1500,N107=8),\"8\",IF(AND(N106=750,N107=18,N109<16,J109<37.5),\"12\",IF(AND(N106=750,N107=18,N109>19,J109<37.5),\"24\",IF(AND(N106=750,N107=18,N109>16.5,J109>=37.5),\"24\",IF(AND(N106=750,N107=18,N109<12,J109>=43),\"24\",IF(AND(N106=1000,N107=18,N109>17.5,J109<44),\"12\",IF(AND(N106=1000,N107=18,N109>17.5,J109>=44),\"24\",IF(AND(N106=1000,N107=18,N109<12),\"12\",IF(AND(N106=1250,N107=18,N109<18.5),\"12\",IF(AND(N106=1250,N107=18,N109>=18.5),\"18\",IF(AND(N106=1500,N107=18,N109<17),\"12\",IF(AND(N106=1500,N107=18,N109<13),\"12\",IF(AND(N106=1500,N107=18,N109>=17.5),\"18\",IF(AND(N106=1750,N107=18),\"12\",IF(AND(N106=2000,N107=18),\"12\",IF(AND(N106=750,N107=36,N109<16),\"24\",IF(AND(N106=750,N107=36,N109<13),\"24\",IF(AND(N106=750,N107=36,N109>17,J109>38.5),\"48\",IF(AND(N106=1000,N107=36,N109>18,J109<47),\"24\",IF(AND(N106=1000,N107=36,N109>18,J109>=47),\"48\",IF(AND(N106=1000,N107=36,N109<11.5),\"24\",IF(AND(N106=1250,N107=36),\"24\",IF(AND(N106=1500,N107=36,N109<=16),\"24\",IF(AND(N106=1500,N107=36,N109>17),\"24\",IF(AND(N106=1750,N107=36),\"24\",IF(AND(N106=2000,N107=36),\"24\",IF(AND(N106=750,N107=12,N109>19.5,J109>=38),\"18\",IF(AND(N106=750,N107=12,N109<11.5,J109>=38),\"12\",IF(AND(N106=1750,N107=12,N109>=16),\"8\",IF(AND(N106=2000,N107=12),\"8\",IF(AND(N106=750,N107=8,N109>=19.4,J109>38),\"12\",IF(AND(N106=750,N107=8,N109<11.5,J109>38),\"8\",IF(AND(N106=750,N107=8,N109>19,J109<35),\"8\",IF(AND(N106=1250,N107=8,N109>19),\"8\",IF(AND(N106=1000,N107=8,N109>19,J109<52.5),\"8\",IF(AND(N106=1000,N107=8,N109>18,J109>=52.5),\"12\",IF(AND(N106=1000,N107=12,N109>19),\"12\",IF(AND(N106=1250,N107=12,N109>18.5),\"12\",IF(AND(N106=1250,N107=12,N109<=18.5),\"8\",IF(AND(N106=1500,N107=12,N109>18),\"12\",IF(AND(N106=2000,N107=24,N109>16),\"24\",IF(AND(N106=1750,N107=24,N109>16.5),\"24\",IF(AND(N106=1500,N107=24,N109>17),\"24\",IF(AND(N106=1250,N107=24,N109>18),\"24\",IF(AND(N106=1000,N107=24,N109>19),\"24\",IF(AND(N106=2000,N107=48,N109>16),\"48\",IF(AND(N106=1750,N107=48,N109>16.5),\"48\",IF(AND(N106=1500,N107=48,N109>17),\"48\",IF(AND(N106=1250,N107=48,N109>18),\"48\",IF(AND(N106=1250,N107=48,N109<=18),\"24\",IF(AND(N106=1000,N107=48,N109>19),\"48\",IF(AND(N106=2000,N107=72,N109>16),\"72\",IF(AND(N106=1750,N107=72,N109>16.5),\"72\",IF(AND(N106=1500,N107=72,N109>17),\"72\",IF(AND(N106=1250,N107=72,N109>18),\"72\",IF(AND(N106=1000,N107=72,N109>19),\"72\",\"\")))))))))))))))))))))))))))))))))))))))))))))))))))))))))"
+        },
+        "P107": {
+            "value": "hrs"
+        },
+        "S107": {
+            "value": "Peak"
+        },
+        "T107": {
+            "formula": "=(T106*(1-EXP(-J106*T106\/T18)))\/((J106*J109*T106\/T18)*(1-EXP(-J106*N107)))"
+        },
+        "V107": {
+            "value": "Level at 24 hr"
+        },
+        "W107": {
+            "formula": "=N108*EXP(-J106*(24-N106\/T18))"
+        },
+        "X107": {
+            "formula": "=O108*EXP(-J106*(24-O106\/T18))"
+        },
+        "D108": {
+            "value": "Peak"
+        },
+        "E108": {
+            "value": 20
+        },
+        "F108": {
+            "value": "mcg\/mL"
+        },
+        "I108": {
+            "value": "Cmin"
+        },
+        "J108": {
+            "formula": "=IF(E111<=E107,(E110*EXP(-J106*(E107-E111))),IF(E111>E107,(E110\/EXP(-J106*(E111-E107)))))"
+        },
+        "K108": {
+            "value": "mcg\/mL"
+        },
+        "M108": {
+            "value": {}
+        },
+        "N108": {
+            "formula": "=N106*(1-EXP(-J106*N106\/T18))\/(N106\/T18*J106*J109*(1-EXP(-J106*N107)))"
+        },
+        "O108": {
+            "formula": "=O106*(1-EXP(-J106*O106\/T18))\/(O106\/T18*J106*J109*(1-EXP(-J106*O107)))"
+        },
+        "P108": {
+            "value": "mcg\/mL"
+        },
+        "S108": {
+            "value": "Trough"
+        },
+        "T108": {
+            "formula": "=ROUND(T107*EXP(-J106*(N107-T106\/T18)),4)"
+        },
+        "V108": {
+            "value": "Level at 36 hr"
+        },
+        "W108": {
+            "formula": "=N108*EXP(-J106*(36-N106\/T18))"
+        },
+        "X108": {
+            "formula": "=O108*EXP(-J106*(36-O106\/T18))"
+        },
+        "D109": {
+            "value": "Time from START of dose to peak"
+        },
+        "E109": {
+            "value": 4.25
+        },
+        "F109": {
+            "value": "hrs"
+        },
+        "I109": {
+            "value": "V"
+        },
+        "J109": {
+            "formula": "=E106*(1-EXP(-J106*(E106\/T18)))\/(J106*(E106\/T18)*(J107-(J108*EXP(-J106*(E106\/T18)))))"
+        },
+        "K109": {
+            "value": "L"
+        },
+        "M109": {
+            "value": {}
+        },
+        "N109": {
+            "formula": "=ROUND(N108*EXP(-J106*(N107-N106\/T18)),4)"
+        },
+        "O109": {
+            "formula": "=ROUND(O108*EXP(-J106*(O107-O106\/T18)),4)"
+        },
+        "P109": {
+            "value": "mcg\/mL"
+        },
+        "V109": {
+            "value": "Level at 48 hr"
+        },
+        "W109": {
+            "formula": "=N108*EXP(-J106*(48-N106\/T18))"
+        },
+        "X109": {
+            "formula": "=O108*EXP(-J106*(48-O106\/T18))"
+        },
+        "D110": {
+            "value": "Trough"
+        },
+        "E110": {
+            "value": 11
+        },
+        "F110": {
+            "value": "mcg\/mL"
+        },
+        "I110": {
+            "value": {}
+        },
+        "J110": {
+            "formula": "=IF(J15=\"Empiric or 1 mg\/L\",(((E106\/E107)*24)\/(J106*J109))\/1,IF(J15=\"0.5 mg\/L\",(((E106\/E107)*24)\/(J106*J109))\/0.5,IF(J15=\"2.0 mg\/L\",(((E106\/E107)*24)\/(J106*J109))\/2)))"
+        },
+        "M110": {
+            "value": "AUCss 0-24\/MIC"
+        },
+        "N110": {
+            "formula": "=IF(AND(N107<=24,J15=\"Empiric or 1 mg\/L\"),((N106\/N107)*24\/(J106*J109))\/1,IF(AND(J15=\"0.5 mg\/L\",N107<=24),((N106\/N107)*24\/(J106*J109))\/0.5,IF(AND(J15=\"2.0 mg\/L\",N107<=24),((N106\/N107)*24\/(J106*J109))\/2,IF(AND(N107>24,J15=\"Empiric or 1 mg\/L\"),(N108+N109)\/2*(N106\/T18)+((N108-W107)*(24-N106\/T18))\/LN(N108\/W107),IF(AND(J15=\"0.5 mg\/L\",N107>24),(N108+N109)\/2*(N106\/T18)+((N108-W107)*(24-N106\/T18))\/LN(N108\/W107)\/0.5,IF(AND(J15=\"2.0 mg\/L\",N107>24),(N108+N109)\/2*(N106\/T18)+((N108-W107)*(24-N106\/T18))\/LN(N108\/W107)\/2))))))"
+        },
+        "O110": {
+            "formula": "=IF(AND(O107*1<=24,J15=\"Empiric or 1 mg\/L\"),((O106\/O107)*24\/(J106*J109))\/1,IF(AND(J15=\"0.5 mg\/L\",O107*1<=24),((O106\/O107)*24\/(J106*J109))\/0.5,IF(AND(J15=\"2.0 mg\/L\",O107*1<=24),((O106\/O107)*24\/(J106*J109))\/2,IF(AND(O107*1>24,J15=\"Empiric or 1 mg\/L\"),(O108+O109)\/2*(O106\/T18)+((O108-X107)*(24-O106\/T18))\/LN(O108\/X107),IF(AND(J15=\"0.5 mg\/L\",O107*1>24),(O108+O109)\/2*(O106\/T18)+((O108-X107)*(24-O106\/T18))\/LN(O108\/X107)\/0.5,IF(AND(J15=\"2.0 mg\/L\",O107*1>24),(O108+O109)\/2*(O106\/T18)+((O108-X107)*(24-O106\/T18))\/LN(O108\/X107)\/2))))))"
+        },
+        "V110": {
+            "value": "Level at 72 hr"
+        },
+        "W110": {
+            "formula": "=N108*EXP(-J106*(72-N106\/T18))"
+        },
+        "X110": {
+            "formula": "=O108*EXP(-J106*(72-O106\/T18))"
+        },
+        "D111": {
+            "value": "Time from START of dose to trough"
+        },
+        "E111": {
+            "value": 7
+        },
+        "F111": {
+            "value": "hrs"
+        },
+        "M111": {
+            "value": "AUCss min\/MIC"
+        },
+        "N111": {
+            "formula": "=IF(J15=\"Empiric or 1 mg\/L\",IF(N107=48,(W107-W109)*24\/LN(W107\/W109),IF(N107=36,(W106-W108)*24\/LN(W106\/W108),IF(N107=72,(W109-W110)*24\/LN(W109\/W110)))),IF(J15=\"0.5 mg\/L\",IF(N107=48,(W107-W109)*24\/LN(W107\/W109)\/0.5,IF(N107=36,(W106-W108)*24\/LN(W106\/W108)\/0.5,IF(N107=72,(W109-W110)*24\/LN(W109\/W110)\/0.5))),IF(J15=\"2.0 mg\/L\",IF(N107=48,(W107-W109)*24\/LN(W107\/W109)\/2,IF(N107=36,(W106-W108)*24\/LN(W106\/W108)\/2,IF(N107=72,((W109-W110)*24\/LN(W109\/W110))\/2))))))"
+        },
+        "O111": {
+            "formula": "=IF(J15=\"Empiric or 1 mg\/L\",IF(O107=48,(X107-X109)*24\/LN(X107\/X109),IF(O107=36,(X106-X108)*24\/LN(X106\/X108),IF(O107=72,(X109-X110)*24\/LN(X109\/X110)))),IF(J15=\"0.5 mg\/L\",IF(O107=48,(X107-X109)*24\/LN(X107\/X109)\/0.5,IF(O107=36,(X106-X108)*24\/LN(X106\/X108)\/0.5,IF(O107=72,(X109-X110)*24\/LN(X109\/X110)\/0.5))),IF(J15=\"2.0 mg\/L\",IF(O107=48,(X107-X109)*24\/LN(X107\/X109)\/2,IF(O107=36,(X106-X108)*24\/LN(X106\/X108)\/2,IF(O107=72,((X109-X110)*24\/LN(X109\/X110))\/2))))))"
+        },
+        "S111": {
+            "value": "Time between levels"
+        },
+        "T111": {
+            "formula": "=E111-E109"
+        },
+        "D114": {
+            "value": {}
+        },
+        "D115": {
+            "formula": "=IF(J15=\"2.0 mg\/L\",\"Note: Consider switching to a different antibiotic when S. aureus MIC \u2265 2.0 mg\/L.  Etest method may yield higher MICs than broth microdilution.\",IF(J15=\"Empiric or 1 mg\/L\",\"\",IF(J15=\"0.5 mg\/L\",\"\")))"
+        },
+        "D116": {
+            "formula": "=IF(N107<36,\"\",IF(N107>=36,\"Note: When the dosing interval is >24 hours, the AUC is higher during the first 24 hours of the dosing interval compared to the last 24 hours of the interval.\"))"
+        },
+        "D117": {
+            "formula": "=IF(E109<(1+E106\/T18),\"Note: The peak was drawn less than 1 hour after the END of infusion, so it may be artificially high (still in distribution phase).\",IF(E109>=(1+E106\/T18),\"\"))"
+        },
+        "D120": {
+            "value": "Intermittent Hemodialysis"
+        },
+        "D121": {
+            "value": "First Dose"
+        },
+        "I121": {
+            "value": "Dosing by Pre-dialysis Trough"
+        },
+        "S121": {
+            "value": "Time"
+        },
+        "T121": {
+            "value": "Level"
+        },
+        "D122": {
+            "value": "Estimated V"
+        },
+        "E122": {
+            "formula": "=E27"
+        },
+        "F122": {
+            "value": "L"
+        },
+        "I122": {
+            "value": "Pre-dialysis trough"
+        },
+        "J122": {
+            "value": 20
+        },
+        "K122": {
+            "value": "mcg\/mL"
+        },
+        "S122": {
+            "formula": "=E126"
+        },
+        "T122": {
+            "formula": "=E127"
+        },
+        "D123": {
+            "value": "Estimated K"
+        },
+        "E123": {
+            "formula": "=0.008"
+        },
+        "F123": {
+            "value": "hr-1"
+        },
+        "I123": {
+            "value": "Dialysis removal"
+        },
+        "J123": {
+            "formula": "=20"
+        },
+        "K123": {
+            "value": "%"
+        },
+        "S123": {
+            "formula": "=S122+3"
+        },
+        "T123": {
+            "formula": "=J124"
+        },
+        "D124": {
+            "value": "First dose"
+        },
+        "E124": {
+            "value": 1500
+        },
+        "F124": {
+            "value": "mg"
+        },
+        "I124": {
+            "value": "Post-dialysis level"
+        },
+        "J124": {
+            "formula": "=J122-J123\/100*J122"
+        },
+        "K124": {
+            "value": "mcg\/mL"
+        },
+        "S124": {
+            "formula": "=S123+J125\/T18"
+        },
+        "T124": {
+            "formula": "=T123+J125\/E122"
+        },
+        "D125": {
+            "value": "Peak"
+        },
+        "E125": {
+            "formula": "=E124*(1-EXP(-E123*(E124\/T18)))\/((E124\/T18)*E122*E123)"
+        },
+        "F125": {
+            "value": "mcg\/mL"
+        },
+        "I125": {
+            "value": "Dose (after dialysis)"
+        },
+        "J125": {
+            "value": 1500
+        },
+        "K125": {
+            "value": "mg"
+        },
+        "S125": {
+            "formula": "=J126+S124"
+        },
+        "T125": {
+            "formula": "=T124*EXP(-E123*(S125-S124))"
+        },
+        "D126": {
+            "value": "Time from dose to next dialysis session"
+        },
+        "E126": {
+            "value": 25
+        },
+        "F126": {
+            "value": "hrs"
+        },
+        "I126": {
+            "value": "Time from dose to next dialysis session"
+        },
+        "J126": {
+            "value": 48
+        },
+        "K126": {
+            "value": "hrs"
+        },
+        "S126": {
+            "formula": "=S125+3"
+        },
+        "T126": {
+            "formula": "=T125-J123\/100*T125"
+        },
+        "D127": {
+            "value": "Pre-dialysis trough"
+        },
+        "E127": {
+            "formula": "=E125*EXP(-E123*(E126-E124\/T18))"
+        },
+        "F127": {
+            "value": "mcg\/mL"
+        },
+        "I127": {
+            "value": "Pre-dialysis trough"
+        },
+        "J127": {
+            "formula": "=T128*EXP(-E123*J126)"
+        },
+        "K127": {
+            "value": "mcg\/mL"
+        },
+        "I128": {
+            "value": "AUC 24hr max"
+        },
+        "J128": {
+            "formula": "=((J124+T128)\/2)*(S124-S123)+(T124-(T124*EXP(-E123*(24-(S124-S123)))))*(24-(S124-S123))\/(LN(T124\/(T124*EXP(-E123*(24-(S124-S123))))))"
+        },
+        "S128": {
+            "value": "EOI peak"
+        },
+        "T128": {
+            "formula": "=J125\/E122+J124"
+        },
+        "I129": {
+            "value": "AUC 24hr min"
+        },
+        "J129": {
+            "formula": "=(T128*(EXP(-E123*(J126-24)))-T128*(EXP(-E123*(J126))))*24\/LN((T128*(EXP(-E123*(J126-24))))\/(T128*(EXP(-E123*(J126)))))"
+        },
+        "D131": {
+            "formula": "=IF(J15=\"2.0 mg\/L\",\"Note: Consider switching to a different antibiotic when S. aureus MIC \u2265 2.0 mg\/L.  Etest method may yield higher MICs than broth microdilution.\",IF(J15=\"Empiric or 1 mg\/L\",\"\",IF(J15=\"0.5 mg\/L\",\"\")))"
+        },
+        "D132": {
+            "formula": "=IF(J126<=24,\"\",IF(J126>24,\"When the dosing interval is >24 hours, the AUC is higher during the first 24 hours of the dosing interval compared to the last 24 hours of the interval.\"))"
+        },
+        "D135": {
+            "value": "Supplemental Calculators"
+        },
+        "D137": {
+            "value": "Dose Calculator"
+        },
+        "I137": {
+            "value": "AUC During Elimination"
+        },
+        "M137": {
+            "value": "Time to goal trough"
+        },
+        "D138": {
+            "value": "K"
+        },
+        "E138": {
+            "value": 0.004
+        },
+        "F138": {
+            "value": {}
+        },
+        "I138": {
+            "value": "K"
+        },
+        "J138": {
+            "value": 0.006
+        },
+        "K138": {
+            "value": {}
+        },
+        "M138": {
+            "value": "K"
+        },
+        "N138": {
+            "value": 0.0693
+        },
+        "O138": {
+            "value": {}
+        },
+        "S138": {
+            "value": "Dose"
+        },
+        "T138": {
+            "formula": "=MROUND(IF(AND(J14=\"15-20 mcg\/mL\",E139<=75),37*E139*(1-EXP(-E138*E141)),IF(AND(J14=\"14-19 mcg\/mL\",E139<=75),36*E139*(1-EXP(-E138*E141)),IF(AND(J14=\"13-18 mcg\/mL\",E139<=75),35*E139*(1-EXP(-E138*E141)),IF(AND(J14=\"12-17 mcg\/mL\",E139<=75),34*E139*(1-EXP(-E138*E141)),IF(AND(J14=\"11-16 mcg\/mL\",E139<=75),33*E139*(1-EXP(-E138*E141)),IF(AND(J14=\"10-15 mcg\/mL\",E139<=75),32*E139*(1-EXP(-E138*E141)),IF(AND(J14=\"15-20 mcg\/mL\",E139>75),30*E139*(1-EXP(-E138*E141)),IF(AND(J14=\"14-19 mcg\/mL\",E139>75),29*E139*(1-EXP(-E138*E141)),IF(AND(J14=\"13-18 mcg\/mL\",E139>75),28*E139*(1-EXP(-E138*E141)),IF(AND(J14=\"12-17 mcg\/mL\",E139>75),27*E139*(1-EXP(-E138*E141)),IF(AND(J14=\"11-16 mcg\/mL\",E139>75),26*E139*(1-EXP(-E138*E141)),IF(AND(J14=\"10-15 mcg\/mL\",E139>75),25*E139*(1-EXP(-E138*E141)))))))))))))),250)"
+        },
+        "U138": {
+            "value": "Level at 12 hr"
+        },
+        "V138": {
+            "formula": "=E142*EXP(-E138*(12-E140\/T18))"
+        },
+        "D139": {
+            "value": "V"
+        },
+        "E139": {
+            "value": 52
+        },
+        "F139": {
+            "value": "L"
+        },
+        "I139": {
+            "value": "Level"
+        },
+        "J139": {
+            "value": 25
+        },
+        "K139": {
+            "value": "mcg\/mL"
+        },
+        "M139": {
+            "value": "Level"
+        },
+        "N139": {
+            "value": 30
+        },
+        "O139": {
+            "value": "mcg\/mL"
+        },
+        "S139": {
+            "value": "Peak"
+        },
+        "T139": {
+            "formula": "=(T138*(1-EXP(-E138*T138\/T18)))\/((E138*E139*T138\/T18)*(1-EXP(-E138*E141)))"
+        },
+        "U139": {
+            "value": "Level at 24 hr"
+        },
+        "V139": {
+            "formula": "=E142*EXP(-E138*(24-E140\/T18))"
+        },
+        "D140": {
+            "value": "Dose"
+        },
+        "E140": {
+            "formula": "=MIN(IF(AND(J14=\"15-20 mcg\/mL\",T140>=15,T140<=20),T138,IF(AND(J14=\"15-20 mcg\/mL\",T140<15),T138+250,IF(AND(J14=\"15-20 mcg\/mL\",T140>20),T138-250,\nIF(AND(J14=\"14-19 mcg\/mL\",T140>=14,T140<=19),T138,IF(AND(J14=\"14-19 mcg\/mL\",T140<14),T138+250,IF(AND(J14=\"14-19 mcg\/mL\",T140>19),T138-250,\nIF(AND(J14=\"13-18 mcg\/mL\",T140>=13,T140<=18),T138,IF(AND(J14=\"13-18 mcg\/mL\",T140<13),T138+250,IF(AND(J14=\"13-18 mcg\/mL\",T140>18),T138-250,\nIF(AND(J14=\"12-17 mcg\/mL\",T140>=12,T140<=17),T138,IF(AND(J14=\"12-17 mcg\/mL\",T140<12),T138+250,IF(AND(J14=\"12-17 mcg\/mL\",T140>17),T138-250,\nIF(AND(J14=\"11-16 mcg\/mL\",T140>=11,T140<=16),T138,IF(AND(J14=\"11-16 mcg\/mL\",T140<11),T138+250,IF(AND(J14=\"11-16 mcg\/mL\",T140>16),T138-250,\nIF(AND(J14=\"10-15 mcg\/mL\",T140>=10,T140<=15),T138,IF(AND(J14=\"10-15 mcg\/mL\",T140<10),T138+250,IF(AND(J14=\"10-15 mcg\/mL\",T140>15),T138-250)))))))))))))))))),3000)"
+        },
+        "F140": {
+            "value": "mg"
+        },
+        "I140": {
+            "value": "Time"
+        },
+        "J140": {
+            "value": "AUC24"
+        },
+        "M140": {
+            "value": "Goal trough"
+        },
+        "N140": {
+            "value": "Time"
+        },
+        "S140": {
+            "value": "Trough"
+        },
+        "T140": {
+            "formula": "=ROUND(T139*EXP(-E138*(E141-T138\/T18)),4)"
+        },
+        "U140": {
+            "value": "Level at 36 hr"
+        },
+        "V140": {
+            "formula": "=E142*EXP(-E138*(36-E140\/T18))"
+        },
+        "D141": {
+            "value": "Interval"
+        },
+        "E141": {
+            "formula": "=IF(E139<=75,IF((LN(35\/15)\/E138)<=8,8,IF(AND(8<(LN(35\/15)\/E138),(LN(35\/15)\/E138)<12),IF(ABS((LN(35\/15)\/E138)-8)<ABS((LN(35\/15)\/E138)-12),8,12),IF((LN(35\/15)\/E138)=12,12,IF(AND(12<(LN(35\/15)\/E138),(LN(35\/15)\/E138)<18),IF(ABS((LN(35\/15)\/E138)-12)<ABS((LN(35\/15)\/E138)-18),12,18),IF((LN(35\/15)\/E138)=18,18,IF(AND(18<(LN(35\/15)\/E138),(LN(35\/15)\/E138)<24),IF(ABS((LN(35\/15)\/E138)-18)<ABS((LN(35\/15)\/E138)-24),18,24),IF((LN(35\/15)\/E138)=24,24,IF(AND(24<(LN(35\/15)\/E138),(LN(35\/15)\/E138)<36),IF(ABS((LN(35\/15)\/E138)-24)<ABS((LN(35\/15)\/E138)-36),24,36),IF((LN(35\/15)\/E138)=36,36,IF(AND(36<(LN(35\/15)\/E138),(LN(35\/15)\/E138)<48),IF(ABS((LN(35\/15)\/E138)-36)<ABS((LN(35\/15)\/E138)-48),36,48),IF((LN(35\/15)\/E138)=48,48,IF(AND(48<(LN(35\/15)\/E138),(LN(35\/15)\/E138)<72),IF(ABS((LN(35\/15)\/E138)-48)<ABS((LN(35\/15)\/E138)-72),48,72),IF((LN(35\/15)\/E138)>=72,72,\"Error\"))))))))))))),IF(E139>75,IF((LN(30\/15)\/E138)<=8,8,IF(AND(8<(LN(30\/15)\/E138),(LN(30\/15)\/E138)<12),IF(ABS((LN(30\/15)\/E138)-8)<ABS((LN(30\/15)\/E138)-12),8,12),IF((LN(30\/15)\/E138)=12,12,IF(AND(12<(LN(30\/15)\/E138),(LN(30\/15)\/E138)<18),IF(ABS((LN(30\/15)\/E138)-12)<ABS((LN(30\/15)\/E138)-18),12,18),IF((LN(30\/15)\/E138)=18,18,IF(AND(18<(LN(30\/15)\/E138),(LN(30\/15)\/E138)<24),IF(ABS((LN(30\/15)\/E138)-18)<ABS((LN(30\/15)\/E138)-24),18,24),IF((LN(30\/15)\/E138)=24,24,IF(AND(24<(LN(30\/15)\/E138),(LN(30\/15)\/E138)<36),IF(ABS((LN(30\/15)\/E138)-24)<ABS((LN(30\/15)\/E138)-36),24,36),IF((LN(30\/15)\/E138)=36,36,IF(AND(36<(LN(30\/15)\/E138),(LN(30\/15)\/E138)<48),IF(ABS((LN(30\/15)\/E138)-36)<ABS((LN(30\/15)\/E138)-48),36,48),IF((LN(30\/15)\/E138)=48,48,IF(AND(48<(LN(30\/15)\/E138),(LN(30\/15)\/E138)<72),IF(ABS((LN(30\/15)\/E138)-48)<ABS((LN(30\/15)\/E138)-72),48,72),IF((LN(30\/15)\/E138)>=72,72,\"Error\")))))))))))))))"
+        },
+        "F141": {
+            "value": "hrs"
+        },
+        "I141": {
+            "value": "0-24 hrs"
+        },
+        "J141": {
+            "formula": "=(J139-T142)*24\/LN(J139\/T142)"
+        },
+        "M141": {
+            "value": "20.0 mcg\/mL"
+        },
+        "N141": {
+            "formula": "=LN(N139\/20)\/N138"
+        },
+        "O141": {
+            "value": "hrs"
+        },
+        "U141": {
+            "value": "Level at 48 hr"
+        },
+        "V141": {
+            "formula": "=E142*EXP(-E138*(48-E140\/T18))"
+        },
+        "D142": {
+            "value": {}
+        },
+        "E142": {
+            "formula": "=(E140*(1-EXP(-E138*E140\/T18)))\/((E138*E139*E140\/T18)*(1-EXP(-E138*E141)))"
+        },
+        "F142": {
+            "value": "mcg\/mL"
+        },
+        "I142": {
+            "value": "25-48 hrs"
+        },
+        "J142": {
+            "formula": "=(T142-T143)*24\/LN(T142\/T143)"
+        },
+        "M142": {
+            "value": "17.5 mcg\/mL"
+        },
+        "N142": {
+            "formula": "=LN(N139\/17.5)\/N138"
+        },
+        "O142": {
+            "value": "hrs"
+        },
+        "S142": {
+            "value": "Level at 24 hrs"
+        },
+        "T142": {
+            "formula": "=J139*EXP(-J138*24)"
+        },
+        "U142": {
+            "value": "Level at 72 hr"
+        },
+        "V142": {
+            "formula": "=E142*EXP(-E138*(72-E140\/T18))"
+        },
+        "D143": {
+            "value": {}
+        },
+        "E143": {
+            "formula": "=ROUND(E142*EXP(-E138*(E141-E140\/T18)),4)"
+        },
+        "F143": {
+            "value": "mcg\/mL"
+        },
+        "I143": {
+            "value": "49-72 hrs"
+        },
+        "J143": {
+            "formula": "=(T143-T144)*24\/LN(T143\/T144)"
+        },
+        "M143": {
+            "value": "15.0 mcg\/mL"
+        },
+        "N143": {
+            "formula": "=LN(N139\/15)\/N138"
+        },
+        "O143": {
+            "value": "hrs"
+        },
+        "S143": {
+            "value": "Level at 48 hrs"
+        },
+        "T143": {
+            "formula": "=J139*EXP(-J138*48)"
+        },
+        "D144": {
+            "value": "AUCss 0-24\/MIC"
+        },
+        "E144": {
+            "formula": "=IF(AND(E141<=24,J15=\"Empiric or 1 mg\/L\"),((E140\/E141)*24\/(E138*E139))\/1,IF(AND(J15=\"0.5 mg\/L\",E141<=24),((E140\/E141)*24\/(E138*E139))\/0.5,IF(AND(J15=\"2.0 mg\/L\",E141<=24),((E140\/E141)*24\/(E138*E139))\/2,IF(AND(E141>24,J15=\"Empiric or 1 mg\/L\"),(E142+E143)\/2*(E140\/T18)+((E142-V139)*(24-E140\/T18))\/LN(E142\/V139),IF(AND(J15=\"0.5 mg\/L\",E141>24),(E142+E143)\/2*(E140\/T18)+((E142-V139)*(24-E140\/T18))\/LN(E142\/V139)\/0.5,IF(AND(J15=\"2.0 mg\/L\",E141>24),(E142+E143)\/2*(E140\/T18)+((E142-V139)*(24-E140\/T18))\/LN(E142\/V139)\/2))))))"
+        },
+        "M144": {
+            "value": "12.5 mcg\/mL"
+        },
+        "N144": {
+            "formula": "=LN(N139\/12.5)\/N138"
+        },
+        "O144": {
+            "value": "hrs"
+        },
+        "S144": {
+            "value": "Level at 72 hrs"
+        },
+        "T144": {
+            "formula": "=J139*EXP(-J138*72)"
+        },
+        "D145": {
+            "value": "AUCss min\/MIC"
+        },
+        "E145": {
+            "formula": "=IF(J15=\"Empiric or 1 mg\/L\",IF(E141=48,(V139-V141)*24\/LN(V139\/V141),IF(E141=36,(V138-V140)*24\/LN(V138\/V140),IF(E141=72,(V141-V142)*24\/LN(V141\/V142)))),IF(J15=\"0.5 mg\/L\",IF(E141=48,(V139-V141)*24\/LN(V139\/V141)\/0.5,IF(E141=36,(V138-V140)*24\/LN(V138\/V140)\/0.5,IF(E141=72,(V141-V142)*24\/LN(V141\/V142)\/0.5))),IF(J15=\"2.0 mg\/L\",IF(E141=48,(V139-V141)*24\/LN(V139\/V141)\/2,IF(E141=36,(V138-V140)*24\/LN(V138\/V140)\/2,IF(E141=72,((V141-V142)*24\/LN(V141\/V142))\/2))))))"
+        },
+        "M145": {
+            "value": "10.0 mcg\/mL"
+        },
+        "N145": {
+            "formula": "=LN(N139\/10)\/N138"
+        },
+        "O145": {
+            "value": "hrs"
+        },
+        "D147": {
+            "formula": "=IF(J138=\"\",\"\",\"Calculating the AUC24 during elimination can be useful in the setting of very slow clearance.  The calculation assumes no additional doses are given.\")"
+        }
+    },
+    {
+        "A1": {
+            "value": "Male"
+        },
+        "K1": {
+            "value": "CLvanco Bauer method"
+        },
+        "A2": {
+            "value": "Female"
+        },
+        "C2": {
+            "value": "15-20 mcg\/mL"
+        },
+        "E2": {
+            "value": "inch"
+        },
+        "G2": {
+            "value": 500
+        },
+        "H2": {
+            "value": 8
+        },
+        "K2": {
+            "value": "CLvanco + 5%"
+        },
+        "C3": {
+            "value": "14-19 mcg\/mL"
+        },
+        "E3": {
+            "value": "cm"
+        },
+        "G3": {
+            "value": 750
+        },
+        "H3": {
+            "value": 12
+        },
+        "C4": {
+            "value": "13-18 mcg\/mL"
+        },
+        "G4": {
+            "value": 1000
+        },
+        "H4": {
+            "value": 18
+        },
+        "C5": {
+            "value": "12-17 mcg\/mL"
+        },
+        "G5": {
+            "value": 1250
+        },
+        "H5": {
+            "value": 24
+        },
+        "J5": {
+            "value": "Steady-state peak and trough"
+        },
+        "O5": {
+            "value": "Time of level (same day as dose)"
+        },
+        "C6": {
+            "value": "11-16 mcg\/mL"
+        },
+        "G6": {
+            "value": 1500
+        },
+        "H6": {
+            "value": 36
+        },
+        "J6": {
+            "value": "Peak and trough after FIRST dose"
+        },
+        "O6": {
+            "value": "Time of level (1 day after dose)"
+        },
+        "B7": {
+            "value": "mg\/dL"
+        },
+        "C7": {
+            "value": "10-15 mcg\/mL"
+        },
+        "G7": {
+            "value": 1750
+        },
+        "H7": {
+            "value": 48
+        },
+        "O7": {
+            "value": "Time of level (2 days after dose)"
+        },
+        "B8": {
+            "value": "\u00b5mol\/L"
+        },
+        "H8": {
+            "value": 72
+        },
+        "O8": {
+            "value": "Time of level (3 days after dose)"
+        },
+        "C9": {
+            "value": "kg"
+        },
+        "E9": {
+            "value": "Empiric or 1 mg\/L"
+        },
+        "C10": {
+            "value": "lbs"
+        },
+        "E10": {
+            "value": "0.5 mg\/L"
+        },
+        "G10": {
+            "value": 250
+        },
+        "J10": {
+            "value": "Time of trough (same day as dose)"
+        },
+        "O10": {
+            "value": "Time at C2 (same day as C1)"
+        },
+        "E11": {
+            "value": "2.0 mg\/L"
+        },
+        "G11": {
+            "value": 500
+        },
+        "J11": {
+            "value": "Time of trough (1 day after dose)"
+        },
+        "O11": {
+            "value": "Time at C2 (one day after C1)"
+        },
+        "G12": {
+            "value": 750
+        },
+        "J12": {
+            "value": "Time of trough (2 days after dose)"
+        },
+        "O12": {
+            "value": "Time at C2 (two days after C1)"
+        },
+        "C13": {
+            "value": "conventional"
+        },
+        "G13": {
+            "value": 1000
+        },
+        "H13": {
+            "value": "hrs"
+        },
+        "J13": {
+            "value": "Time of trough (3 days after dose)"
+        },
+        "O13": {
+            "value": "Time at C2 (three days after C1)"
+        },
+        "C14": {
+            "value": "IDMS"
+        },
+        "G14": {
+            "value": 1250
+        },
+        "H14": {
+            "value": "min"
+        },
+        "E15": {
+            "value": "Trough drawn BEFORE next dose was due"
+        },
+        "G15": {
+            "value": 1500
+        },
+        "E16": {
+            "value": "Trough drawn AFTER next dose was due"
+        },
+        "G16": {
+            "value": 1750
+        },
+        "B17": {
+            "value": 0
+        },
+        "G17": {
+            "value": 2000
+        },
+        "J17": {
+            "value": 0
+        },
+        "K17": {
+            "value": "00"
+        },
+        "M17": {
+            "value": "Initial dosing estimate"
+        },
+        "B18": {
+            "value": 750
+        },
+        "J18": {
+            "value": 1
+        },
+        "K18": {
+            "value": "05"
+        },
+        "M18": {
+            "value": "Dose adjustment by trough"
+        },
+        "B19": {
+            "value": 1000
+        },
+        "J19": {
+            "value": 2
+        },
+        "K19": {
+            "value": 10
+        },
+        "B20": {
+            "value": 1250
+        },
+        "J20": {
+            "value": 3
+        },
+        "K20": {
+            "value": 15
+        },
+        "M20": {
+            "value": "Time at first level (same day as dose)"
+        },
+        "B21": {
+            "value": 1500
+        },
+        "E21": {
+            "value": "Off"
+        },
+        "J21": {
+            "value": 4
+        },
+        "K21": {
+            "value": 20
+        },
+        "M21": {
+            "value": "Time at first level (1 day after dose)"
+        },
+        "B22": {
+            "value": 1750
+        },
+        "E22": {
+            "value": "On"
+        },
+        "J22": {
+            "value": 5
+        },
+        "K22": {
+            "value": 25
+        },
+        "M22": {
+            "value": "Time at first level (2 days after dose)"
+        },
+        "B23": {
+            "value": 2000
+        },
+        "J23": {
+            "value": 6
+        },
+        "K23": {
+            "value": 30
+        },
+        "M23": {
+            "value": "Time at first level (3 days after dose)"
+        },
+        "B24": {
+            "value": 2500
+        },
+        "D24": {
+            "value": "Peak after FIRST dose"
+        },
+        "G24": {
+            "value": "1000 mg\/hr"
+        },
+        "J24": {
+            "value": 7
+        },
+        "K24": {
+            "value": 35
+        },
+        "B25": {
+            "value": 3000
+        },
+        "D25": {
+            "value": {}
+        },
+        "G25": {
+            "value": "750 mg\/hr"
+        },
+        "J25": {
+            "value": 8
+        },
+        "K25": {
+            "value": 40
+        },
+        "M25": {
+            "value": "Time at second level (same day as dose)"
+        },
+        "G26": {
+            "value": "500 mg\/hr"
+        },
+        "J26": {
+            "value": 9
+        },
+        "K26": {
+            "value": 45
+        },
+        "M26": {
+            "value": "Time at second level (1 day after dose)"
+        },
+        "D27": {
+            "value": "IV infusion equation"
+        },
+        "J27": {
+            "value": 10
+        },
+        "K27": {
+            "value": 50
+        },
+        "M27": {
+            "value": "Time at second level (2 days after dose)"
+        },
+        "D28": {
+            "value": "IV bolus equation"
+        },
+        "J28": {
+            "value": 11
+        },
+        "K28": {
+            "value": 55
+        },
+        "M28": {
+            "value": "Time at second level (3 days after dose)"
+        },
+        "J29": {
+            "value": 12
+        },
+        "B30": {
+            "value": "Steady-state trough"
+        },
+        "G30": {
+            "value": "IV Infusion Equations"
+        },
+        "J30": {
+            "value": 13
+        },
+        "B31": {
+            "value": "Non-steady-state trough"
+        },
+        "G31": {
+            "value": "IV Bolus Equations"
+        },
+        "J31": {
+            "value": 14
+        },
+        "M31": {
+            "value": "20.0 mcg\/mL"
+        },
+        "J32": {
+            "value": 15
+        },
+        "M32": {
+            "value": "17.5 mcg\/mL"
+        },
+        "B33": {
+            "value": "Loading dose (yes)"
+        },
+        "J33": {
+            "value": 16
+        },
+        "M33": {
+            "value": "15.0 mcg\/mL"
+        },
+        "B34": {
+            "value": "Loading dose (no)"
+        },
+        "J34": {
+            "value": 17
+        },
+        "M34": {
+            "value": "12.5 mcg\/mL"
+        },
+        "E35": {
+            "value": "1 day"
+        },
+        "F35": {
+            "value": 250
+        },
+        "J35": {
+            "value": 18
+        },
+        "M35": {
+            "value": "10.0 mcg\/mL"
+        },
+        "B36": {
+            "value": 1000
+        },
+        "E36": {
+            "value": "2 days"
+        },
+        "F36": {
+            "value": 500
+        },
+        "J36": {
+            "value": 19
+        },
+        "B37": {
+            "value": 900
+        },
+        "E37": {
+            "value": "3 days"
+        },
+        "F37": {
+            "value": 750
+        },
+        "J37": {
+            "value": 20
+        },
+        "M37": {
+            "value": "Time of peak (same day as dose)"
+        },
+        "B38": {
+            "value": 800
+        },
+        "E38": {
+            "value": "4 days"
+        },
+        "F38": {
+            "value": 1000
+        },
+        "J38": {
+            "value": 21
+        },
+        "M38": {
+            "value": "Time of peak (1 day after dose)"
+        },
+        "B39": {
+            "value": 700
+        },
+        "F39": {
+            "value": 1250
+        },
+        "J39": {
+            "value": 22
+        },
+        "B40": {
+            "value": 600
+        },
+        "F40": {
+            "value": 1500
+        },
+        "J40": {
+            "value": 23
+        },
+        "B41": {
+            "value": 500
+        },
+        "F41": {
+            "value": 1750
+        },
+        "B42": {
+            "value": 400
+        },
+        "E42": {
+            "value": "None"
+        },
+        "M42": {
+            "value": "Time at start of dose (same day as trough)"
+        },
+        "B43": {
+            "value": 300
+        },
+        "E43": {
+            "value": "Forearm (IBW -1.5%)"
+        },
+        "H43": {
+            "value": "Use estimated Ke and Vd"
+        },
+        "M43": {
+            "value": "Time at start of dose (1 day after trough)"
+        },
+        "E44": {
+            "value": "Entire arm (IBW -4%)"
+        },
+        "H44": {
+            "value": "Vd is known"
+        },
+        "M44": {
+            "value": "Time at start of dose (2 days after trough)"
+        },
+        "E45": {
+            "value": "Foot (IBW -1.5%)"
+        },
+        "H45": {
+            "value": "Ke is known"
+        },
+        "E46": {
+            "value": "Below knee (IBW -3.5%)"
+        },
+        "E47": {
+            "value": "Above knee (IBW -11%)"
+        },
+        "E48": {
+            "value": "Entire leg (IBW -16%)"
+        },
+        "E49": {
+            "value": "Multiple (IBW -20%)"
+        },
+        "E50": {
+            "value": "Multiple (IBW -25%)"
+        },
+        "E51": {
+            "value": "Multiple (IBW -30%)"
+        },
+        "E52": {
+            "value": "Multiple (IBW -35%)"
+        }
+    },
+    {
+        "E1": {
+            "value": "Hours"
+        },
+        "F1": {
+            "value": "[] mcg\/mL"
+        },
+        "G1": {
+            "value": "Avg per hr"
+        },
+        "H1": {
+            "value": "AUC24"
+        },
+        "E2": {
+            "value": 0
+        },
+        "F2": {
+            "value": 20.9
+        },
+        "B3": {
+            "value": "K"
+        },
+        "C3": {
+            "value": 0.052
+        },
+        "E3": {
+            "value": 1
+        },
+        "F3": {
+            "formula": "=F2*(EXP(-C3))"
+        },
+        "G3": {
+            "formula": "=(F2+F3)\/2"
+        },
+        "B4": {
+            "value": "V"
+        },
+        "C4": {
+            "value": 44
+        },
+        "E4": {
+            "value": 2
+        },
+        "F4": {
+            "formula": "=F3*(EXP(-C3))"
+        },
+        "G4": {
+            "formula": "=(F3+F4)\/2"
+        },
+        "B5": {
+            "value": "Dose"
+        },
+        "C5": {
+            "value": 1000
+        },
+        "E5": {
+            "value": 3
+        },
+        "F5": {
+            "formula": "=F4*(EXP(-C3))"
+        },
+        "G5": {
+            "formula": "=(F4+F5)\/2"
+        },
+        "B6": {
+            "value": "Pre-dialysis trough"
+        },
+        "E6": {
+            "value": 4
+        },
+        "F6": {
+            "formula": "=F5*(EXP(-C3))"
+        },
+        "G6": {
+            "formula": "=(F5+F6)\/2"
+        },
+        "B7": {
+            "value": "Peak"
+        },
+        "E7": {
+            "value": 5
+        },
+        "F7": {
+            "formula": "=F6*(EXP(-C3))"
+        },
+        "G7": {
+            "formula": "=(F6+F7)\/2"
+        },
+        "E8": {
+            "value": 6
+        },
+        "F8": {
+            "formula": "=F7*(EXP(-C3))"
+        },
+        "G8": {
+            "formula": "=(F7+F8)\/2"
+        },
+        "E9": {
+            "value": 7
+        },
+        "F9": {
+            "formula": "=F8*(EXP(-C3))"
+        },
+        "G9": {
+            "formula": "=(F8+F9)\/2"
+        },
+        "E10": {
+            "value": 8
+        },
+        "F10": {
+            "formula": "=F9*(EXP(-C3))"
+        },
+        "G10": {
+            "formula": "=(F9+F10)\/2"
+        },
+        "E11": {
+            "value": 9
+        },
+        "F11": {
+            "formula": "=F10*(EXP(-C3))"
+        },
+        "G11": {
+            "formula": "=(F10+F11)\/2"
+        },
+        "E12": {
+            "value": 10
+        },
+        "F12": {
+            "formula": "=F11*(EXP(-C3))"
+        },
+        "G12": {
+            "formula": "=(F11+F12)\/2"
+        },
+        "E13": {
+            "value": 11
+        },
+        "F13": {
+            "formula": "=F12*(EXP(-C3))"
+        },
+        "G13": {
+            "formula": "=(F12+F13)\/2"
+        },
+        "E14": {
+            "value": 12
+        },
+        "F14": {
+            "formula": "=F13*(EXP(-C3))"
+        },
+        "G14": {
+            "formula": "=(F13+F14)\/2"
+        },
+        "E15": {
+            "value": 13
+        },
+        "F15": {
+            "formula": "=F14*(EXP(-C3))"
+        },
+        "G15": {
+            "formula": "=(F14+F15)\/2"
+        },
+        "E16": {
+            "value": 14
+        },
+        "F16": {
+            "formula": "=F15*(EXP(-C3))"
+        },
+        "G16": {
+            "formula": "=(F15+F16)\/2"
+        },
+        "E17": {
+            "value": 15
+        },
+        "F17": {
+            "formula": "=F16*(EXP(-C17))"
+        },
+        "G17": {
+            "formula": "=(F16+F17)\/2"
+        },
+        "E18": {
+            "value": 16
+        },
+        "F18": {
+            "formula": "=F17*(EXP(-C3))"
+        },
+        "G18": {
+            "formula": "=(F17+F18)\/2"
+        },
+        "E19": {
+            "value": 17
+        },
+        "F19": {
+            "formula": "=F18*(EXP(-C3))"
+        },
+        "G19": {
+            "formula": "=(F18+F19)\/2"
+        },
+        "E20": {
+            "value": 18
+        },
+        "F20": {
+            "formula": "=F19*(EXP(-C3))"
+        },
+        "G20": {
+            "formula": "=(F19+F20)\/2"
+        },
+        "E21": {
+            "value": 19
+        },
+        "F21": {
+            "formula": "=F20*(EXP(-C3))"
+        },
+        "G21": {
+            "formula": "=(F20+F21)\/2"
+        },
+        "E22": {
+            "value": 20
+        },
+        "F22": {
+            "formula": "=F21*(EXP(-C3))"
+        },
+        "G22": {
+            "formula": "=(F21+F22)\/2"
+        },
+        "E23": {
+            "value": 21
+        },
+        "F23": {
+            "formula": "=F22*(EXP(-C3))"
+        },
+        "G23": {
+            "formula": "=(F22+F23)\/2"
+        },
+        "E24": {
+            "value": 22
+        },
+        "F24": {
+            "formula": "=F23*(EXP(-C3))"
+        },
+        "G24": {
+            "formula": "=(F23+F24)\/2"
+        },
+        "E25": {
+            "value": 23
+        },
+        "F25": {
+            "formula": "=F24*(EXP(-C3))"
+        },
+        "G25": {
+            "formula": "=(F24+F25)\/2"
+        },
+        "E26": {
+            "value": 24
+        },
+        "F26": {
+            "formula": "=F25*(EXP(-C3))"
+        },
+        "G26": {
+            "formula": "=(F25+F26)\/2"
+        },
+        "H26": {
+            "formula": "=SUM(G3:G26)"
+        },
+        "I26": {
+            "value": "1st day"
+        },
+        "E27": {
+            "value": 25
+        },
+        "F27": {
+            "formula": "=F26*(EXP(-C3))"
+        },
+        "G27": {
+            "formula": "=(F26+F27)\/2"
+        },
+        "E28": {
+            "value": 26
+        },
+        "F28": {
+            "formula": "=F27*(EXP(-C3))"
+        },
+        "G28": {
+            "formula": "=(F27+F28)\/2"
+        },
+        "E29": {
+            "value": 27
+        },
+        "F29": {
+            "formula": "=F28*(EXP(-C3))"
+        },
+        "G29": {
+            "formula": "=(F28+F29)\/2"
+        },
+        "E30": {
+            "value": 28
+        },
+        "F30": {
+            "formula": "=F29*(EXP(-C3))"
+        },
+        "G30": {
+            "formula": "=(F29+F30)\/2"
+        },
+        "E31": {
+            "value": 29
+        },
+        "F31": {
+            "formula": "=F30*(EXP(-C3))"
+        },
+        "G31": {
+            "formula": "=(F30+F31)\/2"
+        },
+        "E32": {
+            "value": 30
+        },
+        "F32": {
+            "formula": "=F31*(EXP(-C3))"
+        },
+        "G32": {
+            "formula": "=(F31+F32)\/2"
+        },
+        "E33": {
+            "value": 31
+        },
+        "F33": {
+            "formula": "=F32*(EXP(-C3))"
+        },
+        "G33": {
+            "formula": "=(F32+F33)\/2"
+        },
+        "E34": {
+            "value": 32
+        },
+        "F34": {
+            "formula": "=F33*(EXP(-C3))"
+        },
+        "G34": {
+            "formula": "=(F33+F34)\/2"
+        },
+        "E35": {
+            "value": 33
+        },
+        "F35": {
+            "formula": "=F34*(EXP(-C3))"
+        },
+        "G35": {
+            "formula": "=(F34+F35)\/2"
+        },
+        "E36": {
+            "value": 34
+        },
+        "F36": {
+            "formula": "=F35*(EXP(-C3))"
+        },
+        "G36": {
+            "formula": "=(F35+F36)\/2"
+        },
+        "E37": {
+            "value": 35
+        },
+        "F37": {
+            "formula": "=F36*(EXP(-C3))"
+        },
+        "G37": {
+            "formula": "=(F36+F37)\/2"
+        },
+        "E38": {
+            "value": 36
+        },
+        "F38": {
+            "formula": "=F37*(EXP(-C3))"
+        },
+        "G38": {
+            "formula": "=(F37+F38)\/2"
+        },
+        "E39": {
+            "value": 37
+        },
+        "F39": {
+            "formula": "=F38*(EXP(-C3))"
+        },
+        "G39": {
+            "formula": "=(F38+F39)\/2"
+        },
+        "E40": {
+            "value": 38
+        },
+        "F40": {
+            "formula": "=F39*(EXP(-C3))"
+        },
+        "G40": {
+            "formula": "=(F39+F40)\/2"
+        },
+        "E41": {
+            "value": 39
+        },
+        "F41": {
+            "formula": "=F40*(EXP(-C3))"
+        },
+        "G41": {
+            "formula": "=(F40+F41)\/2"
+        },
+        "E42": {
+            "value": 40
+        },
+        "F42": {
+            "formula": "=F41*(EXP(-C3))"
+        },
+        "G42": {
+            "formula": "=(F41+F42)\/2"
+        },
+        "E43": {
+            "value": 41
+        },
+        "F43": {
+            "formula": "=F42*(EXP(-C3))"
+        },
+        "G43": {
+            "formula": "=(F42+F43)\/2"
+        },
+        "E44": {
+            "value": 42
+        },
+        "F44": {
+            "formula": "=F43*(EXP(-C3))"
+        },
+        "G44": {
+            "formula": "=(F43+F44)\/2"
+        },
+        "E45": {
+            "value": 43
+        },
+        "F45": {
+            "formula": "=F44*(EXP(-C3))"
+        },
+        "G45": {
+            "formula": "=(F44+F45)\/2"
+        },
+        "E46": {
+            "value": 44
+        },
+        "F46": {
+            "formula": "=F45*(EXP(-C3))"
+        },
+        "G46": {
+            "formula": "=(F45+F46)\/2"
+        },
+        "E47": {
+            "value": 45
+        },
+        "F47": {
+            "formula": "=F46*(EXP(-C3))"
+        },
+        "G47": {
+            "formula": "=(F46+F47)\/2"
+        },
+        "E48": {
+            "value": 46
+        },
+        "F48": {
+            "formula": "=F47*(EXP(-C3))"
+        },
+        "G48": {
+            "formula": "=(F47+F48)\/2"
+        },
+        "E49": {
+            "value": 47
+        },
+        "F49": {
+            "formula": "=F48*(EXP(-C3))"
+        },
+        "G49": {
+            "formula": "=(F48+F49)\/2"
+        },
+        "E50": {
+            "value": 48
+        },
+        "F50": {
+            "formula": "=F49*(EXP(-C3))"
+        },
+        "G50": {
+            "formula": "=(F49+F50)\/2"
+        },
+        "H50": {
+            "formula": "=SUM(G27:G50)"
+        },
+        "I50": {
+            "value": "2nd day"
+        },
+        "E51": {
+            "value": 49
+        },
+        "F51": {
+            "formula": "=F50*(EXP(-C3))"
+        },
+        "G51": {
+            "formula": "=(F50+F51)\/2"
+        },
+        "E52": {
+            "value": 50
+        },
+        "F52": {
+            "formula": "=F51*(EXP(-C3))"
+        },
+        "G52": {
+            "formula": "=(F51+F52)\/2"
+        },
+        "E53": {
+            "value": 51
+        },
+        "F53": {
+            "formula": "=F52*(EXP(-C3))"
+        },
+        "G53": {
+            "formula": "=(F52+F53)\/2"
+        },
+        "E54": {
+            "value": 52
+        },
+        "F54": {
+            "formula": "=F53*(EXP(-C3))"
+        },
+        "G54": {
+            "formula": "=(F53+F54)\/2"
+        },
+        "E55": {
+            "value": 53
+        },
+        "F55": {
+            "formula": "=F54*(EXP(-C3))"
+        },
+        "G55": {
+            "formula": "=(F54+F55)\/2"
+        },
+        "E56": {
+            "value": 54
+        },
+        "F56": {
+            "formula": "=F55*(EXP(-C3))"
+        },
+        "G56": {
+            "formula": "=(F55+F56)\/2"
+        },
+        "E57": {
+            "value": 55
+        },
+        "F57": {
+            "formula": "=F56*(EXP(-C3))"
+        },
+        "G57": {
+            "formula": "=(F56+F57)\/2"
+        },
+        "E58": {
+            "value": 56
+        },
+        "F58": {
+            "formula": "=F57*(EXP(-C3))"
+        },
+        "G58": {
+            "formula": "=(F57+F58)\/2"
+        },
+        "E59": {
+            "value": 57
+        },
+        "F59": {
+            "formula": "=F58*(EXP(-C3))"
+        },
+        "G59": {
+            "formula": "=(F58+F59)\/2"
+        },
+        "E60": {
+            "value": 58
+        },
+        "F60": {
+            "formula": "=F59*(EXP(-C3))"
+        },
+        "G60": {
+            "formula": "=(F59+F60)\/2"
+        },
+        "E61": {
+            "value": 59
+        },
+        "F61": {
+            "formula": "=F60*(EXP(-C3))"
+        },
+        "G61": {
+            "formula": "=(F60+F61)\/2"
+        },
+        "E62": {
+            "value": 60
+        },
+        "F62": {
+            "formula": "=F61*(EXP(-C3))"
+        },
+        "G62": {
+            "formula": "=(F61+F62)\/2"
+        },
+        "E63": {
+            "value": 61
+        },
+        "F63": {
+            "formula": "=F62*(EXP(-C3))"
+        },
+        "G63": {
+            "formula": "=(F62+F63)\/2"
+        },
+        "E64": {
+            "value": 62
+        },
+        "F64": {
+            "formula": "=F63*(EXP(-C3))"
+        },
+        "G64": {
+            "formula": "=(F63+F64)\/2"
+        },
+        "E65": {
+            "value": 63
+        },
+        "F65": {
+            "formula": "=F64*(EXP(-C3))"
+        },
+        "G65": {
+            "formula": "=(F64+F65)\/2"
+        },
+        "E66": {
+            "value": 64
+        },
+        "F66": {
+            "formula": "=F65*(EXP(-C3))"
+        },
+        "G66": {
+            "formula": "=(F65+F66)\/2"
+        },
+        "E67": {
+            "value": 65
+        },
+        "F67": {
+            "formula": "=F66*(EXP(-C3))"
+        },
+        "G67": {
+            "formula": "=(F66+F67)\/2"
+        },
+        "E68": {
+            "value": 66
+        },
+        "F68": {
+            "formula": "=F67*(EXP(-C3))"
+        },
+        "G68": {
+            "formula": "=(F67+F68)\/2"
+        },
+        "E69": {
+            "value": 67
+        },
+        "F69": {
+            "formula": "=F68*(EXP(-C3))"
+        },
+        "G69": {
+            "formula": "=(F68+F69)\/2"
+        },
+        "E70": {
+            "value": 68
+        },
+        "F70": {
+            "formula": "=F69*(EXP(-C3))"
+        },
+        "G70": {
+            "formula": "=(F69+F70)\/2"
+        },
+        "E71": {
+            "value": 69
+        },
+        "F71": {
+            "formula": "=F70*(EXP(-C3))"
+        },
+        "G71": {
+            "formula": "=(F70+F71)\/2"
+        },
+        "E72": {
+            "value": 70
+        },
+        "F72": {
+            "formula": "=F71*(EXP(-C3))"
+        },
+        "G72": {
+            "formula": "=(F71+F72)\/2"
+        },
+        "E73": {
+            "value": 71
+        },
+        "F73": {
+            "formula": "=F72*(EXP(-C3))"
+        },
+        "G73": {
+            "formula": "=(F72+F73)\/2"
+        },
+        "E74": {
+            "value": 72
+        },
+        "F74": {
+            "formula": "=F73*(EXP(-C3))"
+        },
+        "G74": {
+            "formula": "=(F73+F74)\/2"
+        },
+        "H74": {
+            "formula": "=SUM(G51:G74)"
+        },
+        "I74": {
+            "value": "3rd day"
+        }
+    }
+]
