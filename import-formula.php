@@ -5,7 +5,7 @@ if ($argc == 1) {
 }
 
 $input = $argv[1];
-$output = isset($argv[2]) ? $argv[2] : str_replace(['.xlsx', '.xls'], '.json', $input) ;
+$output = isset($argv[2]) ? $argv[2] : str_replace(['.xlsm', '.xlsx', '.xls'], '.json', $input) ;
 require './vendor/autoload.php';
 
 echo "Importing formula from $input\n";
@@ -16,15 +16,17 @@ $sheetArray = [];
 
 echo "Found $sheetcount sheets\n";
 for ($i = 0; $i < $sheetcount; $i++) {
-    echo "Processing sheet #$i\n";
 
     $worksheet = $spreadsheet->getSheet($i);
     $maxRow = $worksheet->getHighestDataRow();
-    $maxCol = $worksheet->getHIghestDataColumn();
+    $maxCol = $worksheet->getHighestDataColumn();
+    $maxCol = ++$maxCol;
     $flattenArray = [];
 
-    for ($row = 1; $row <= $maxRow; ++$row) {
-        for ($col = 'A'; $col != $maxCol; ++$col) {
+    echo "Processing sheet \"" . $worksheet->getTitle() . "\"\n";
+
+    for ($col = 'A'; $col <= $maxCol; ++$col) {
+        for ($row = 1; $row <= $maxRow; ++$row) {
             $cell = $worksheet->getCell($col . $row);
             $format = $cell->getStyle()->getNumberFormat()->getFormatCode();
 
@@ -37,7 +39,7 @@ for ($i = 0; $i < $sheetcount; $i++) {
         }
     }
 
-    $sheetArray["sheet_$i"] = $flattenArray;
+    $sheetArray[$worksheet->getTitle()] = $flattenArray;
 }
 
 $sheetJson = json_encode($sheetArray, JSON_PRETTY_PRINT);

@@ -22,10 +22,8 @@ class Iterator implements \Iterator
 
     /**
      * Create a new worksheet iterator.
-     *
-     * @param Spreadsheet $subject
      */
-    public function __construct(Spreadsheet $subject = null)
+    public function __construct(Spreadsheet $subject)
     {
         // Set subject
         $this->subject = $subject;
@@ -36,13 +34,13 @@ class Iterator implements \Iterator
      */
     public function __destruct()
     {
-        unset($this->subject);
+        $this->subject = null;
     }
 
     /**
      * Rewind iterator.
      */
-    public function rewind()
+    public function rewind(): void
     {
         $this->position = 0;
     }
@@ -70,7 +68,7 @@ class Iterator implements \Iterator
     /**
      * Next value.
      */
-    public function next()
+    public function next(): void
     {
         ++$this->position;
     }
@@ -82,6 +80,6 @@ class Iterator implements \Iterator
      */
     public function valid()
     {
-        return $this->position < $this->subject->getSheetCount();
+        return $this->position < $this->subject->getSheetCount() && $this->position >= 0;
     }
 }

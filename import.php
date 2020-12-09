@@ -5,7 +5,7 @@ if ($argc == 1) {
 }
 
 $input = $argv[1];
-$output = isset($argv[2]) ? $argv[2] : str_replace(['.xlsx', '.xls'], '.json', $input) ;
+$output = isset($argv[2]) ? $argv[2] : str_replace(['.xlsm', '.xlsx', '.xls'], '.json', $input) ;
 require './vendor/autoload.php';
 
 $spreadsheet = \PhpOffice\PhpSpreadsheet\IOFactory::load($input);
@@ -14,15 +14,18 @@ $sheetArray = [];
 
 echo "Found $sheetcount sheets\n";
 for ($i = 0; $i < $sheetcount; $i++) {
-    echo "Processing sheet #$i\n";
 
     $worksheet = $spreadsheet->getSheet($i);
     $maxRow = $worksheet->getHighestDataRow();
-    $maxCol = $worksheet->getHIghestDataColumn();
+    $maxCol = $worksheet->getHighestDataColumn();
+    $maxCol = ++$maxCol;
     $flattenArray = [];
+
+    echo "Processing sheet \"" . $worksheet->getTitle() . "\" with range A1:$maxCol$maxRow\n";
 
     for ($row = 1; $row <= $maxRow; ++$row) {
         for ($col = 'A'; $col != $maxCol; ++$col) {
+            //echo "Getting col  $col \n";
             $cell = $worksheet->getCell($col . $row);
             $format = $cell->getStyle()->getNumberFormat()->getFormatCode();
 
@@ -33,14 +36,14 @@ for ($i = 0; $i < $sheetcount; $i++) {
                 ];
             } else if (trim($cell->getValue()) != '') {
                 $flattenArray[$col . $row] = [
-                    'format' => $format == 'General' ? '' : $format, 
+                    'format' => $format == 'General' ? '' : $format,
                     'value'  => $cell->getValue()
                 ];
             }
         }
     }
 
-    $sheetArray["sheet_$i"] = $flattenArray;
+    $sheetArray[$worksheet->getTitle()] = $flattenArray;
 }
 
 $sheetJson = json_encode($sheetArray, JSON_PRETTY_PRINT);
